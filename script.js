@@ -1,4 +1,5 @@
 const startBtn = document.getElementById("start-btn");
+const submitBtn = document.getElementById("submit-btn");
 const welcome = document.getElementById("welcome");
 const questionOne = document.getElementById("question-one");
 const questionTwo = document.getElementById("question-two");
@@ -17,5 +18,6 @@ startBtn.addEventListener("click", () => {
   welcome.style.display = "none";
   questionOne.style.display = "flex";
 });
+
 
 

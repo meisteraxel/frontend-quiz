@@ -10,6 +10,7 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 ### To-do :clipboard:
 
 - [ ] Add more questions
+- [ ] Implement a modern, good-looking design
 - [ ] Design the Result Screen
 - [x] Add Home Screen to choose which language you want to test
 - [x] Add a progress bar for each test

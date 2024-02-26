@@ -2,6 +2,8 @@ const startBtn = document.getElementById("start-btn");
 const submitBtn = document.getElementById("submit-btn");
 const welcome = document.getElementById("welcome");
 const questionOne = document.getElementById("question-1");
+const resultContainer = document.getElementById("result-container");
+let scoreText = document.getElementById("score");
 let score = 0;
 let currentQuestionIndex = 1;
 
@@ -46,8 +48,9 @@ function showNextQuestion() {
     `question-${currentQuestionIndex}`
   );
   if (nextQuestion) {
-    nextQuestion.style.display = "block";
+    nextQuestion.style.display = "flex";
   } else {
-    console.log("Ende des Quiz");
+    resultContainer.style.display = "flex";
+    scoreText.textContent = `Your score is ${score}`;
   }
 }

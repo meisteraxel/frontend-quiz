@@ -4,20 +4,21 @@ const welcome = document.getElementById("welcome");
 const questionOne = document.getElementById("question-1");
 const resultContainer = document.getElementById("result-container");
 let scoreText = document.getElementById("score");
+let congratulations = document.getElementById("congratulation");
 let score = 0;
 let currentQuestionIndex = 1;
+let userName = "";
 
 startBtn.addEventListener("click", () => {
-  const name = document.getElementById("name-input").value;
+  userName = document.getElementById("name-input").value;
 
-  if (name === "") {
-    alert("Please enter a name");
+  if (userName === "") {
+    document.getElementById("name-input").style.border = "1px solid red";
   } else {
-    alert(`Hello ${name}!`);
+    document.getElementById("name-input").style.border = "1px solid #5f6368";
+    welcome.style.display = "none";
+    questionOne.style.display = "flex";
   }
-
-  welcome.style.display = "none";
-  questionOne.style.display = "flex";
 });
 
 function submit() {
@@ -51,6 +52,11 @@ function showNextQuestion() {
     nextQuestion.style.display = "flex";
   } else {
     resultContainer.style.display = "flex";
-    scoreText.textContent = `Your score is ${score}`;
+    scoreText.textContent = `Your score is ${score} of 4`;
+    if (score >= 3) {
+      congratulations.textContent = `Great job ${userName}!`;
+    } else {
+      congratulations.textContent = `Nice try but you can do better ${userName}!`;
+    }
   }
 }

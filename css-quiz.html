@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>CSS Quiz</title>
+  </head>
+  <body>
+    <main>
+      <div class="quiz-container" id="welcome">
+        <h1>Welcome to the Frontend Quiz!</h1>
+        <p>Enter your name and let's get started!</p>
+        <input type="text" placeholder="Name" id="name-input" />
+        <button id="start-btn" class="btn">START QUIZ</button>
+      </div>
+      <div class="quiz-container" id="question-1">
+        <h1>What does CSS stand for?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-one"
+        /><label for="one-one">Creative Style Sheets</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-two"
+        /><label for="one-two">Computer Style Sheets</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="one-three"
+        /><label for="one-three">Cascading Style Sheets</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-four"
+        /><label for="one-four">Colorful Style Sheets</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-2">
+        <h1>Which property is used to change the text color in CSS?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-one"
+        /><label for="two-one">text-color</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-two"
+        /><label for="two-two">font-color</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="two-three"
+        /><label for="two-three">color</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-four"
+        /><label for="two-four">text-style</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-3">
+        <h1>What is the purpose of the CSS property "margin"?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="three-one"
+        /><label for="three-one">It sets the outer spacing of an element</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-two"
+        /><label for="three-two">It defines the internal spacing of an element</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-three"
+        /><label for="three-three"
+          >It adjusts the width of an element</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-four"
+        /><label for="three-four">It changes the font size of an element</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-4">
+        <h1>How can you select all paragraphs with the class "highlight" in CSS?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="four-one"
+        /><label for="four-one">p.highlight</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-two"
+        /><label for="four-two">#highlight p</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-three"
+        /><label for="four-three">.highlight p</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-four"
+        /><label for="four-four">p .highlight</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div id="result-container">
+        <h1 id="score"></h1>
+        <p id="congratulation"></p>
+        <a href="index.html">Choose another Quiz</a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

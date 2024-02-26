@@ -55,8 +55,10 @@ function showNextQuestion() {
     scoreText.textContent = `Your score is ${score} of 4`;
     if (score >= 3) {
       congratulations.textContent = `Great job ${userName}!`;
+      currentQuestionIndex = 1;
     } else {
       congratulations.textContent = `Nice try but you can do better ${userName}!`;
+      currentQuestionIndex = 1;
     }
   }
 }

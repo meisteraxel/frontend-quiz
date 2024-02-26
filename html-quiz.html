@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Quiz</title>
+  </head>
+  <body>
+    <main>
+      <div class="quiz-container" id="welcome">
+        <h1>Welcome to the Frontend Quiz!</h1>
+        <p>Enter your name and let's get started!</p>
+        <input type="text" placeholder="Name" id="name-input" />
+        <button id="start-btn" class="btn">START QUIZ</button>
+      </div>
+      <div class="quiz-container" id="question-1">
+        <h1>What does the HTML tag &lta&gt stand for?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="one-one"
+        /><label for="one-one">Anchor</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-two"
+        /><label for="one-two">Abbreviation</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-three"
+        /><label for="one-three">Article</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="one-four"
+        /><label for="one-four">Audio</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-2">
+        <h1>Which HTML tag is used to create an unordered list?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="two-one"
+        /><label for="two-one">&ltul&gt</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-two"
+        /><label for="two-two">&ltol&gt</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-three"
+        /><label for="two-three">&ltli&gt</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="two-four"
+        /><label for="two-four">&ltdl&gt</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-3">
+        <h1>In HTML, what is the purpose of the &lthead&gt tag?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-one"
+        /><label for="three-one"
+          >To define the main content of the document</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="three-two"
+        /><label for="three-two"
+          >To specify the title, meta-information, and linked stylesheets</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-three"
+        /><label for="three-three">To create a hyperlink</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="three-four"
+        /><label for="three-four">To define a table</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container" id="question-4">
+        <h1>Which attribute is used to define inline styles in HTML?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="four-one"
+        /><label for="four-one">style</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-two"
+        /><label for="four-two">class</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-three"
+        /><label for="four-three">id</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="four-four"
+        /><label for="four-four">format</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div id="result-container">
+        <h1 id="score"></h1>
+        <p id="congratulation"></p>
+        <a href="index.html">Choose another Quiz</a>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

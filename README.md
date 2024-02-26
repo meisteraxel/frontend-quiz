@@ -1,4 +1,4 @@
-# frontend-quiz
+# Frontend-quiz
 Building a Quiz for different FE Languages and Frameworks to test your skills!
 
 

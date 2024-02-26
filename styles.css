@@ -76,6 +76,7 @@ a {
   height: 100%;
   background-color: #fefefe;
   transition: all 0.5s ease-in-out;
+  border-radius: 5px;
 }
 
 #result-container {
@@ -111,6 +112,13 @@ a {
   border: 1px solid #5f6368;
   color: #fefefe;
   font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+}
+
+#name-input:focus {
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  outline: 1px solid #5f6368;
 }
 
 #start-btn {

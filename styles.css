@@ -17,6 +17,36 @@ body {
   min-height: 100vh;
 }
 
+a {
+  text-decoration: none;
+  color: #fefefe;
+}
+
+.home-container {
+  border: 1px solid #5f6368;
+  border-radius: 5px;
+  padding: 2rem 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-container a {
+  width: 15rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.home-container a:hover {
+  background-color: #5f6368;
+}
+
 .quiz-container {
   border: 1px solid #5f6368;
   border-radius: 5px;
@@ -28,6 +58,32 @@ body {
   justify-content: center;
 }
 
+#result-container {
+  border: 1px solid #5f6368;
+  border-radius: 5px;
+  padding: 2rem 3rem;
+  display: none;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#result-container a {
+  width: 15rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  border-radius: 5px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#result-container a:hover {
+  background-color: #5f6368;
+}
+
+
 #name-input {
   width: 15rem;
   height: 1.5rem;
@@ -35,6 +91,7 @@ body {
   background-color: #202124;
   border: 1px solid #5f6368;
   color: #fefefe;
+  font-family: "Roboto", sans-serif;
 }
 
 #start-btn {
@@ -51,6 +108,13 @@ body {
   color: #fefefe;
   cursor: pointer;
   margin-top: 1rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #5f6368;
 }
 
 .radio-btn {

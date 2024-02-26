@@ -22,6 +22,7 @@ startBtn.addEventListener("click", () => {
     welcome.style.display = "none";
     questionOne.style.display = "flex";
     progressBarContainer.style.display = "block";
+    progressBar.style.width = "0%";
   }
 });
 
@@ -58,8 +59,6 @@ function showNextQuestion() {
     nextQuestion.style.display = "flex";
   } else {
     resultContainer.style.display = "flex";
-    progressBar.style.width = "0%";
-    progressBarContainer.style.display = "none";
     scoreText.textContent = `Your score is ${score} out of ${totalQuestions}.`;
     if (score >= 3) {
       congratulations.textContent = `Great job ${userName}!`;

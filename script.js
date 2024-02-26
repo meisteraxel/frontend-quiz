@@ -1,10 +1,9 @@
 const startBtn = document.getElementById("start-btn");
 const submitBtn = document.getElementById("submit-btn");
 const welcome = document.getElementById("welcome");
-const questionOne = document.getElementById("question-one");
-const questionTwo = document.getElementById("question-two");
-const questionThree = document.getElementById("question-three");
-const questionFour = document.getElementById("question-four");
+const questionOne = document.getElementById("question-1");
+let score = 0;
+let currentQuestionIndex = 1;
 
 startBtn.addEventListener("click", () => {
   const name = document.getElementById("name-input").value;
@@ -19,5 +18,36 @@ startBtn.addEventListener("click", () => {
   questionOne.style.display = "flex";
 });
 
+function submit() {
+  let answer = document.querySelector('input[name="question"]:checked').value;
+  if (answer === "correct") {
+    score++;
+    hideCurrentQuestion();
+    showNextQuestion();
+  } else {
+    hideCurrentQuestion();
+    showNextQuestion();
+  }
+}
 
+function hideCurrentQuestion() {
+  const currentQuestion = document.getElementById(
+    `question-${currentQuestionIndex}`
+  );
+  if (currentQuestion) {
+    currentQuestion.style.display = "none";
+  }
+}
 
+function showNextQuestion() {
+  currentQuestionIndex++;
+
+  const nextQuestion = document.getElementById(
+    `question-${currentQuestionIndex}`
+  );
+  if (nextQuestion) {
+    nextQuestion.style.display = "block";
+  } else {
+    console.log("Ende des Quiz");
+  }
+}

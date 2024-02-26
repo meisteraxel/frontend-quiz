@@ -14,117 +14,137 @@
         <input type="text" placeholder="Name" id="name-input" />
         <button id="start-btn" class="btn">START QUIZ</button>
       </div>
-      <div class="quiz-container" id="question-one">
-        <h1>Wie deklariert man eine Variable in JavaScript?</h1>
+      <div class="quiz-container" id="question-1">
+        <h1>Was ist der Ausdruck für die Gleichheit in JavaScript?</h1>
         <input
           type="radio"
           class="radio-btn"
-          name="first-question"
+          name="question"
+          value="incorrect"
           id="one-one"
-        /><label for="one-one">newVar = 10;</label>
+        /><label for="one-one">'=='</label>
         <input
           type="radio"
           class="radio-btn"
-          name="first-question"
+          name="question"
+          value="correct"
           id="one-two"
-        /><label for="one-two">var newVar = 10;</label>
+        /><label for="one-two">'==='</label>
         <input
           type="radio"
           class="radio-btn"
-          name="first-question"
+          name="question"
+          value="incorrect"
           id="one-three"
-        /><label for="one-three">var newVar = 10;</label>
+        /><label for="one-three">'='</label>
         <input
           type="radio"
           class="radio-btn"
-          name="first-question"
+          name="question"
+          value="incorrect"
           id="one-four"
-        /><label for="one-four">var newVar = 10;</label>
-        <button class="btn" id="submit-btn">Submit Question</button>
+        /><label for="one-four">'!=='</label>
+        <button class="btn" id="submit-btn" onclick="submit()">Submit Question</button>
       </div>
-      <div class="quiz-container" id="question-two">
-        <h1>Wie deklariert man eine Variable in JavaScript?</h1>
+      <div class="quiz-container" id="question-2">
+        <h1>Wie kann man eine Funktion in JavaScript definieren?</h1>
         <input
           type="radio"
           class="radio-btn"
-          name="second-question"
-          id="one-one"
-        /><label for="one-one">newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="two-one"
+        /><label for="two-one">'def myFunction() { }'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="second-question"
-          id="one-two"
-        /><label for="one-two">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="two-two"
+        /><label for="two-two">'var myFunction = function() { }'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="second-question"
-          id="one-three"
-        /><label for="one-three">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="two-three"
+        /><label for="two-three">'myFunction: function() { }'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="second-question"
-          id="one-four"
-        /><label for="one-four">var newVar = 10;</label>
-        <button class="btn" id="submit-btn">Submit Question</button>
+          name="question"
+          value="correct"
+          id="two-four"
+        /><label for="two-four">'function myFunction() { }'</label>
+        <button class="btn" id="submit-btn" onclick="submit()">Submit Question</button>
       </div>
-      <div class="quiz-container" id="question-three">
-        <h1>Wie deklariert man eine Variable in JavaScript?</h1>
+      <div class="quiz-container" id="question-3">
+        <h1>Was macht die let-Anweisung in JavaScript?</h1>
         <input
           type="radio"
           class="radio-btn"
-          name="third-question"
-          id="one-one"
-        /><label for="one-one">newVar = 10;</label>
+          name="question"
+          value="correct"
+          id="three-one"
+        /><label for="three-one"
+          >'Deklariert eine Variable mit blockweitem Gültigkeitsbereich.'</label
+        >
         <input
           type="radio"
           class="radio-btn"
-          name="third-question"
-          id="one-two"
-        /><label for="one-two">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="three-two"
+        /><label for="three-two">'Deklariert eine konstante Variable.'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="third-question"
-          id="one-three"
-        /><label for="one-three">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="three-three"
+        /><label for="three-three"
+          >'Deklariert eine Variable mit Funktionsskop.'</label
+        >
         <input
           type="radio"
           class="radio-btn"
-          name="third-question"
-          id="one-four"
-        /><label for="one-four">var newVar = 10;</label>
-        <button class="btn" id="submit-btn">Submit Question</button>
+          name="question"
+          value="incorrect"
+          id="three-four"
+        /><label for="three-four">'Deklariert eine globale Variable.'</label>
+        <button class="btn" id="submit-btn" onclick="submit()">Submit Question</button>
       </div>
-      <div class="quiz-container" id="question-four">
-        <h1>Wie deklariert man eine Variable in JavaScript?</h1>
+      <div class="quiz-container" id="question-4">
+        <h1>Wie kann man auf ein HTML-Element in JavaScript zugreifen?</h1>
         <input
           type="radio"
           class="radio-btn"
-          name="fourth-question"
-          id="one-one"
-        /><label for="one-one">newVar = 10;</label>
+          name="question"
+          value="correct"
+          id="four-one"
+        /><label for="four-one">'getElementById("myElement")'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="fourth-question"
-          id="one-two"
-        /><label for="one-two">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="four-two"
+        /><label for="four-two">'query("myElement")'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="fourth-question"
-          id="one-three"
-        /><label for="one-three">var newVar = 10;</label>
+          name="question"
+          value="incorrect"
+          id="four-three"
+        /><label for="four-three">'selectElement("myElement")'</label>
         <input
           type="radio"
           class="radio-btn"
-          name="fourth-question"
-          id="one-four"
-        /><label for="one-four">var newVar = 10;</label>
-        <button class="btn" id="submit-btn">Submit Question</button>
+          name="question"
+          value="incorrect"
+          id="four-four"
+        /><label for="four-four">'findElement("myElement")'</label>
+        <button class="btn" id="submit-btn" onclick="submit()">Submit Question</button>
       </div>
     </main>
 

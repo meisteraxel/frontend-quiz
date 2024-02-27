@@ -17,8 +17,10 @@ startBtn.addEventListener("click", () => {
 
   if (userName === "") {
     document.getElementById("name-input").style.border = "1px solid red";
+    document.getElementById("name-input").classList.add("shake-horizontal");
   } else {
     document.getElementById("name-input").style.border = "1px solid #5f6368";
+    document.getElementById("name-input").classList.remove("shake-horizontal");
     welcome.style.display = "none";
     questionOne.style.display = "flex";
     progressBarContainer.style.display = "block";

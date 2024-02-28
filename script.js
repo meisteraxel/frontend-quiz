@@ -16,7 +16,8 @@ startBtn.addEventListener("click", () => {
   userName = document.getElementById("name-input").value;
 
   if (userName === "") {
-    document.getElementById("name-input").style.border = "1px solid red";
+    document.getElementById("name-input").style.boxShadow =
+      "5px 5px 0px 0px #FF0000";
     document.getElementById("name-input").classList.add("shake-horizontal");
   } else {
     document.getElementById("name-input").style.border = "1px solid #5f6368";

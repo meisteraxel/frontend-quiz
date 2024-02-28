@@ -1,6 +1,6 @@
 # Frontend-quiz
-Building a Quiz for different FE Languages and Frameworks to test your skills!
 
+Building a Quiz for different FE Languages and Frameworks to test your skills!
 
 ### Features :computer:
 
@@ -18,6 +18,7 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [ ] Generate a PDF of your results to showcase your skills
 - [ ] Feedback for Correct/Incorrect Answers
 - [ ] Responsive Design
+- [x] Back Button during Quiz
 - [ ] Share Results on Social Media
 - [ ] Customization Options (Difficulty, Progress, ...)
 - [ ] Integrate Analytics

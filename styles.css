@@ -1,4 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@font-face {
+  font-family: "Graphik-Regular";
+  src: url(./assets/fonts/GraphikRegular.otf);
+}
+@font-face {
+  font-family: "Graphik-Semibold";
+  src: url(./assets/fonts/GraphikMedium.otf);
+}
+@font-face {
+  font-family: "Graphik-Bold";
+  src: url(./assets/fonts/GraphikBold.otf);
+}
+@font-face {
+  font-family: "Graphik-Light";
+  src: url(./assets/fonts/GraphikLight.otf);
+}
+
+:root {
+  --primary-background: #250095;
+  --secondary-background: #eeebeb;
+  --accent-color: #000000;
+}
 
 * {
   margin: 0;
@@ -7,15 +28,21 @@
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Graphik-Bold", sans-serif;
   font-size: 16px;
-  background-color: #250095;
-  color: #000000;
+  background-color: var(--primary-background);
+  color: var(--accent-color);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {
@@ -24,8 +51,8 @@ a {
 }
 
 .home-container {
-  background-color: #eeebeb;
-  border: 2px solid #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
   display: flex;
@@ -40,20 +67,20 @@ a {
   width: 15rem;
   padding: 1rem;
   text-align: center;
-  background-color: #eeebeb;
-  border: 2px solid #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   transition: background-color 0.2s ease-in-out;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
 .home-container a:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 .quiz-container {
-  background-color: #eeebeb;
-  border: 2px solid #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
   display: flex;
@@ -62,7 +89,11 @@ a {
   align-items: center;
   justify-content: center;
   transition: display 1s ease-in-out;
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
+}
+
+.quiz-container h1 {
+  margin-bottom: 20px;
 }
 
 #progress-bar-container {
@@ -70,24 +101,24 @@ a {
   position: fixed;
   bottom: 0%;
   left: 0%;
-  border: 2px solid #000000;
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   width: 100%;
   height: 10px;
-  background-color: #eeebeb;
+  background-color: var(--secondary-background);
 }
 
 #progress-bar {
   width: 0%;
   height: 100%;
-  background-color: #000000;
+  background-color: var(--accent-color);
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
 }
 
 #result-container {
-  background-color: #eeebeb;
-  border: 2px solid #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
   display: none;
@@ -95,43 +126,43 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 #result-container a {
   width: 15rem;
   padding: 1rem;
   text-align: center;
-  background-color: #eeebeb;
-  border: 2px solid #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
 #result-container a:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 #name-input {
   width: 15rem;
-  height: 1.5rem;
+  height: 2.5rem;
   text-align: center;
-  background-color: #eeebeb;
-  border: 2px solid #000000;
-  color: #000000;
-  font-family: "Roboto", sans-serif;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
+  font-family: "Graphik-Bold", sans-serif;
   border-radius: 5px;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
   transition: all 0.2s ease-in-out;
 }
 
 #name-input:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 #name-input:focus {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
   outline: none;
 }
 
@@ -169,7 +200,7 @@ a {
 }
 
 #start-btn:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 .btn {
@@ -177,14 +208,14 @@ a {
   height: 3rem;
   padding: 1rem;
   border-radius: 5px;
-  background-color: #eeebeb;
-  border: 2px solid #000000;
-  color: #000000;
+  background-color: var(--secondary-background);
+  border: 2px solid var(--accent-color);
+  color: var(--accent-color);
   cursor: pointer;
   margin-top: 1rem;
-  font-family: "Roboto", sans-serif;
+  font-family: "Graphik-Bold", sans-serif;
   line-height: 1;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
 #submit-btn {
@@ -192,33 +223,43 @@ a {
 }
 
 #submit-btn:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 .radio-btn {
   display: none;
 }
 
+.home-btn {
+  font-family: "Graphik-Regular", sans-serif;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.home-btn:hover {
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
+}
+
 label {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #eeebeb;
-  color: #000000;
+  background-color: var(--secondary-background);
+  color: var(--accent-color);
   cursor: pointer;
   border-radius: 5px;
-  border: 2px solid #000000;
+  border: 2px solid var(--accent-color);
   width: 100%;
   text-align: center;
-  box-shadow: 2px 2px 0px 0px #000000;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
   transition: all 0.2s ease-in-out;
 }
 
 label:hover {
-  box-shadow: 5px 5px 0px 0px #000000;
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
 input[type="radio"]:checked + label {
-  box-shadow: 5px 5px 0px 0px #250095;
+  box-shadow: 5px 5px 0px 0px var(--primary-background);
   transform: scale(103%);
 }
 

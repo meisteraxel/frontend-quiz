@@ -219,7 +219,7 @@ label:hover {
 
 input[type="radio"]:checked + label {
   box-shadow: 5px 5px 0px 0px #250095;
-  transform: scale(1.05);
+  transform: scale(103%);
 }
 
 #question-1 {

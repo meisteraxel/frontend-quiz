@@ -78,6 +78,12 @@ a {
   box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
+.quiz-link-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
 .quiz-container {
   background-color: var(--secondary-background);
   border: 2px solid var(--accent-color);
@@ -235,6 +241,23 @@ a {
 }
 
 .home-btn:hover {
+  box-shadow: 5px 5px 0px 0px var(--accent-color);
+}
+
+.feedback-btn {
+  position: fixed;
+  top: 0%;
+  right: 0%;
+  height: 2.5rem;
+  width: 7rem;
+  margin-right: 10px;
+  font-size: 0.7rem;
+  font-family: Graphik-Regular, sans-serif;
+  padding: 0px;
+  transition: all 0.2s ease-in-out;
+}
+
+.feedback-btn:hover {
   box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 

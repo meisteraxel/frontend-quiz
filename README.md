@@ -23,3 +23,5 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [ ] Customization Options (Difficulty, Progress, ...)
 - [ ] Integrate Analytics
 - [x] Implement a Feedback button
+- [ ] Move questions from Html to JavaScript
+- [ ] Randomize the order of questions

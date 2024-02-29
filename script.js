@@ -8,6 +8,9 @@ const progressBar = document.getElementById("progress-bar");
 const scoreText = document.getElementById("score");
 const congratulations = document.getElementById("congratulation");
 const totalQuestions = document.querySelectorAll(".question").length;
+const allQuestions = document.querySelectorAll(".question");
+const answersBtn = document.getElementById("answers-btn");
+const correctLabel = document.querySelectorAll(".correct");
 let score = 0;
 let currentQuestionIndex = 1;
 let userName = "";
@@ -85,3 +88,16 @@ function showNextQuestion() {
     }
   }
 }
+
+answersBtn.addEventListener("click", () => {
+  allQuestions.forEach((question) => {
+    resultContainer.style.display = "none";
+    question.style.display = "flex";
+    question.style.width = "1000px";
+    question.style.margin = "20px 0px";
+  });
+  correctLabel.forEach((label) => {
+    label.style.backgroundColor = "#0B6623";
+  });
+  progressBarContainer.style.display = "none";
+});

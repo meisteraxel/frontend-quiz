@@ -238,6 +238,7 @@ a {
   font-family: "Graphik-Regular", sans-serif;
   text-align: center;
   transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
 }
 
 .home-btn:hover {

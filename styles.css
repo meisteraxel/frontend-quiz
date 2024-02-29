@@ -222,11 +222,11 @@ a {
   box-shadow: 2px 2px 0px 0px var(--accent-color);
 }
 
-#submit-btn {
+.submit-btn {
   transition: all 0.2s ease-in-out;
 }
 
-#submit-btn:hover {
+.submit-btn:hover {
   box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 

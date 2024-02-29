@@ -1,5 +1,5 @@
 const startBtn = document.getElementById("start-btn");
-const submitBtn = document.getElementById("submit-btn");
+const submitBtn = document.querySelectorAll(".submit-btn");
 const welcome = document.getElementById("welcome");
 const questionOne = document.getElementById("question-1");
 const resultContainer = document.getElementById("result-container");
@@ -28,6 +28,10 @@ startBtn.addEventListener("click", () => {
     progressBarContainer.style.display = "block";
     progressBar.style.width = "0%";
   }
+});
+
+submitBtn.forEach((submitBtn) => {
+  submitBtn.addEventListener("click", submit);
 });
 
 // Submit and check answer

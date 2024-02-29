@@ -7,11 +7,12 @@ const progressBarContainer = document.getElementById("progress-bar-container");
 const progressBar = document.getElementById("progress-bar");
 const scoreText = document.getElementById("score");
 const congratulations = document.getElementById("congratulation");
+const totalQuestions = document.querySelectorAll(".question").length;
 let score = 0;
 let currentQuestionIndex = 1;
 let userName = "";
-const totalQuestions = document.querySelectorAll(".question").length;
 
+// Start the game
 startBtn.addEventListener("click", () => {
   userName = document.getElementById("name-input").value;
 
@@ -29,18 +30,25 @@ startBtn.addEventListener("click", () => {
   }
 });
 
+// Submit and check answer
 function submit() {
-  let answer = document.querySelector('input[name="question"]:checked').value;
-  if (answer === "correct") {
-    score++;
-    hideCurrentQuestion();
-    showNextQuestion();
+  if (document.querySelector('input[name="question"]:checked')) {
+    let answer = document.querySelector('input[name="question"]:checked').value;
+    if (answer === "correct") {
+      score++;
+      hideCurrentQuestion();
+      showNextQuestion();
+    } else {
+      hideCurrentQuestion();
+      showNextQuestion();
+    }
   } else {
-    hideCurrentQuestion();
-    showNextQuestion();
+    return;
   }
+  document.querySelector('input[name="question"]:checked').checked = false;
 }
 
+// Hide the current question
 function hideCurrentQuestion() {
   const currentQuestion = document.getElementById(
     `question-${currentQuestionIndex}`
@@ -50,6 +58,7 @@ function hideCurrentQuestion() {
   }
 }
 
+// Show the next question
 function showNextQuestion() {
   currentQuestionIndex++;
   progressBar.style.width = `${

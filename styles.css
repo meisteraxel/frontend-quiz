@@ -284,18 +284,6 @@ input[type="radio"]:checked + label {
   transform: scale(103%);
 }
 
-#question-1 {
-  display: none;
-}
-
-#question-2 {
-  display: none;
-}
-
-#question-3 {
-  display: none;
-}
-
-#question-4 {
+div[id^="question-"] {
   display: none;
 }

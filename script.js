@@ -11,6 +11,7 @@ const totalQuestions = document.querySelectorAll(".question").length;
 const allQuestions = document.querySelectorAll(".question");
 const answersBtn = document.getElementById("answers-btn");
 const correctLabel = document.querySelectorAll(".correct");
+const labels = document.querySelectorAll("label");
 let score = 0;
 let currentQuestionIndex = 1;
 let userName = "";
@@ -95,6 +96,9 @@ answersBtn.addEventListener("click", () => {
     question.style.display = "flex";
     question.style.width = "1000px";
     question.style.margin = "20px 0px";
+  });
+  submitBtn.forEach((submitBtn) => {
+    submitBtn.removeEventListener("click", submit);
   });
   correctLabel.forEach((label) => {
     label.style.backgroundColor = "#0B6623";

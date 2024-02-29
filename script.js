@@ -71,8 +71,8 @@ function showNextQuestion() {
     nextQuestion.style.display = "flex";
   } else {
     resultContainer.style.display = "flex";
-    scoreText.textContent = `Your score is ${score} out of ${totalQuestions}.`;
-    if (score >= 3) {
+    scoreText.textContent = `Your score is ${score} out of ${totalQuestions}`;
+    if (score >= 6) {
       congratulations.textContent = `Great job ${userName}!`;
       currentQuestionIndex = 1;
     } else {

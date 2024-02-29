@@ -25,28 +25,28 @@
           name="question"
           value="incorrect"
           id="one-one"
-        /><label for="one-one">'=='</label>
+        /><label for="one-one">==</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="correct"
           id="one-two"
-        /><label for="one-two">'==='</label>
+        /><label for="one-two">===</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="one-three"
-        /><label for="one-three">'='</label>
+        /><label for="one-three">=</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="one-four"
-        /><label for="one-four">'!=='</label>
+        /><label for="one-four">!==</label>
         <button class="btn" id="submit-btn" onclick="submit()">
           Submit Question
         </button>
@@ -59,28 +59,28 @@
           name="question"
           value="incorrect"
           id="two-one"
-        /><label for="two-one">'def myFunction() { }'</label>
+        /><label for="two-one">def myFunction() { }</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="two-two"
-        /><label for="two-two">'var myFunction = function() { }'</label>
+        /><label for="two-two">var myFunction = function() { }</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="two-three"
-        /><label for="two-three">'myFunction: function() { }'</label>
+        /><label for="two-three">myFunction: function() { }</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="correct"
           id="two-four"
-        /><label for="two-four">'function myFunction() { }'</label>
+        /><label for="two-four">function myFunction() { }</label>
         <button class="btn" id="submit-btn" onclick="submit()">
           Submit Question
         </button>
@@ -93,14 +93,14 @@
           name="question"
           value="correct"
           id="three-one"
-        /><label for="three-one">'Declares a variable with block scope.'</label>
+        /><label for="three-one">Declares a variable with block scope.</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="three-two"
-        /><label for="three-two">'Declares a constant variable.'</label>
+        /><label for="three-two">Declares a constant variable.</label>
         <input
           type="radio"
           class="radio-btn"
@@ -108,7 +108,7 @@
           value="incorrect"
           id="three-three"
         /><label for="three-three"
-          >'Declares a variable with function scope.'</label
+          >Declares a variable with function scope.</label
         >
         <input
           type="radio"
@@ -116,7 +116,7 @@
           name="question"
           value="incorrect"
           id="three-four"
-        /><label for="three-four">'Declares a global variable.'</label>
+        /><label for="three-four">Declares a global variable.</label>
         <button class="btn" id="submit-btn" onclick="submit()">
           Submit Question
         </button>
@@ -129,28 +129,246 @@
           name="question"
           value="correct"
           id="four-one"
-        /><label for="four-one">'getElementById("myElement")'</label>
+        /><label for="four-one">getElementById("myElement")</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="four-two"
-        /><label for="four-two">'query("myElement")'</label>
+        /><label for="four-two">query("myElement")</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="four-three"
-        /><label for="four-three">'selectElement("myElement")'</label>
+        /><label for="four-three">selectElement("myElement")</label>
         <input
           type="radio"
           class="radio-btn"
           name="question"
           value="incorrect"
           id="four-four"
-        /><label for="four-four">'findElement("myElement")'</label>
+        /><label for="four-four">findElement("myElement")</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-5">
+        <h1>What is the purpose of the "typeof" operator in JavaScript?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="five-one"
+        /><label for="five-one">Determines the type of an HTML element</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="five-two"
+        /><label for="five-two">Checks if a variable is defined</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="five-three"
+        /><label for="five-three">Returns the data type of a variable</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="five-four"
+        /><label for="five-four">Compares two values for equality</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-6">
+        <h1>What does the "this" keyword refer to in JavaScript?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="six-one"
+        /><label for="six-one">The current date and time</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="six-two"
+        /><label for="six-two">The parent function</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="six-three"
+        /><label for="six-three">The global object</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="six-four"
+        /><label for="six-four">The current execution context</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-7">
+        <h1>
+          Which array method is used to add elements to the end of an array?
+        </h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="seven-one"
+        /><label for="seven-one">push()</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="seven-two"
+        /><label for="seven-two">pop()</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="seven-three"
+        /><label for="seven-three">unshift()</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="seven-four"
+        /><label for="seven-four">shift()</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-8">
+        <h1>What is the purpose of the "event.preventDefault()" method?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="eight-one"
+        /><label for="eight-one">Stops the propagation of an event</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="eight-two"
+        /><label for="eight-two"
+          >Prevents the default behavior of an event</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="eight-three"
+        /><label for="eight-three">Adds a new event listener</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="eight-four"
+        /><label for="eight-four">Triggers an event manually</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-9">
+        <h1>
+          What is the difference between "let" and "const" when declaring
+          variables?
+        </h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="nine-one"
+        /><label for="nine-one"
+          >"let" is used for constants, and "const" is used for regular
+          variables</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="nine-two"
+        /><label for="nine-two"
+          >"let" allows reassignment, while "const" does not</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="nine-three"
+        /><label for="nine-three"
+          >"const" is block-scoped, and "let" is function-scoped</label
+        >
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="nine-four"
+        /><label for="nine-four">There is no difference between them</label>
+        <button class="btn" id="submit-btn" onclick="submit()">
+          Submit Question
+        </button>
+      </div>
+      <div class="quiz-container question" id="question-10">
+        <h1>What is the purpose of the "Array.isArray()" method?</h1>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="ten-one"
+        /><label for="ten-one">Checks if a variable is an object</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="ten-two"
+        /><label for="ten-two">Determines if a value is a primitive type</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="correct"
+          id="ten-three"
+        /><label for="ten-three">Verifies if a variable is an array</label>
+        <input
+          type="radio"
+          class="radio-btn"
+          name="question"
+          value="incorrect"
+          id="ten-four"
+        /><label for="ten-four">Converts an array to a string</label>
         <button class="btn" id="submit-btn" onclick="submit()">
           Submit Question
         </button>

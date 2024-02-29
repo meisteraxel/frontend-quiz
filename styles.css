@@ -102,9 +102,8 @@ a {
   bottom: 0%;
   left: 0%;
   border: 2px solid var(--accent-color);
-  border-radius: 5px;
   width: 100%;
-  height: 10px;
+  height: 20px;
   background-color: var(--secondary-background);
 }
 
@@ -113,7 +112,6 @@ a {
   height: 100%;
   background-color: var(--accent-color);
   transition: all 0.5s ease-in-out;
-  border-radius: 5px;
 }
 
 #result-container {

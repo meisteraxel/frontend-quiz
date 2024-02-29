@@ -22,3 +22,4 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [ ] Share Results on Social Media
 - [ ] Customization Options (Difficulty, Progress, ...)
 - [ ] Integrate Analytics
+- [x] Implement a Feedback button

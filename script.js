@@ -98,7 +98,7 @@ answersBtn.addEventListener("click", () => {
     question.style.margin = "20px 0px";
   });
   submitBtn.forEach((submitBtn) => {
-    submitBtn.removeEventListener("click", submit);
+    submitBtn.style.display = "none";
   });
   correctLabel.forEach((label) => {
     label.style.backgroundColor = "#0B6623";

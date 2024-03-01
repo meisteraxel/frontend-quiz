@@ -263,6 +263,7 @@ a {
 }
 
 label {
+  font-family: "Graphik-Regular", sans-serif;
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--secondary-background);

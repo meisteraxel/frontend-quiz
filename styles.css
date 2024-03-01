@@ -206,7 +206,8 @@ a {
 
 #start-btn {
   display: block;
-  transition: all 0.2s ease-in-out;
+  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
+    box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
 #start-btn:hover {

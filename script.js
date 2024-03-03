@@ -1,20 +1,56 @@
 const startBtn = document.getElementById("start-btn");
-const submitBtn = document.querySelectorAll(".submit-btn");
-const welcome = document.getElementById("welcome");
-const questionOne = document.getElementById("question-1");
+const welcomeContainer = document.getElementById("welcome");
+const questionContainer = document.getElementById("question-container");
 const resultContainer = document.getElementById("result-container");
 const progressBarContainer = document.getElementById("progress-bar-container");
 const progressBar = document.getElementById("progress-bar");
-const scoreText = document.getElementById("score");
 const congratulations = document.getElementById("congratulation");
-const totalQuestions = document.querySelectorAll(".question").length;
-const allQuestions = document.querySelectorAll(".question");
 const answersBtn = document.getElementById("answers-btn");
-const correctLabel = document.querySelectorAll(".correct");
-const labels = document.querySelectorAll("label");
+const quizType = document.getElementById("quiz-type");
+let currentQuestionIndex = 0;
 let score = 0;
-let currentQuestionIndex = 1;
 let userName = "";
+let questions;
+
+//Check which quiz is selected
+let quizUrl;
+
+if (quizType.textContent === "HTML") {
+  quizUrl = "../questions/html.json";
+} else if (quizType.textContent === "CSS") {
+  quizUrl = "../questions/css.json";
+} else if (quizType.textContent === "JavaScript") {
+  quizUrl = "../questions/javascript.json";
+} else if (quizType.textContent === "React") {
+  quizUrl = "../questions/react.json";
+} else if (quizType.textContent === "Angular") {
+  quizUrl = "../questions/angular.json";
+} else if (quizType.textContent === "Vue.js") {
+  quizUrl = "../questions/vuejs.json";
+} else if (quizType.textContent === "jQuery") {
+  quizUrl = "../questions/jquery.json";
+} else if (quizType.textContent === "Bootstrap") {
+  quizUrl = "../questions/bootstrap.json";
+}
+
+// Get Questions from JSON files
+async function fetchQuestions() {
+  try {
+    const response = await fetch(quizUrl);
+    questions = await response.json();
+    return questions;
+  } catch (error) {
+    console.error("Error fetching questions", error);
+    return [];
+  }
+}
+
+// Fetch the questions and store them in the 'questions' variable
+async function initializeQuiz() {
+  await fetchQuestions();
+}
+
+initializeQuiz();
 
 // Start the game
 startBtn.addEventListener("click", () => {
@@ -27,81 +63,100 @@ startBtn.addEventListener("click", () => {
   } else {
     document.getElementById("name-input").style.border = "1px solid #5f6368";
     document.getElementById("name-input").classList.remove("shake-horizontal");
-    welcome.style.display = "none";
-    questionOne.style.display = "flex";
+    welcomeContainer.style.display = "none";
     progressBarContainer.style.display = "block";
     progressBar.style.width = "0%";
+    displayQuestion();
   }
 });
 
-submitBtn.forEach((submitBtn) => {
-  submitBtn.addEventListener("click", submit);
-});
+//Display the questions
+function displayQuestion() {
+  const currentQuestion = questions[currentQuestionIndex];
 
-// Submit and check answer
-function submit() {
-  if (document.querySelector('input[name="question"]:checked')) {
-    let answer = document.querySelector('input[name="question"]:checked').value;
-    if (answer === "correct") {
-      score++;
-      hideCurrentQuestion();
-      showNextQuestion();
-    } else {
-      hideCurrentQuestion();
-      showNextQuestion();
-    }
-  } else {
-    return;
-  }
-  document.querySelector('input[name="question"]:checked').checked = false;
-}
+  //Display the Question Container
+  questionContainer.style.display = "flex";
 
-// Hide the current question
-function hideCurrentQuestion() {
-  const currentQuestion = document.getElementById(
-    `question-${currentQuestionIndex}`
-  );
-  if (currentQuestion) {
-    currentQuestion.style.display = "none";
-  }
-}
+  //Create HTML Elements for the question, options and submit button
+  const questionElement = document.createElement("h1");
+  questionElement.textContent = currentQuestion.question;
 
-// Show the next question
-function showNextQuestion() {
-  currentQuestionIndex++;
+  const optionsContainer = document.createElement("div");
+  optionsContainer.classList.add("options-container");
+
+  const submitBtn = document.createElement("button");
+  submitBtn.textContent = "Submit Question";
+  submitBtn.classList.add("submit-btn");
+  submitBtn.classList.add("btn");
+  submitBtn.id = "submit-btn";
+  submitBtn.addEventListener("click", checkAnswer);
+
+  currentQuestion.options.forEach((option, index) => {
+    const inputElement = document.createElement("input");
+    inputElement.type = "radio";
+    inputElement.classList.add("radio-btn");
+    inputElement.name = "question";
+    inputElement.value = option;
+    inputElement.id = `option-${index}`;
+
+    const labelElement = document.createElement("label");
+    labelElement.htmlFor = `option-${index}`;
+    labelElement.textContent = option;
+
+    optionsContainer.appendChild(inputElement);
+    optionsContainer.appendChild(labelElement);
+  });
+
+  //Add Question to Question Container
+  questionContainer.innerHTML = "";
+  questionContainer.appendChild(questionElement);
+  questionContainer.appendChild(optionsContainer);
+  questionContainer.appendChild(submitBtn);
+
+  //Adjust Progress Bar
   progressBar.style.width = `${
-    ((currentQuestionIndex - 1) / totalQuestions) * 100
+    (currentQuestionIndex / questions.length) * 100
   }%`;
-  const nextQuestion = document.getElementById(
-    `question-${currentQuestionIndex}`
+}
+
+//Check answer
+function checkAnswer() {
+  const selectedOption = document.querySelector(
+    "input[name='question']:checked"
   );
-  if (nextQuestion) {
-    nextQuestion.style.display = "flex";
-  } else {
-    resultContainer.style.display = "flex";
-    scoreText.textContent = `Your score is ${score} out of ${totalQuestions}`;
-    if (score >= 6) {
-      congratulations.textContent = `Great job ${userName}!`;
-      currentQuestionIndex = 1;
-    } else {
-      congratulations.textContent = `Nice try but you can do better ${userName}!`;
-      currentQuestionIndex = 1;
+
+  if (selectedOption) {
+    const userAnswer = selectedOption.value;
+    const correctAnswer = questions[currentQuestionIndex].correctAnswer;
+
+    if (userAnswer === correctAnswer) {
+      score++;
     }
+  }
+
+  currentQuestionIndex++;
+
+  if (currentQuestionIndex < questions.length) {
+    displayQuestion();
+  } else {
+    displayResult();
   }
 }
 
-answersBtn.addEventListener("click", () => {
-  allQuestions.forEach((question) => {
-    resultContainer.style.display = "none";
-    question.style.display = "flex";
-    question.style.width = "1000px";
-    question.style.margin = "20px 0px";
-  });
-  submitBtn.forEach((submitBtn) => {
-    submitBtn.style.display = "none";
-  });
-  correctLabel.forEach((label) => {
-    label.style.backgroundColor = "#0B6623";
-  });
-  progressBarContainer.style.display = "none";
-});
+//Display the result
+function displayResult() {
+  const resultContainer = document.getElementById("result-container");
+  const scoreElement = document.getElementById("score");
+  const congratsElement = document.getElementById("congratulation");
+
+  questionContainer.style.display = "none";
+  resultContainer.style.display = "flex";
+  progressBar.style.width = "100%";
+  scoreElement.textContent = `Your score is ${score} out of ${currentQuestionIndex}`;
+
+  if (score > currentQuestionIndex / 2) {
+    congratulations.textContent = `Great job ${userName}!`;
+  } else {
+    congratulations.textContent = `Nice try but you can do better ${userName}!`;
+  }
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is Angular?",
+    "options": [
+      "A programming language",
+      "A server-side framework",
+      "A JavaScript library",
+      "A front-end framework"
+    ],
+    "correctAnswer": "A front-end framework"
+  },
+  {
+    "question": "Which Angular module is used for handling HTTP requests?",
+    "options": [
+      "@angular/core",
+      "@angular/http",
+      "@angular/router",
+      "@angular/forms"
+    ],
+    "correctAnswer": "@angular/http"
+  },
+  {
+    "question": "What is an Angular component?",
+    "options": [
+      "A service",
+      "A directive",
+      "A class that controls a view",
+      "A module"
+    ],
+    "correctAnswer": "A class that controls a view"
+  },
+  {
+    "question": "What is the purpose of Angular CLI?",
+    "options": [
+      "To create Angular components",
+      "To manage project dependencies",
+      "To facilitate communication with servers",
+      "To generate and manage Angular projects"
+    ],
+    "correctAnswer": "To generate and manage Angular projects"
+  },
+  {
+    "question": "What is two-way data binding in Angular?",
+    "options": [
+      "A one-way data flow",
+      "A mechanism for updating the model and the view simultaneously",
+      "Binding data to only one element",
+      "Binding data to a single property"
+    ],
+    "correctAnswer": "A mechanism for updating the model and the view simultaneously"
+  },
+  {
+    "question": "What is an Angular directive?",
+    "options": [
+      "A class that controls a view",
+      "A way to extend HTML",
+      "A module for routing",
+      "A service for HTTP requests"
+    ],
+    "correctAnswer": "A way to extend HTML"
+  },
+  {
+    "question": "What is Angular CLI command to generate a new component?",
+    "options": [
+      "ng new component",
+      "ng generate component",
+      "ng create component",
+      "ng build component"
+    ],
+    "correctAnswer": "ng generate component"
+  },
+  {
+    "question": "What is an Angular service?",
+    "options": [
+      "A directive",
+      "A class that controls a view",
+      "A class for encapsulating business logic and data",
+      "A module for routing"
+    ],
+    "correctAnswer": "A class for encapsulating business logic and data"
+  },
+  {
+    "question": "What is Angular dependency injection?",
+    "options": [
+      "A way to inject HTML into components",
+      "A design pattern for code organization",
+      "A mechanism for resolving dependencies and providing them to a class",
+      "A module for managing HTTP requests"
+    ],
+    "correctAnswer": "A mechanism for resolving dependencies and providing them to a class"
+  },
+  {
+    "question": "Which Angular module is used for building forms?",
+    "options": [
+      "@angular/forms",
+      "@angular/http",
+      "@angular/router",
+      "@angular/core"
+    ],
+    "correctAnswer": "@angular/forms"
+  }
+]

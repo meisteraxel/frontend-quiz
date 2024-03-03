@@ -102,7 +102,11 @@ a {
 }
 
 .quiz-container h1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+#question-container {
+  display: none;
 }
 
 #progress-bar-container {
@@ -284,6 +288,7 @@ label {
   font-family: "Graphik-Regular", sans-serif;
   display: inline-block;
   padding: 10px 20px;
+  margin: 5px 0px;
   background-color: var(--secondary-background);
   color: var(--accent-color);
   cursor: pointer;
@@ -305,6 +310,6 @@ input[type="radio"]:checked + label {
   transform: scale(103%);
 }
 
-div[id^="question-"] {
+/*div[id^="question-"] {
   display: none;
-}
+}*/

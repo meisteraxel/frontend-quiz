@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What does JavaScript stand for?",
+    "options": [
+      "Java Syntax and Tools",
+      "Just Style and Techniques",
+      "JavaScript Syntax and Tricks",
+      "Java Scripting and Tools"
+    ],
+    "correctAnswer": "JavaScript Syntax and Tricks"
+  },
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["var", "let", "const", "variable"],
+    "correctAnswer": "var"
+  },
+  {
+    "question": "What is the purpose of the '===' operator in JavaScript?",
+    "options": [
+      "Equality (loose)",
+      "Assignment",
+      "Equality (strict)",
+      "Inequality"
+    ],
+    "correctAnswer": "Equality (strict)"
+  },
+  {
+    "question": "How do you comment in JavaScript?",
+    "options": [
+      "// This is a comment",
+      "# This is a comment",
+      "/* This is a comment */",
+      " -- This is a comment"
+    ],
+    "correctAnswer": "// This is a comment"
+  },
+  {
+    "question": "What is the correct way to write an if statement in JavaScript?",
+    "options": [
+      "if (x === 5) { }",
+      "if x === 5 then { }",
+      "if x = 5 { }",
+      "if x == 5 { }"
+    ],
+    "correctAnswer": "if (x === 5) { }"
+  },
+  {
+    "question": "Which function is used to print output in the console?",
+    "options": ["console.log()", "print()", "log()", "write()"],
+    "correctAnswer": "console.log()"
+  },
+  {
+    "question": "What is the purpose of the 'this' keyword in JavaScript?",
+    "options": [
+      "Refers to the current object",
+      "Refers to the next object",
+      "Refers to the previous object",
+      "Refers to a random object"
+    ],
+    "correctAnswer": "Refers to the current object"
+  },
+  {
+    "question": "What is the role of 'setTimeout' in JavaScript?",
+    "options": [
+      "Delays the execution of a function",
+      "Sets the timer for the page",
+      "Controls the page refresh rate",
+      "Executes a function immediately"
+    ],
+    "correctAnswer": "Delays the execution of a function"
+  },
+  {
+    "question": "What is the purpose of the 'querySelector' method in JavaScript?",
+    "options": [
+      "Selects the first element that matches a specified CSS selector",
+      "Adds a new element to the DOM",
+      "Removes an element from the DOM",
+      "Updates the style of an element"
+    ],
+    "correctAnswer": "Selects the first element that matches a specified CSS selector"
+  },
+  {
+    "question": "Which built-in object is used to represent a collection of elements with numeric indices in JavaScript?",
+    "options": ["Object", "List", "Array", "Set"],
+    "correctAnswer": "Array"
+  }
+]

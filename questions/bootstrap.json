@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What is Bootstrap?",
+    "options": [
+      "A programming language",
+      "A front-end framework",
+      "A database management system",
+      "A JavaScript library"
+    ],
+    "correctAnswer": "A front-end framework"
+  },
+  {
+    "question": "Which CSS framework is used as the base for Bootstrap?",
+    "options": ["Materialize CSS", "Foundation", "Bulma", "Normalize.css"],
+    "correctAnswer": "Normalize.css"
+  },
+  {
+    "question": "What is the purpose of the Bootstrap grid system?",
+    "options": [
+      "To style text",
+      "To create responsive layouts",
+      "To manage project dependencies",
+      "To facilitate communication with servers"
+    ],
+    "correctAnswer": "To create responsive layouts"
+  },
+  {
+    "question": "Which class is used to create a responsive navigation bar in Bootstrap?",
+    "options": [
+      ".navbar-fixed",
+      ".navbar-responsive",
+      ".navbar-expand",
+      ".nav-responsive"
+    ],
+    "correctAnswer": ".navbar-expand"
+  },
+  {
+    "question": "What is the purpose of the 'container' class in Bootstrap?",
+    "options": [
+      "To center-align the content",
+      "To create a fluid container",
+      "To add padding to the content",
+      "To set a fixed width for the content"
+    ],
+    "correctAnswer": "To set a fixed width for the content"
+  },
+  {
+    "question": "Which class is used to create a responsive image in Bootstrap?",
+    "options": [".img-fluid", ".responsive-img", ".resize-img", ".fluid-image"],
+    "correctAnswer": ".img-fluid"
+  },
+  {
+    "question": "What is the purpose of the 'Jumbotron' component in Bootstrap?",
+    "options": [
+      "To create a large navigation bar",
+      "To display important content with a larger heading",
+      "To style buttons",
+      "To handle JavaScript events"
+    ],
+    "correctAnswer": "To display important content with a larger heading"
+  },
+  {
+    "question": "Which utility class is used for text alignment in Bootstrap?",
+    "options": [".text-center", ".align-text", ".text-align", ".center-text"],
+    "correctAnswer": ".text-center"
+  },
+  {
+    "question": "How can you add spacing between columns in the Bootstrap grid system?",
+    "options": [
+      "Using the 'gap' class",
+      "Using the 'margin' property",
+      "Using the 'padding' property",
+      "Using the 'space' class"
+    ],
+    "correctAnswer": "Using the 'margin' property"
+  },
+  {
+    "question": "What is the purpose of the 'Badge' component in Bootstrap?",
+    "options": [
+      "To create a circular button",
+      "To display additional information",
+      "To style navigation links",
+      "To add a background color to an element"
+    ],
+    "correctAnswer": "To display additional information"
+  }
+]

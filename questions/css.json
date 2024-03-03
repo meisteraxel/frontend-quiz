@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Counter Style Sheets",
+      "Colorful Style Sheets",
+      "Computer Style Sheets",
+      "Cascading Style Sheets"
+    ],
+    "correctAnswer": "Cascading Style Sheets"
+  },
+  {
+    "question": "Which CSS property is used to control the text size?",
+    "options": ["font-size", "text-style", "text-size", "font-style"],
+    "correctAnswer": "font-size"
+  },
+  {
+    "question": "How can you make a list that lists its items with squares in CSS?",
+    "options": [
+      "list-style-type: square;",
+      "list-type: square;",
+      "list: square;",
+      "style-type: square;"
+    ],
+    "correctAnswer": "list-style-type: square;"
+  },
+  {
+    "question": "What is the purpose of the z-index property in CSS?",
+    "options": [
+      "It controls the transparency of an element",
+      "It controls the stacking order of positioned elements",
+      "It sets the spacing between lines of text",
+      "It adjusts the brightness of an element"
+    ],
+    "correctAnswer": "It controls the stacking order of positioned elements"
+  },
+  {
+    "question": "Which CSS property is used for adding shadows to text?",
+    "options": ["text-shadow", "box-shadow", "shadow-text", "text-style"],
+    "correctAnswer": "text-shadow"
+  },
+  {
+    "question": "How do you center an element horizontally in CSS?",
+    "options": [
+      "margin: auto;",
+      "text-align: center;",
+      "align: center;",
+      "center: true;"
+    ],
+    "correctAnswer": "margin: auto;"
+  },
+  {
+    "question": "Which CSS property is used to control the spacing between individual letters in text?",
+    "options": [
+      "letter-spacing",
+      "word-spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "correctAnswer": "letter-spacing"
+  },
+  {
+    "question": "What is the purpose of the CSS property 'box-sizing: border-box;'?",
+    "options": [
+      "It adds a border to the box",
+      "It includes the padding and border in the box's total width and height",
+      "It sets the box to a circular shape",
+      "It adds a shadow to the box"
+    ],
+    "correctAnswer": "It includes the padding and border in the box's total width and height"
+  },
+  {
+    "question": "Which CSS property is used to change the color of the text in an element?",
+    "options": ["color", "text-color", "font-color", "text-style"],
+    "correctAnswer": "color"
+  },
+  {
+    "question": "What is the purpose of the CSS property 'position: relative;'?",
+    "options": [
+      "It sets the element's position relative to its parent",
+      "It removes the element from the normal document flow",
+      "It aligns the element to the center",
+      "It hides the element"
+    ],
+    "correctAnswer": "It sets the element's position relative to its parent"
+  }
+]

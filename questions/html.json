@@ -1,0 +1,77 @@
+[
+  {
+    "question": "What does HTML stand for?",
+    "options": [
+      "Hyper Text Markup Language",
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyperlinks and Text Markup Leveler"
+    ],
+    "correctAnswer": "Hyper Text Markup Language"
+  },
+  {
+    "question": "Which HTML tag is used for creating an unordered list?",
+    "options": ["<ul>", "<ol>", "<li>", "<list>"],
+    "correctAnswer": "<ul>"
+  },
+  {
+    "question": "What does the <a> tag represent in HTML?",
+    "options": ["A navigation link", "An image", "A paragraph", "A heading"],
+    "correctAnswer": "A navigation link"
+  },
+  {
+    "question": "Which HTML tag is used for inserting a line break?",
+    "options": ["<br>", "<lb>", "<break>", "<line>"],
+    "correctAnswer": "<br>"
+  },
+  {
+    "question": "What is the correct HTML for adding a background color?",
+    "options": [
+      "<body style='background-color:yellow;'>",
+      "<background>yellow</background>",
+      "<bg>yellow</bg>",
+      "<bgcolor=yellow>"
+    ],
+    "correctAnswer": "<body style='background-color:yellow;'>"
+  },
+  {
+    "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
+    "options": ["title", "src", "alt", "href"],
+    "correctAnswer": "alt"
+  },
+  {
+    "question": "What is the correct HTML for creating a hyperlink?",
+    "options": [
+      "<a href='http://www.example.com'>Example</a>",
+      "<link>http://www.example.com</link>",
+      "<href>http://www.example.com</href>",
+      "<hyperlink>http://www.example.com</hyperlink>"
+    ],
+    "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+  },
+  {
+    "question": "What is the correct HTML for making a text input field?",
+    "options": [
+      "<input type='text'>",
+      "<textfield>",
+      "<textinput>",
+      "<input type='input'>"
+    ],
+    "correctAnswer": "<input type='text'>"
+  },
+  {
+    "question": "Which HTML element is used to define the structure of an HTML document?",
+    "options": ["<html>", "<head>", "<body>", "<meta>"],
+    "correctAnswer": "<html>"
+  },
+  {
+    "question": "What is the correct HTML for making a checkbox?",
+    "options": [
+      "<input type='check'>",
+      "<input type='checkbox'>",
+      "<check>",
+      "<checkbox>"
+    ],
+    "correctAnswer": "<input type='checkbox'>"
+  }
+]

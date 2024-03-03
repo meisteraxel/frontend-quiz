@@ -1,0 +1,92 @@
+[
+  {
+    "question": "What is jQuery?",
+    "options": [
+      "A programming language",
+      "A front-end framework",
+      "A database management system",
+      "A fast, small, and feature-rich JavaScript library"
+    ],
+    "correctAnswer": "A fast, small, and feature-rich JavaScript library"
+  },
+  {
+    "question": "Which symbol is commonly used as a shortcut for the jQuery library?",
+    "options": ["$", "&", "@", "!"],
+    "correctAnswer": "$"
+  },
+  {
+    "question": "What is the purpose of the 'document ready' function in jQuery?",
+    "options": [
+      "To check if the document is valid",
+      "To execute code when the DOM is fully loaded",
+      "To create a new document",
+      "To define a document structure"
+    ],
+    "correctAnswer": "To execute code when the DOM is fully loaded"
+  },
+  {
+    "question": "How do you select an element with the id 'example' in jQuery?",
+    "options": [
+      "$(element='example')",
+      "$('example')",
+      "$.select('example')",
+      "$('element').find('example')"
+    ],
+    "correctAnswer": "$('#example')"
+  },
+  {
+    "question": "What is the purpose of the 'each' function in jQuery?",
+    "options": [
+      "To iterate over an array",
+      "To select each element in a collection and perform a function",
+      "To append elements to the DOM",
+      "To filter elements based on a condition"
+    ],
+    "correctAnswer": "To select each element in a collection and perform a function"
+  },
+  {
+    "question": "Which method is used to add a class to an element in jQuery?",
+    "options": [
+      "addClass()",
+      "appendClass()",
+      "insertClass()",
+      "attachClass()"
+    ],
+    "correctAnswer": "addClass()"
+  },
+  {
+    "question": "What does the '$.ajax()' function do in jQuery?",
+    "options": [
+      "Creates an asynchronous HTTP request",
+      "Appends an element to the DOM",
+      "Animates an element",
+      "Adds an event listener"
+    ],
+    "correctAnswer": "Creates an asynchronous HTTP request"
+  },
+  {
+    "question": "How do you fade out an element with the id 'example' in jQuery?",
+    "options": [
+      "$('#example').fadeOut()",
+      "$('#example').fadeDown()",
+      "$('#example').fadeToggle()",
+      "$('#example').fadeRemove()"
+    ],
+    "correctAnswer": "$('#example').fadeOut()"
+  },
+  {
+    "question": "Which jQuery method is used to hide an element?",
+    "options": ["hide()", "remove()", "displayNone()", "invisible()"],
+    "correctAnswer": "hide()"
+  },
+  {
+    "question": "What is the purpose of the 'slideDown' function in jQuery?",
+    "options": [
+      "To slide an element up",
+      "To slide an element left",
+      "To slide an element down",
+      "To slide an element right"
+    ],
+    "correctAnswer": "To slide an element down"
+  }
+]

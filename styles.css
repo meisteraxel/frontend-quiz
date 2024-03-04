@@ -249,7 +249,7 @@ a {
   display: none;
 }
 
-.home-btn {
+#home-btn {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -260,12 +260,12 @@ a {
   margin-bottom: 20px;
 }
 
-.home-btn span {
+#home-btn span {
   font-size: 0.8rem;
   align-self: baseline;
 }
 
-.home-btn:hover {
+#home-btn:hover {
   transform: translate(2px, 2px);
   box-shadow: none;
   outline: none;

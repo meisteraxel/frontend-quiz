@@ -151,6 +151,7 @@ function displayResult() {
   const scoreElement = document.getElementById("score");
   const congratsElement = document.getElementById("congratulation");
 
+  document.getElementById("home-btn").style.display = "none";
   questionContainer.style.display = "none";
   resultContainer.style.display = "flex";
   progressBar.style.width = "100%";
@@ -164,6 +165,9 @@ function displayResult() {
 }
 
 answersBtn.addEventListener("click", () => {
+  //Display Home Button
+  document.getElementById("home-btn").style.display = "flex";
+
   // Display all questions at once
   questions.forEach((currentQuestion, index) => {
     // Create Question Container for each question

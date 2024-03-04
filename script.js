@@ -2,6 +2,7 @@ const startBtn = document.getElementById("start-btn");
 const welcomeContainer = document.getElementById("welcome");
 const questionContainer = document.getElementById("question-container");
 const resultContainer = document.getElementById("result-container");
+const answersContainer = document.getElementById("answers-container");
 const progressBarContainer = document.getElementById("progress-bar-container");
 const progressBar = document.getElementById("progress-bar");
 const congratulations = document.getElementById("congratulation");
@@ -161,3 +162,52 @@ function displayResult() {
     congratulations.textContent = `Nice try but you can do better ${userName}!`;
   }
 }
+
+answersBtn.addEventListener("click", () => {
+  // Display all questions at once
+  questions.forEach((currentQuestion, index) => {
+    // Create Question Container for each question
+    const questionContainer = document.createElement("div");
+    questionContainer.classList.add("question-container");
+
+    // Create HTML Elements for the question and options
+    const questionElement = document.createElement("h1");
+    questionElement.textContent = `${index + 1}. ${currentQuestion.question}`;
+
+    const optionsContainer = document.createElement("div");
+    optionsContainer.classList.add("options-container");
+
+    currentQuestion.options.forEach((option, optionIndex) => {
+      const inputElement = document.createElement("input");
+      inputElement.type = "radio";
+      inputElement.classList.add("radio-btn");
+      inputElement.name = `question-${index}`;
+      inputElement.value = option;
+      inputElement.id = `option-${index}-${optionIndex}`;
+
+      const labelElement = document.createElement("label");
+      labelElement.htmlFor = `option-${index}-${optionIndex}`;
+      labelElement.textContent = option;
+
+      //Check which option is correct and set color to green
+      if (option === currentQuestion.correctAnswer) {
+        labelElement.classList.add("correct");
+      }
+
+      optionsContainer.appendChild(inputElement);
+      optionsContainer.appendChild(labelElement);
+    });
+
+    // Add Question to Question Container
+    questionContainer.appendChild(questionElement);
+    questionContainer.appendChild(optionsContainer);
+
+    //Hide Result Container and Progress Bar
+    progressBarContainer.style.display = "none";
+    answersContainer.style.display = "grid";
+    resultContainer.style.display = "none";
+
+    // Append Question Container to the Answers container
+    answersContainer.appendChild(questionContainer);
+  });
+});

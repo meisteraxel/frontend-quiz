@@ -326,3 +326,32 @@ input[type="radio"]:checked + label {
   box-shadow: 5px 5px 0px 0px var(--primary-background);
   transform: scale(103%);
 }
+
+#answers-container {
+  display: none;
+  max-width: 600px;
+  margin: 20px 10px;
+  text-align: center;
+  align-items: end;
+  gap: 50px;
+}
+
+#answers-container h1 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+#answers-btn {
+  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
+    box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
+}
+
+#answers-btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+  outline: none;
+}
+
+.correct {
+  background-color: green;
+}

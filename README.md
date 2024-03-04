@@ -16,7 +16,7 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [x] Add a progress bar for each test
 - [x] Score tracking for each test
 - [ ] Generate a PDF of your results to showcase your skills
-- [ ] Feedback for Correct/Incorrect Answers
+- [x] Feedback for Correct/Incorrect Answers
 - [ ] Responsive Design
 - [x] Back Button during Quiz
 - [ ] Share Results on Social Media

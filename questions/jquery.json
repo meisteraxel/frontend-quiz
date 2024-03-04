@@ -38,8 +38,8 @@
     "question": "What is the purpose of the 'each' function in jQuery?",
     "options": [
       "To iterate over an array",
-      "To select each element in a collection and perform a function",
       "To append elements to the DOM",
+      "To select each element in a collection and perform a function",
       "To filter elements based on a condition"
     ],
     "correctAnswer": "To select each element in a collection and perform a function"
@@ -76,7 +76,7 @@
   },
   {
     "question": "Which jQuery method is used to hide an element?",
-    "options": ["hide()", "remove()", "displayNone()", "invisible()"],
+    "options": ["remove()", "displayNone()", "invisible()", "hide()"],
     "correctAnswer": "hide()"
   },
   {

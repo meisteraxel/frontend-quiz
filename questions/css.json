@@ -17,9 +17,9 @@
   {
     "question": "How can you make a list that lists its items with squares in CSS?",
     "options": [
-      "list-style-type: square;",
       "list-type: square;",
       "list: square;",
+      "list-style-type: square;",
       "style-type: square;"
     ],
     "correctAnswer": "list-style-type: square;"
@@ -42,9 +42,9 @@
   {
     "question": "How do you center an element horizontally in CSS?",
     "options": [
-      "margin: auto;",
       "text-align: center;",
       "align: center;",
+      "margin: auto;",
       "center: true;"
     ],
     "correctAnswer": "margin: auto;"

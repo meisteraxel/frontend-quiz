@@ -56,7 +56,7 @@
   },
   {
     "question": "Which Vue.js lifecycle hook is called after a component is created?",
-    "options": ["created", "mounted", "updated", "destroyed"],
+    "options": ["mounted", "created", "updated", "destroyed"],
     "correctAnswer": "created"
   },
   {

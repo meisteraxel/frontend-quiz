@@ -1,18 +1,23 @@
 [
   {
-    "question": "What does JavaScript stand for?",
+    "question": "What is the purpose of the 'typeof' operator in JavaScript?",
     "options": [
-      "Java Syntax and Tools",
-      "Just Style and Techniques",
-      "JavaScript Syntax and Tricks",
-      "Java Scripting and Tools"
+      "To check if a variable is defined",
+      "To determine the data type of a value",
+      "To create a new variable",
+      "To compare two values"
     ],
-    "correctAnswer": "JavaScript Syntax and Tricks"
+    "correctAnswer": "To determine the data type of a value"
   },
   {
-    "question": "Which keyword is used to declare a variable in JavaScript?",
-    "options": ["var", "let", "const", "variable"],
-    "correctAnswer": "var"
+    "question": "In JavaScript, what is a closure?",
+    "options": [
+      "A way to close a browser window",
+      "A function that is immediately invoked",
+      "A combination of a function and the lexical environment within which that function was declared",
+      "A variable declared with 'let' or 'const'"
+    ],
+    "correctAnswer": "A combination of a function and the lexical environment within which that function was declared"
   },
   {
     "question": "What is the purpose of the '===' operator in JavaScript?",
@@ -52,9 +57,9 @@
   {
     "question": "What is the purpose of the 'this' keyword in JavaScript?",
     "options": [
-      "Refers to the current object",
       "Refers to the next object",
       "Refers to the previous object",
+      "Refers to the current object",
       "Refers to a random object"
     ],
     "correctAnswer": "Refers to the current object"
@@ -72,8 +77,8 @@
   {
     "question": "What is the purpose of the 'querySelector' method in JavaScript?",
     "options": [
-      "Selects the first element that matches a specified CSS selector",
       "Adds a new element to the DOM",
+      "Selects the first element that matches a specified CSS selector",
       "Removes an element from the DOM",
       "Updates the style of an element"
     ],

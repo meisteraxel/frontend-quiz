@@ -2,9 +2,9 @@
   {
     "question": "What does HTML stand for?",
     "options": [
-      "Hyper Text Markup Language",
       "Hyperlinks and Text Markup Language",
       "Home Tool Markup Language",
+      "Hyper Text Markup Language",
       "Hyperlinks and Text Markup Leveler"
     ],
     "correctAnswer": "Hyper Text Markup Language"
@@ -16,7 +16,7 @@
   },
   {
     "question": "What does the <a> tag represent in HTML?",
-    "options": ["A navigation link", "An image", "A paragraph", "A heading"],
+    "options": ["An image", "A paragraph", "A heading", "A navigation link"],
     "correctAnswer": "A navigation link"
   },
   {
@@ -52,8 +52,8 @@
   {
     "question": "What is the correct HTML for making a text input field?",
     "options": [
-      "<input type='text'>",
       "<textfield>",
+      "<input type='text'>",
       "<textinput>",
       "<input type='input'>"
     ],

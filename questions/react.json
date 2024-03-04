@@ -1,14 +1,14 @@
 [
   {
     "question": "What does JSX stand for?",
-    "options": ["JavaScript XML", "Java XML", "JS XML", "JavaScript EXtension"],
+    "options": ["JavaScript XML", "JS XML", "Java XML", "JavaScript EXtension"],
     "correctAnswer": "JavaScript XML"
   },
   {
     "question": "In React, what is a prop?",
     "options": [
-      "A property of a component",
       "A reserved keyword",
+      "A property of a component",
       "A method in React",
       "A built-in React function"
     ],
@@ -17,8 +17,8 @@
   {
     "question": "What is the purpose of state in React?",
     "options": [
-      "To store and manage component data",
       "To define CSS styles",
+      "To store and manage component data",
       "To handle component events",
       "To create reusable components"
     ],
@@ -27,33 +27,33 @@
   {
     "question": "What is the significance of the virtual DOM in React?",
     "options": [
-      "It optimizes rendering performance",
       "It handles routing in React applications",
-      "It manages state globally",
-      "It validates HTML and CSS"
+      "It validates HTML and CSS",
+      "It optimizes rendering performance",
+      "It manages state globally"
     ],
     "correctAnswer": "It optimizes rendering performance"
   },
   {
     "question": "How can you pass data from a parent component to a child component in React?",
-    "options": ["Using props", "Using state", "Using Redux", "Using callbacks"],
+    "options": ["Using Redux", "Using props", "Using state", "Using callbacks"],
     "correctAnswer": "Using props"
   },
   {
     "question": "What is a React hook?",
     "options": [
-      "A function that lets you use state and other React features",
-      "A component lifecycle method",
       "A type of component in React",
-      "A JavaScript library for React"
+      "A function that lets you use state and other React features",
+      "A JavaScript library for React",
+      "A component lifecycle method"
     ],
     "correctAnswer": "A function that lets you use state and other React features"
   },
   {
     "question": "What is the purpose of the useEffect hook in React?",
     "options": [
-      "To perform side effects in function components",
       "To handle user input",
+      "To perform side effects in function components",
       "To manage component state",
       "To define component structure"
     ],
@@ -61,26 +61,26 @@
   },
   {
     "question": "What is JSX syntax similar to?",
-    "options": ["XML/HTML", "JSON", "JavaScript", "CSS"],
+    "options": ["CSS", "XML/HTML", "JSON", "JavaScript"],
     "correctAnswer": "XML/HTML"
   },
   {
     "question": "What is the role of the ReactDOM library in React?",
     "options": [
-      "To render components to the DOM",
+      "To create functional components",
       "To manage component state",
       "To handle routing in React",
-      "To create functional components"
+      "To render components to the DOM"
     ],
     "correctAnswer": "To render components to the DOM"
   },
   {
     "question": "How can you handle events in React?",
     "options": [
-      "Using event listeners",
       "By directly manipulating the DOM",
-      "By using Redux",
-      "By defining event handlers in JSX"
+      "Using event listeners",
+      "By defining event handlers in JSX",
+      "By using Redux"
     ],
     "correctAnswer": "By defining event handlers in JSX"
   }

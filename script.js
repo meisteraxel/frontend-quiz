@@ -124,7 +124,6 @@ function checkAnswer() {
   const selectedOption = document.querySelector(
     "input[name='question']:checked"
   );
-
   if (selectedOption) {
     const userAnswer = selectedOption.value;
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
@@ -132,6 +131,8 @@ function checkAnswer() {
     if (userAnswer === correctAnswer) {
       score++;
     }
+  } else {
+    return;
   }
 
   currentQuestionIndex++;

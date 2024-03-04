@@ -164,6 +164,7 @@ function displayResult() {
   }
 }
 
+//Show correct answers
 answersBtn.addEventListener("click", () => {
   //Display Home Button
   document.getElementById("home-btn").style.display = "flex";

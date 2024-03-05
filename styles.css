@@ -360,7 +360,7 @@ input[type="radio"]:checked + label {
 #answers-container {
   display: none;
   max-width: 600px;
-  margin: 20px 10px;
+  margin: 25px 10px;
   text-align: center;
   align-items: end;
   gap: 50px;

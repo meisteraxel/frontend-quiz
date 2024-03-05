@@ -264,11 +264,11 @@ a {
 #home-btn {
   position: fixed;
   display: flex;
-  top: 1%;
+  bottom: 0%;
   left: 0%;
   height: 2.5rem;
   width: 8rem;
-  margin-left: 10px;
+  margin: 20px 10px;
   font-size: 0.7rem;
   font-family: Graphik-Regular, sans-serif;
   padding: 0px;
@@ -299,11 +299,11 @@ a {
 #feedback-btn {
   position: fixed;
   display: flex;
-  top: 1%;
+  bottom: 0%;
   right: 0%;
   height: 2.5rem;
   width: 8rem;
-  margin-right: 10px;
+  margin: 20px 10px;
   font-size: 0.7rem;
   font-family: Graphik-Regular, sans-serif;
   padding: 0px;
@@ -401,4 +401,13 @@ input[type="radio"]:checked + label {
 
 #follow-link:hover {
   transform: scale(1.2);
+}
+
+#bmc-wbtn {
+  left: 18px;
+}
+
+#bmc-iframe {
+  left: 18px;
+  transform-origin: left bottom !important;
 }

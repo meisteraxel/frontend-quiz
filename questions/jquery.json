@@ -28,7 +28,7 @@
     "question": "How do you select an element with the id 'example' in jQuery?",
     "options": [
       "$(element='example')",
-      "$('example')",
+      "$('#example')",
       "$.select('example')",
       "$('element').find('example')"
     ],

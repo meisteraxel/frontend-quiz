@@ -402,6 +402,8 @@ input[type="radio"]:checked + label {
   margin-bottom: 30px;
   font-family: "Graphik-Regular";
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
+  display: flex;
+  gap: 5px;
 }
 
 #follow-link:hover {
@@ -415,4 +417,11 @@ input[type="radio"]:checked + label {
 #bmc-iframe {
   left: 18px;
   transform-origin: left bottom !important;
+}
+
+#x-logo {
+  width: 16px;
+  height: 16px;
+  filter: invert(99%) sepia(7%) saturate(485%) hue-rotate(197deg)
+    brightness(117%) contrast(85%);
 }

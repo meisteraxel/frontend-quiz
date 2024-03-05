@@ -50,8 +50,16 @@ async function fetchQuestions() {
 async function initializeQuiz() {
   await fetchQuestions();
 }
-
 initializeQuiz();
+
+// Confirm name input with Enter Key
+document
+  .getElementById("name-input")
+  .addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      startBtn.click();
+    }
+  });
 
 // Start the game
 startBtn.addEventListener("click", () => {

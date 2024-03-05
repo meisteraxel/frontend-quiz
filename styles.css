@@ -57,8 +57,10 @@ a {
   border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
+  margin: 0rem 2rem;
   display: flex;
   gap: 1rem;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -137,6 +139,7 @@ a {
   border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
+  margin: 0rem 2rem;
   display: none;
   gap: 1rem;
   flex-direction: column;
@@ -424,4 +427,62 @@ input[type="radio"]:checked + label {
   height: 16px;
   filter: invert(99%) sepia(7%) saturate(485%) hue-rotate(197deg)
     brightness(117%) contrast(85%);
+}
+
+@media (max-width: 920px) {
+  #answers-container {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 680px) {
+  .home-container {
+    padding: 1.5rem;
+  }
+
+  .home-container a {
+    width: 10rem;
+  }
+
+  .home-container h1 {
+    font-size: 1.5rem;
+  }
+
+  .home-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .quiz-container {
+    padding: 1.5rem;
+  }
+
+  .quiz-container h1 {
+    font-size: 1.2rem;
+  }
+
+  #result-container {
+    padding: 1.5rem;
+  }
+
+  #result-container h1 {
+    font-size: 1.5rem;
+  }
+
+  #result-container p {
+    font-size: 0.9rem;
+  }
+
+  #follow-link {
+    top: 5%;
+  }
+}
+
+@media (max-width: 425px) {
+  .home-container a {
+    width: 7rem;
+  }
+
+  .quiz-link-grid {
+    gap: 10px;
+  }
 }

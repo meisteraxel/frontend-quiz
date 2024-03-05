@@ -177,8 +177,13 @@ function displayResult() {
 
 //Show correct answers
 answersBtn.addEventListener("click", () => {
-  //Display Home Button
+  //Display Home Button and Feedback Button - set Position to Top of Viewport
   document.getElementById("home-btn").style.display = "flex";
+  document.getElementById("home-btn").style.position = "absolute";
+  document.getElementById("home-btn").style.top = "0%";
+
+  document.getElementById("feedback-btn").style.position = "absolute";
+  document.getElementById("feedback-btn").style.top = "0%";
 
   // Display all questions at once
   questions.forEach((currentQuestion, index) => {

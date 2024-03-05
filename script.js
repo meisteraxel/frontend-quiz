@@ -184,9 +184,6 @@ answersBtn.addEventListener("click", () => {
 
   document.getElementById("feedback-btn").style.position = "absolute";
   document.getElementById("feedback-btn").style.top = "0%";
-  //Change height of Body to display all Answers
-  document.body.style.minHeight = "100vh";
-  document.body.style.height = "auto";
 
   // Display all questions at once
   questions.forEach((currentQuestion, index) => {

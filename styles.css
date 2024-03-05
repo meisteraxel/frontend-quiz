@@ -389,3 +389,16 @@ input[type="radio"]:checked + label {
 .user-selected {
   background-color: var(--error-color);
 }
+
+#follow-link {
+  position: fixed;
+  bottom: 0%;
+  color: var(--secondary-background);
+  margin-bottom: 30px;
+  font-family: "Graphik-Regular";
+  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
+}
+
+#follow-link:hover {
+  transform: scale(1.2);
+}

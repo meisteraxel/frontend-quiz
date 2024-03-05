@@ -19,6 +19,7 @@
   --primary-background: #250095;
   --secondary-background: #eeebeb;
   --accent-color: #000000;
+  --higlight-color: #009523;
 }
 
 * {
@@ -92,8 +93,11 @@ a {
   border: 2px solid var(--accent-color);
   border-radius: 5px;
   padding: 2rem 3rem;
+  margin: 0rem 2rem;
   display: flex;
   gap: 1rem;
+  max-width: 750px;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -102,6 +106,7 @@ a {
 
 .quiz-container h1 {
   margin-bottom: 5px;
+  font-size: 1.5rem;
 }
 
 #question-container {
@@ -122,7 +127,7 @@ a {
 #progress-bar {
   width: 0%;
   height: 100%;
-  background-color: var(--accent-color);
+  background-color: var(--higlight-color);
   transition: all 0.5s ease-in-out;
 }
 
@@ -245,25 +250,32 @@ a {
   outline: none;
 }
 
+.submit-btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+  outline: none;
+}
+
 .radio-btn {
   display: none;
 }
 
 #home-btn {
+  position: fixed;
   display: flex;
-  flex-direction: row;
+  top: 0%;
+  left: 0%;
+  height: 2.5rem;
+  width: 8rem;
+  margin-left: 10px;
+  font-size: 0.7rem;
+  font-family: Graphik-Regular, sans-serif;
+  padding: 0px;
+  gap: 3px;
   align-items: center;
-  justify-content: space-evenly;
-  font-family: "Graphik-Regular", sans-serif;
+  justify-content: center;
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
-  margin-bottom: 20px;
-  gap: 5px;
-}
-
-#home-btn span {
-  font-size: 0.8rem;
-  align-self: baseline;
 }
 
 #home-btn:hover {
@@ -277,21 +289,26 @@ a {
 }
 
 .back-arrow {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
+  margin-bottom: 2px;
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
 .feedback-btn {
   position: fixed;
+  display: flex;
   top: 0%;
   right: 0%;
   height: 2.5rem;
-  width: 7rem;
+  width: 8rem;
   margin-right: 10px;
   font-size: 0.7rem;
   font-family: Graphik-Regular, sans-serif;
   padding: 0px;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
@@ -300,6 +317,17 @@ a {
   transform: translate(2px, 2px);
   box-shadow: none;
   outline: none;
+
+  .mail-icon {
+    transform: rotate(20deg);
+  }
+}
+
+.mail-icon {
+  width: 14px;
+  height: 14px;
+  margin-bottom: 5px;
+  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
 label {

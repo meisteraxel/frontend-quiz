@@ -473,7 +473,10 @@ input[type="radio"]:checked + label {
   }
 
   #follow-link {
+    position: absolute;
     top: 5%;
+    bottom: auto;
+    margin-bottom: 0;
   }
 }
 

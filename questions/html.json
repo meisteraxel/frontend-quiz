@@ -32,7 +32,7 @@
     "question": "What is the correct HTML for adding a background color?",
     "options": [
       "<body style='background-color:yellow;'>",
-      "<background>yellow</background>",
+      "<background> yellow </background>",
       "<bg>yellow</bg>",
       "<bgcolor=yellow>"
     ],
@@ -46,14 +46,14 @@
     "userSelectedAnswer": null
   },
   {
-    "question": "What is the correct HTML for creating a hyperlink?",
+    "question": "What is the correct HTML for creating a hyperlink? (# = Link)",
     "options": [
-      "<a href='http://www.example.com'>Example</a>",
-      "<link>http://www.example.com</link>",
-      "<href>http://www.example.com</href>",
-      "<hyperlink>http://www.example.com</hyperlink>"
+      "<a href='#'>Example</a>",
+      "<link>#</link>",
+      "<href>#</href>",
+      "<hyperlink>#</hyperlink>"
     ],
-    "correctAnswer": "<a href='http://www.example.com'>Example</a>",
+    "correctAnswer": "<a href='#'>Example</a>",
     "userSelectedAnswer": null
   },
   {

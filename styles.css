@@ -23,6 +23,10 @@
   --error-color: #e26d5a;
 }
 
+html {
+  min-height: -webkit-fill-available;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -38,6 +42,7 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  min-height: -webkit-fill-available;
   width: 100%;
 }
 

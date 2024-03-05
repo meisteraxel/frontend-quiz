@@ -311,7 +311,6 @@ a {
   font-size: 0.7rem;
   font-family: Graphik-Regular, sans-serif;
   padding: 0px;
-  gap: 8px;
   align-items: center;
   justify-content: center;
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
@@ -326,6 +325,12 @@ a {
   .mail-icon {
     transform: rotate(20deg);
   }
+}
+
+#feedback-btn a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .mail-icon {

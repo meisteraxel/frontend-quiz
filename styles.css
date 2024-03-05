@@ -19,8 +19,8 @@
   --primary-background: #250095;
   --secondary-background: #eeebeb;
   --accent-color: #000000;
-  --higlight-color: #009523;
-  --error-color: #d40000;
+  --higlight-color: #2cda9d;
+  --error-color: #e26d5a;
 }
 
 * {
@@ -383,7 +383,7 @@ input[type="radio"]:checked + label {
 }
 
 .correct {
-  background-color: green !important;
+  background-color: var(--higlight-color) !important;
 }
 
 .user-selected {

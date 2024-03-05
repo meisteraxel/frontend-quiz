@@ -146,8 +146,9 @@ a {
 }
 
 #result-container a {
-  width: 15rem;
-  padding: 1rem;
+  width: 10rem;
+  font-size: 0.8rem;
+  padding: 1rem 0rem;
   text-align: center;
   background-color: var(--secondary-background);
   border: 2px solid var(--accent-color);
@@ -374,6 +375,10 @@ input[type="radio"]:checked + label {
 #answers-btn {
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
+  width: 15rem;
+  font-size: 1.3rem;
+  height: auto;
+  margin-bottom: 1rem;
 }
 
 #answers-btn:hover {

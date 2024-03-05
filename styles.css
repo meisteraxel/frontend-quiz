@@ -20,6 +20,7 @@
   --secondary-background: #eeebeb;
   --accent-color: #000000;
   --higlight-color: #009523;
+  --error-color: #d40000;
 }
 
 * {
@@ -116,7 +117,7 @@ a {
 #progress-bar-container {
   display: block;
   position: fixed;
-  bottom: 0%;
+  top: 0%;
   left: 0%;
   border: 2px solid var(--accent-color);
   width: 100%;
@@ -263,7 +264,7 @@ a {
 #home-btn {
   position: fixed;
   display: flex;
-  top: 0%;
+  top: 1%;
   left: 0%;
   height: 2.5rem;
   width: 8rem;
@@ -295,10 +296,10 @@ a {
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
-.feedback-btn {
+#feedback-btn {
   position: fixed;
   display: flex;
-  top: 0%;
+  top: 1%;
   right: 0%;
   height: 2.5rem;
   width: 8rem;
@@ -313,7 +314,7 @@ a {
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
-.feedback-btn:hover {
+#feedback-btn:hover {
   transform: translate(2px, 2px);
   box-shadow: none;
   outline: none;
@@ -382,5 +383,9 @@ input[type="radio"]:checked + label {
 }
 
 .correct {
-  background-color: green;
+  background-color: green !important;
+}
+
+.user-selected {
+  background-color: var(--error-color);
 }

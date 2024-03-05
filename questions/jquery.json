@@ -7,12 +7,14 @@
       "A database management system",
       "A fast, small, and feature-rich JavaScript library"
     ],
-    "correctAnswer": "A fast, small, and feature-rich JavaScript library"
+    "correctAnswer": "A fast, small, and feature-rich JavaScript library",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which symbol is commonly used as a shortcut for the jQuery library?",
     "options": ["$", "&", "@", "!"],
-    "correctAnswer": "$"
+    "correctAnswer": "$",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'document ready' function in jQuery?",
@@ -22,7 +24,8 @@
       "To create a new document",
       "To define a document structure"
     ],
-    "correctAnswer": "To execute code when the DOM is fully loaded"
+    "correctAnswer": "To execute code when the DOM is fully loaded",
+    "userSelectedAnswer": null
   },
   {
     "question": "How do you select an element with the id 'example' in jQuery?",
@@ -32,7 +35,8 @@
       "$.select('example')",
       "$('element').find('example')"
     ],
-    "correctAnswer": "$('#example')"
+    "correctAnswer": "$('#example')",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'each' function in jQuery?",
@@ -42,7 +46,8 @@
       "To select each element in a collection and perform a function",
       "To filter elements based on a condition"
     ],
-    "correctAnswer": "To select each element in a collection and perform a function"
+    "correctAnswer": "To select each element in a collection and perform a function",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which method is used to add a class to an element in jQuery?",
@@ -52,7 +57,8 @@
       "insertClass()",
       "attachClass()"
     ],
-    "correctAnswer": "addClass()"
+    "correctAnswer": "addClass()",
+    "userSelectedAnswer": null
   },
   {
     "question": "What does the '$.ajax()' function do in jQuery?",
@@ -62,7 +68,8 @@
       "Animates an element",
       "Adds an event listener"
     ],
-    "correctAnswer": "Creates an asynchronous HTTP request"
+    "correctAnswer": "Creates an asynchronous HTTP request",
+    "userSelectedAnswer": null
   },
   {
     "question": "How do you fade out an element with the id 'example' in jQuery?",
@@ -72,12 +79,14 @@
       "$('#example').fadeToggle()",
       "$('#example').fadeRemove()"
     ],
-    "correctAnswer": "$('#example').fadeOut()"
+    "correctAnswer": "$('#example').fadeOut()",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which jQuery method is used to hide an element?",
     "options": ["remove()", "displayNone()", "invisible()", "hide()"],
-    "correctAnswer": "hide()"
+    "correctAnswer": "hide()",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'slideDown' function in jQuery?",
@@ -87,6 +96,7 @@
       "To slide an element down",
       "To slide an element right"
     ],
-    "correctAnswer": "To slide an element down"
+    "correctAnswer": "To slide an element down",
+    "userSelectedAnswer": null
   }
 ]

@@ -7,7 +7,8 @@
       "To create a new variable",
       "To compare two values"
     ],
-    "correctAnswer": "To determine the data type of a value"
+    "correctAnswer": "To determine the data type of a value",
+    "userSelectedAnswer": null
   },
   {
     "question": "In JavaScript, what is a closure?",
@@ -17,7 +18,8 @@
       "A combination of a function and the lexical environment within which that function was declared",
       "A variable declared with 'let' or 'const'"
     ],
-    "correctAnswer": "A combination of a function and the lexical environment within which that function was declared"
+    "correctAnswer": "A combination of a function and the lexical environment within which that function was declared",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the '===' operator in JavaScript?",
@@ -27,7 +29,8 @@
       "Equality (strict)",
       "Inequality"
     ],
-    "correctAnswer": "Equality (strict)"
+    "correctAnswer": "Equality (strict)",
+    "userSelectedAnswer": null
   },
   {
     "question": "How do you comment in JavaScript?",
@@ -37,7 +40,8 @@
       "/* This is a comment */",
       " -- This is a comment"
     ],
-    "correctAnswer": "// This is a comment"
+    "correctAnswer": "// This is a comment",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the correct way to write an if statement in JavaScript?",
@@ -47,12 +51,14 @@
       "if x = 5 { }",
       "if x == 5 { }"
     ],
-    "correctAnswer": "if (x === 5) { }"
+    "correctAnswer": "if (x === 5) { }",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which function is used to print output in the console?",
     "options": ["console.log()", "print()", "log()", "write()"],
-    "correctAnswer": "console.log()"
+    "correctAnswer": "console.log()",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'this' keyword in JavaScript?",
@@ -62,7 +68,8 @@
       "Refers to the current object",
       "Refers to a random object"
     ],
-    "correctAnswer": "Refers to the current object"
+    "correctAnswer": "Refers to the current object",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the role of 'setTimeout' in JavaScript?",
@@ -72,7 +79,8 @@
       "Controls the page refresh rate",
       "Executes a function immediately"
     ],
-    "correctAnswer": "Delays the execution of a function"
+    "correctAnswer": "Delays the execution of a function",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'querySelector' method in JavaScript?",
@@ -82,11 +90,13 @@
       "Removes an element from the DOM",
       "Updates the style of an element"
     ],
-    "correctAnswer": "Selects the first element that matches a specified CSS selector"
+    "correctAnswer": "Selects the first element that matches a specified CSS selector",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which built-in object is used to represent a collection of elements with numeric indices in JavaScript?",
     "options": ["Object", "List", "Array", "Set"],
-    "correctAnswer": "Array"
+    "correctAnswer": "Array",
+    "userSelectedAnswer": null
   }
 ]

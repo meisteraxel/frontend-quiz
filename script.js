@@ -67,7 +67,7 @@ startBtn.addEventListener("click", () => {
 
   if (userName === "") {
     document.getElementById("name-input").style.boxShadow =
-      "5px 5px 0px 0px #FF0000";
+      "5px 5px 0px 0px #d40000";
     document.getElementById("name-input").classList.add("shake-horizontal");
   } else {
     document.getElementById("name-input").style.border = "1px solid #5f6368";
@@ -137,6 +137,9 @@ function checkAnswer() {
     const userAnswer = selectedOption.value;
     const correctAnswer = questions[currentQuestionIndex].correctAnswer;
 
+    // Store the user's selected answer in the question object
+    questions[currentQuestionIndex].userSelectedAnswer = userAnswer;
+
     if (userAnswer === correctAnswer) {
       score++;
     }
@@ -205,6 +208,11 @@ answersBtn.addEventListener("click", () => {
       //Check which option is correct and set color to green
       if (option === currentQuestion.correctAnswer) {
         labelElement.classList.add("correct");
+      }
+
+      // Check if the user selected this option
+      if (option === currentQuestion.userSelectedAnswer) {
+        labelElement.classList.add("user-selected");
       }
 
       optionsContainer.appendChild(inputElement);

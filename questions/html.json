@@ -7,22 +7,26 @@
       "Hyper Text Markup Language",
       "Hyperlinks and Text Markup Leveler"
     ],
-    "correctAnswer": "Hyper Text Markup Language"
+    "correctAnswer": "Hyper Text Markup Language",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which HTML tag is used for creating an unordered list?",
     "options": ["<ul>", "<ol>", "<li>", "<list>"],
-    "correctAnswer": "<ul>"
+    "correctAnswer": "<ul>",
+    "userSelectedAnswer": null
   },
   {
     "question": "What does the <a> tag represent in HTML?",
     "options": ["An image", "A paragraph", "A heading", "A navigation link"],
-    "correctAnswer": "A navigation link"
+    "correctAnswer": "A navigation link",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which HTML tag is used for inserting a line break?",
     "options": ["<br>", "<lb>", "<break>", "<line>"],
-    "correctAnswer": "<br>"
+    "correctAnswer": "<br>",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the correct HTML for adding a background color?",
@@ -32,12 +36,14 @@
       "<bg>yellow</bg>",
       "<bgcolor=yellow>"
     ],
-    "correctAnswer": "<body style='background-color:yellow;'>"
+    "correctAnswer": "<body style='background-color:yellow;'>",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which HTML attribute specifies an alternate text for an image, if the image cannot be displayed?",
     "options": ["title", "src", "alt", "href"],
-    "correctAnswer": "alt"
+    "correctAnswer": "alt",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the correct HTML for creating a hyperlink?",
@@ -47,7 +53,8 @@
       "<href>http://www.example.com</href>",
       "<hyperlink>http://www.example.com</hyperlink>"
     ],
-    "correctAnswer": "<a href='http://www.example.com'>Example</a>"
+    "correctAnswer": "<a href='http://www.example.com'>Example</a>",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the correct HTML for making a text input field?",
@@ -57,12 +64,14 @@
       "<textinput>",
       "<input type='input'>"
     ],
-    "correctAnswer": "<input type='text'>"
+    "correctAnswer": "<input type='text'>",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which HTML element is used to define the structure of an HTML document?",
     "options": ["<html>", "<head>", "<body>", "<meta>"],
-    "correctAnswer": "<html>"
+    "correctAnswer": "<html>",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the correct HTML for making a checkbox?",
@@ -72,6 +81,7 @@
       "<check>",
       "<checkbox>"
     ],
-    "correctAnswer": "<input type='checkbox'>"
+    "correctAnswer": "<input type='checkbox'>",
+    "userSelectedAnswer": null
   }
 ]

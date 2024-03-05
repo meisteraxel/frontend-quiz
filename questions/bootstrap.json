@@ -7,12 +7,14 @@
       "A database management system",
       "A JavaScript library"
     ],
-    "correctAnswer": "A front-end framework"
+    "correctAnswer": "A front-end framework",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which CSS framework is used as the base for Bootstrap?",
     "options": ["Materialize CSS", "Foundation", "Bulma", "Normalize.css"],
-    "correctAnswer": "Normalize.css"
+    "correctAnswer": "Normalize.css",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the Bootstrap grid system?",
@@ -22,7 +24,8 @@
       "To manage project dependencies",
       "To facilitate communication with servers"
     ],
-    "correctAnswer": "To create responsive layouts"
+    "correctAnswer": "To create responsive layouts",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which class is used to create a responsive navigation bar in Bootstrap?",
@@ -32,7 +35,8 @@
       ".navbar-expand",
       ".nav-responsive"
     ],
-    "correctAnswer": ".navbar-expand"
+    "correctAnswer": ".navbar-expand",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'container' class in Bootstrap?",
@@ -42,12 +46,14 @@
       "To add padding to the content",
       "To set a fixed width for the content"
     ],
-    "correctAnswer": "To set a fixed width for the content"
+    "correctAnswer": "To set a fixed width for the content",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which class is used to create a responsive image in Bootstrap?",
     "options": [".img-fluid", ".responsive-img", ".resize-img", ".fluid-image"],
-    "correctAnswer": ".img-fluid"
+    "correctAnswer": ".img-fluid",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'Jumbotron' component in Bootstrap?",
@@ -57,12 +63,14 @@
       "To style buttons",
       "To handle JavaScript events"
     ],
-    "correctAnswer": "To display important content with a larger heading"
+    "correctAnswer": "To display important content with a larger heading",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which utility class is used for text alignment in Bootstrap?",
     "options": [".text-center", ".align-text", ".text-align", ".center-text"],
-    "correctAnswer": ".text-center"
+    "correctAnswer": ".text-center",
+    "userSelectedAnswer": null
   },
   {
     "question": "How can you add spacing between columns in the Bootstrap grid system?",
@@ -72,7 +80,8 @@
       "Using the 'padding' property",
       "Using the 'space' class"
     ],
-    "correctAnswer": "Using the 'margin' property"
+    "correctAnswer": "Using the 'margin' property",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of the 'Badge' component in Bootstrap?",
@@ -82,6 +91,7 @@
       "To style navigation links",
       "To add a background color to an element"
     ],
-    "correctAnswer": "To display additional information"
+    "correctAnswer": "To display additional information",
+    "userSelectedAnswer": null
   }
 ]

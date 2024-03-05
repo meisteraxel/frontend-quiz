@@ -7,12 +7,14 @@
       "A front-end framework",
       "A database management system"
     ],
-    "correctAnswer": "A front-end framework"
+    "correctAnswer": "A front-end framework",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the core library of Vue.js?",
     "options": ["Vue Core", "Vue Server", "Vue Framework", "Vue.js"],
-    "correctAnswer": "Vue.js"
+    "correctAnswer": "Vue.js",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the purpose of Vue.js directives?",
@@ -22,7 +24,8 @@
       "To manage project dependencies",
       "To facilitate communication with servers"
     ],
-    "correctAnswer": "To extend HTML"
+    "correctAnswer": "To extend HTML",
+    "userSelectedAnswer": null
   },
   {
     "question": "How can you handle user input in Vue.js?",
@@ -32,7 +35,8 @@
       "Using jQuery",
       "By directly manipulating the DOM"
     ],
-    "correctAnswer": "Using Reactivity"
+    "correctAnswer": "Using Reactivity",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is a Vue.js component?",
@@ -42,7 +46,8 @@
       "A module for routing",
       "A reusable and self-contained unit of an application"
     ],
-    "correctAnswer": "A reusable and self-contained unit of an application"
+    "correctAnswer": "A reusable and self-contained unit of an application",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is the Vue.js CLI?",
@@ -52,12 +57,14 @@
       "A library for handling HTTP requests",
       "A module for state management"
     ],
-    "correctAnswer": "A command-line interface for managing Vue projects"
+    "correctAnswer": "A command-line interface for managing Vue projects",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which Vue.js lifecycle hook is called after a component is created?",
     "options": ["mounted", "created", "updated", "destroyed"],
-    "correctAnswer": "created"
+    "correctAnswer": "created",
+    "userSelectedAnswer": null
   },
   {
     "question": "What is Vue.js Vuex used for?",
@@ -67,16 +74,19 @@
       "State management",
       "Routing in Vue applications"
     ],
-    "correctAnswer": "State management"
+    "correctAnswer": "State management",
+    "userSelectedAnswer": null
   },
   {
     "question": "How can you conditionally render content in Vue.js?",
     "options": ["Using v-if", "Using v-for", "Using v-else", "Using v-switch"],
-    "correctAnswer": "Using v-if"
+    "correctAnswer": "Using v-if",
+    "userSelectedAnswer": null
   },
   {
     "question": "Which directive is used for binding an attribute to an expression in Vue.js?",
     "options": ["v-bind", "v-model", "v-show", "v-on"],
-    "correctAnswer": "v-bind"
+    "correctAnswer": "v-bind",
+    "userSelectedAnswer": null
   }
 ]

@@ -1,0 +1,112 @@
+[
+  {
+    "question": "What is TypeScript?",
+    "options": [
+      "A superset of JavaScript",
+      "A JavaScript framework",
+      "A package manager for JavaScript",
+      "A server-side scripting language"
+    ],
+    "correctAnswer": "A superset of JavaScript",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does 'static typing' in TypeScript mean?",
+    "options": [
+      "Variables cannot be reassigned",
+      "Type information is known at compile-time",
+      "Functions are defined as static methods",
+      "It refers to static code analysis"
+    ],
+    "correctAnswer": "Type information is known at compile-time",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you declare a variable with a specific type in TypeScript?",
+    "options": [
+      "let x: type = value",
+      "var x = value as type",
+      "let x = (type) value",
+      "var x = value : type"
+    ],
+    "correctAnswer": "let x: type = value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'interface' keyword in TypeScript?",
+    "options": [
+      "To define a new class",
+      "To create an instance of a class",
+      "To declare the shape of an object",
+      "To import external modules"
+    ],
+    "correctAnswer": "To declare the shape of an object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you define optional parameters in a TypeScript function?",
+    "options": [
+      "By using the 'optional' keyword",
+      "By placing a question mark after the parameter name",
+      "By using the 'undefined' type",
+      "Optional parameters are not supported in TypeScript"
+    ],
+    "correctAnswer": "By placing a question mark after the parameter name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'enum' keyword in TypeScript?",
+    "options": [
+      "To declare a new type",
+      "To define a class",
+      "To create a list of named constants",
+      "To import external libraries"
+    ],
+    "correctAnswer": "To create a list of named constants",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you explicitly specify the type of a variable in TypeScript?",
+    "options": [
+      "By using the 'type' keyword",
+      "By using the 'explicit' keyword",
+      "By using the 'as' keyword",
+      "By placing a colon after the variable name"
+    ],
+    "correctAnswer": "By placing a colon after the variable name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the 'tsconfig.json' file in a TypeScript project?",
+    "options": [
+      "To configure TypeScript compiler options",
+      "To define TypeScript dependencies",
+      "To manage project dependencies",
+      "To specify runtime configurations"
+    ],
+    "correctAnswer": "To configure TypeScript compiler options",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between 'interface' and 'type' in TypeScript?",
+    "options": [
+      "They are interchangeable and can be used in the same scenarios",
+      "Interfaces are used for objects, while types are used for primitives",
+      "Types can extend interfaces, but not vice versa",
+      "There is no difference between 'interface' and 'type'"
+    ],
+    "correctAnswer": "Interfaces are used for objects, while types are used for primitives",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you install TypeScript globally on your machine using npm?",
+    "options": [
+      "npm install -g typescript",
+      "npm install typescript -g",
+      "npm typescript -g install",
+      "typescript install -g npm"
+    ],
+    "correctAnswer": "npm install -g typescript",
+    "userSelectedAnswer": null
+  }
+]

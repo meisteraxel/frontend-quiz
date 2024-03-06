@@ -32,6 +32,10 @@ if (quizType.textContent === "HTML") {
   quizUrl = "../questions/jquery.json";
 } else if (quizType.textContent === "Bootstrap") {
   quizUrl = "../questions/bootstrap.json";
+} else if (quizType.textContent === "Tailwind") {
+  quizUrl = "../questions/tailwind.json";
+} else if (quizType.textContent === "Typescript") {
+  quizUrl = "../questions/typescript.json";
 }
 
 // Get Questions from JSON files

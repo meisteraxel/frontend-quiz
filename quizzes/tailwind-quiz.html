@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Tailwind Quiz - Test Your Tailwind Skills</title>
+    <meta
+      name="description"
+      content="Take the Tailwind Quiz at The Frontend Quiz and test your knowledge of Tailwind. Challenge yourself with questions covering Tailwind selectors, styling techniques, and best practices."
+    />
+    <meta
+      name="keywords"
+      content="Tailwind quiz, Tailwind questions, web development quiz, frontend quiz"
+    />
+    <meta
+      property="og:title"
+      content="Tailwind Quiz - Test Your Tailwind Skills"
+    />
+    <meta
+      property="og:description"
+      content="Take the Tailwind Quiz at The Frontend Quiz and test your knowledge of Tailwind. Challenge yourself with questions covering Tailwind selectors, styling techniques, and best practices."
+    />
+    <meta
+      property="og:url"
+      content="https://www.thefrontendquiz.com/Tailwind-quiz"
+    />
+    <meta property="og:image" content="" />
+    <meta property="og:type" content="article" />
+  </head>
+  <body>
+    <div class="btn" id="feedback-btn">
+      <a href="mailto:thefrontendquiz@gmail.com">
+        <img
+          src="../assets/images/paper-plane-solid.svg"
+          alt=""
+          class="mail-icon"
+        />
+        <span>Send Feedback</span>
+      </a>
+    </div>
+    <main>
+      <div class="quiz-container" id="welcome">
+        <h1 id="quiz-type">Tailwind</h1>
+        <p>Enter your name and let's get started!</p>
+        <input type="text" placeholder="Name" id="name-input" />
+        <button id="start-btn" class="btn">START QUIZ</button>
+      </div>
+      <div class="quiz-container" id="question-container"></div>
+      <div id="result-container">
+        <h1 id="score"></h1>
+        <p id="congratulation"></p>
+        <button class="btn" id="answers-btn">Show Answers</button>
+        <a href="../index.html">Choose another Quiz</a>
+        <a href="../quizzes/tailwind-quiz.html">Restart Quiz</a>
+      </div>
+      <div class="quiz-container" id="answers-container"></div>
+      <a href="../index.html">
+        <div class="btn" id="home-btn">
+          <img
+            src="../assets/images/arrow-left-solid.svg"
+            alt=""
+            class="back-arrow"
+          />
+          <span>Back to overview</span>
+        </div></a
+      >
+      <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+      </div>
+    </main>
+    <script src="../script.js"></script>
+  </body>
+</html>

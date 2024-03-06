@@ -1,0 +1,87 @@
+[
+  {
+    "question": "What is the primary philosophy behind Tailwind CSS?",
+    "options": [
+      "Utility-first",
+      "Component-based",
+      "Object-oriented",
+      "Functional programming"
+    ],
+    "correctAnswer": "Utility-first",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you apply a margin to the top of an element using Tailwind CSS?",
+    "options": ["mt-4", "margin-top-4", "top-margin-4", "m-top-4"],
+    "correctAnswer": "mt-4",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to set the background color to blue in Tailwind CSS?",
+    "options": [
+      "bg-blue",
+      "background-blue",
+      "blue-background",
+      "bg-color-blue"
+    ],
+    "correctAnswer": "bg-blue",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "In Tailwind CSS, how can you increase the font size of an element?",
+    "options": ["text-lg", "font-size-lg", "lg-font-size", "size-lg"],
+    "correctAnswer": "text-lg",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to hide an element in Tailwind CSS?",
+    "options": ["hidden", "invisible", "hide", "display-none"],
+    "correctAnswer": "hidden",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'hover' variant in Tailwind CSS classes?",
+    "options": [
+      "To apply styles when the element is focused",
+      "To apply styles when the mouse hovers over the element",
+      "To define hover effects for animations",
+      "To create responsive designs"
+    ],
+    "correctAnswer": "To apply styles when the mouse hovers over the element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you customize the default colors in Tailwind CSS?",
+    "options": [
+      "Editing the global CSS file",
+      "Modifying the Tailwind configuration file",
+      "Using inline styles",
+      "Installing a Tailwind plugin"
+    ],
+    "correctAnswer": "Modifying the Tailwind configuration file",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used for flex container in Tailwind CSS?",
+    "options": ["flex-container", "flex-box", "flex", "flexible"],
+    "correctAnswer": "flex",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "In Tailwind CSS, how do you add a shadow to an element?",
+    "options": ["shadow", "box-shadow", "element-shadow", "shadow-element"],
+    "correctAnswer": "shadow",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the '@apply' directive in Tailwind CSS allow you to do?",
+    "options": [
+      "Apply utility classes to HTML elements",
+      "Reuse existing styles in custom CSS",
+      "Create custom utility classes",
+      "Override default styles in Tailwind"
+    ],
+    "correctAnswer": "Reuse existing styles in custom CSS",
+    "userSelectedAnswer": null
+  }
+]

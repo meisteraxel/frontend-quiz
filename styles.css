@@ -33,6 +33,7 @@ body {
   font-family: "Graphik-Bold", sans-serif;
   font-size: 16px;
   background-color: var(--primary-background);
+  background-image: url(./assets/images/pattern.svg);
   color: var(--accent-color);
   display: flex;
   align-items: center;

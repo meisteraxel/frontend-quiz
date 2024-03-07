@@ -489,6 +489,7 @@ input[type="radio"]:checked + label {
 @media (max-width: 425px) {
   .home-container a {
     width: 7rem;
+    padding: 1rem 0rem;
   }
 
   .quiz-link-grid {

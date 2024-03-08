@@ -477,13 +477,6 @@ main label:hover {
   #result-container p {
     font-size: 0.9rem;
   }
-
-  #follow-link {
-    position: absolute;
-    top: 5%;
-    bottom: auto;
-    margin-bottom: 0;
-  }
 }
 
 @media (max-width: 425px) {

@@ -487,11 +487,6 @@ main label:hover {
 }
 
 @media (max-width: 425px) {
-  body {
-    height: 100vh;
-    min-height: -webkit-fill-available;
-  }
-
   .home-container a {
     width: 7rem;
     padding: 1rem 0rem;

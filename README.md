@@ -27,4 +27,4 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [ ] Randomize the order of questions
 - [x] Implement a cookie banner
 - [x] Implement Google Analytics
-- [ ] Implement Hotjar
+- [x] Implement Hotjar

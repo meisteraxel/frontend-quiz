@@ -341,7 +341,7 @@ a {
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
-label {
+main label {
   font-family: "Graphik-Regular", sans-serif;
   display: inline-block;
   padding: 10px 20px;
@@ -358,11 +358,11 @@ label {
     box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
-label:hover {
+main label:hover {
   box-shadow: 5px 5px 0px 0px var(--accent-color);
 }
 
-input[type="radio"]:checked + label {
+#question-container input[type="radio"]:checked + label {
   box-shadow: 5px 5px 0px 0px var(--primary-background);
   transform: scale(103%);
 }
@@ -487,6 +487,11 @@ input[type="radio"]:checked + label {
 }
 
 @media (max-width: 425px) {
+  body {
+    height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+
   .home-container a {
     width: 7rem;
     padding: 1rem 0rem;

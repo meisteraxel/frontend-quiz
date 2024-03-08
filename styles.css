@@ -270,7 +270,7 @@ a {
 #home-btn {
   position: fixed;
   display: flex;
-  bottom: 0%;
+  bottom: 1.5%;
   left: 0%;
   height: 2.5rem;
   width: 8rem;

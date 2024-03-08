@@ -304,8 +304,8 @@ a {
 #feedback-btn {
   position: fixed;
   display: flex;
-  top: 0%;
-  right: 0%;
+  bottom: 0%;
+  left: 0%;
   height: 2.5rem;
   width: 8rem;
   margin: 20px 10px;

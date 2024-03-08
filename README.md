@@ -24,4 +24,7 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [ ] Integrate Analytics
 - [x] Implement a Feedback button
 - [x] Move questions from Html to JavaScript
-- [ ] Randomize the order of questionss
+- [ ] Randomize the order of questions
+- [x] Implement a cookie banner
+- [x] Implement Google Analytics
+- [ ] Implement Hotjar

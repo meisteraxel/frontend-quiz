@@ -395,6 +395,10 @@ main label:hover {
     brightness(117%) contrast(85%);
 }
 
+#CookiebotWidget {
+  bottom: 33px !important;
+}
+
 @media (max-width: 920px) {
   #answers-container {
     margin-top: 80px;

@@ -439,6 +439,13 @@ main label:hover {
   }
 }
 
+@media screen and (max-width: 600px) {
+  #CookiebotWidget:not(.CookiebotWidget-inactive) {
+    bottom: 28px !important;
+    right: 10px;
+  }
+}
+
 @media (max-width: 425px) {
   body {
     min-height: 80vh;

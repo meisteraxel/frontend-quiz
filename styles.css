@@ -302,46 +302,6 @@ a {
   transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
 }
 
-#feedback-btn {
-  position: fixed;
-  display: flex;
-  bottom: 0%;
-  left: 0%;
-  height: 2.5rem;
-  width: 8rem;
-  margin: 20px 10px;
-  font-size: 0.7rem;
-  font-family: Graphik-Regular, sans-serif;
-  padding: 0px;
-  align-items: center;
-  justify-content: center;
-  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7),
-    box-shadow 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
-}
-
-#feedback-btn:hover {
-  transform: translate(2px, 2px);
-  box-shadow: none;
-  outline: none;
-
-  .mail-icon {
-    transform: rotate(20deg);
-  }
-}
-
-#feedback-btn a {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.mail-icon {
-  width: 14px;
-  height: 14px;
-  margin-bottom: 5px;
-  transition: transform 0.3s cubic-bezier(0.5, 2.5, 0.7, 0.7);
-}
-
 main label {
   font-family: "Graphik-Regular", sans-serif;
   display: inline-block;

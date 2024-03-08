@@ -79,6 +79,7 @@ startBtn.addEventListener("click", () => {
     welcomeContainer.style.display = "none";
     progressBarContainer.style.display = "block";
     progressBar.style.width = "0%";
+    document.getElementById("CookiebotWidget").style.bottom = "15px !important";
     displayQuestion();
   }
 });

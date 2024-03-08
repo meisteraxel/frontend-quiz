@@ -186,9 +186,6 @@ answersBtn.addEventListener("click", () => {
   document.getElementById("home-btn").style.position = "absolute";
   document.getElementById("home-btn").style.top = "0%";
 
-  document.getElementById("feedback-btn").style.position = "absolute";
-  document.getElementById("feedback-btn").style.top = "0%";
-
   // Display all questions at once
   questions.forEach((currentQuestion, index) => {
     // Create Question Container for each question

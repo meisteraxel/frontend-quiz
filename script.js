@@ -12,6 +12,7 @@ let currentQuestionIndex = 0;
 let score = 0;
 let userName = "";
 let questions;
+let amountQuestions;
 
 //Check which quiz is selected
 let quizUrl;
@@ -68,6 +69,9 @@ document
 // Start the game
 startBtn.addEventListener("click", () => {
   userName = document.getElementById("name-input").value;
+  amountQuestions = document.querySelector(
+    "input[name='amount-questions']:checked"
+  ).value;
 
   if (userName === "") {
     document.getElementById("name-input").style.boxShadow =
@@ -128,7 +132,7 @@ function displayQuestion() {
 
   //Adjust Progress Bar
   progressBar.style.width = `${
-    (currentQuestionIndex / questions.length) * 100
+    (currentQuestionIndex / amountQuestions) * 100
   }%`;
 }
 
@@ -153,7 +157,7 @@ function checkAnswer() {
 
   currentQuestionIndex++;
 
-  if (currentQuestionIndex < questions.length) {
+  if (currentQuestionIndex < amountQuestions) {
     displayQuestion();
   } else {
     displayResult();

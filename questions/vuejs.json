@@ -88,5 +88,220 @@
     "options": ["v-bind", "v-model", "v-show", "v-on"],
     "correctAnswer": "v-bind",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'v-model' directive do in Vue.js?",
+    "options": [
+      "Binds data to form input elements",
+      "Defines styles for HTML elements",
+      "Manages project dependencies",
+      "Handles HTTP requests"
+    ],
+    "correctAnswer": "Binds data to form input elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of computed properties in Vue.js?",
+    "options": [
+      "To handle user input events",
+      "To perform asynchronous operations",
+      "To reactively compute and cache values based on dependent properties",
+      "To directly manipulate the DOM"
+    ],
+    "correctAnswer": "To reactively compute and cache values based on dependent properties",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'v-for' directive do in Vue.js?",
+    "options": [
+      "Binds an attribute to an expression",
+      "Renders a list of items based on an array",
+      "Conditionally renders content",
+      "Facilitates communication with servers"
+    ],
+    "correctAnswer": "Renders a list of items based on an array",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Vue.js event handling syntax?",
+    "options": ["@click", "#submit", "onEvent", "$event"],
+    "correctAnswer": "@click",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'v-show' directive in Vue.js?",
+    "options": [
+      "To conditionally render content",
+      "To define styles",
+      "To manage project dependencies",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To conditionally render content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Vue.js DevTools extension used for?",
+    "options": [
+      "To manage project dependencies",
+      "To facilitate debugging and inspecting Vue.js applications in the browser",
+      "To define styles",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To facilitate debugging and inspecting Vue.js applications in the browser",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you pass data from parent to child components in Vue.js?",
+    "options": [
+      "Using props",
+      "By directly manipulating the DOM",
+      "Using Angular services",
+      "Using jQuery"
+    ],
+    "correctAnswer": "Using props",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Vue.js 'watch' property?",
+    "options": [
+      "To manage project dependencies",
+      "To define styles",
+      "To reactively watch for changes in data and trigger callback functions",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To reactively watch for changes in data and trigger callback functions",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Vue.js 'transition' component used for?",
+    "options": [
+      "To extend HTML",
+      "To manage animations and transitions in Vue.js applications",
+      "To define styles",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To manage animations and transitions in Vue.js applications",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Vue.js 'slot' feature used for?",
+    "options": [
+      "To define styles",
+      "To customize the content of a component from its parent",
+      "To manage project dependencies",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To customize the content of a component from its parent",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Vue.js nextTick() method?",
+    "options": [
+      "To define styles",
+      "To conditionally render content",
+      "To manage asynchronous DOM updates after data changes",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To manage asynchronous DOM updates after data changes",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Vue.js v-cloak directive used for?",
+    "options": [
+      "To manage project dependencies",
+      "To conditionally render content",
+      "To prevent the display of uncompiled Vue.js templates during initial page load",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To prevent the display of uncompiled Vue.js templates during initial page load",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the Vue.js <transition-group> component do?",
+    "options": [
+      "Manages animations and transitions for a single element",
+      "Renders a list of items based on an array with animation effects",
+      "Defines styles for HTML elements",
+      "Facilitates communication with servers"
+    ],
+    "correctAnswer": "Renders a list of items based on an array with animation effects",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you dynamically bind CSS classes in Vue.js?",
+    "options": [
+      "Using the v-style directive",
+      "By directly manipulating the DOM",
+      "Using the v-bind:class directive",
+      "Using Angular services"
+    ],
+    "correctAnswer": "Using the v-bind:class directive",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Vue.js mixins?",
+    "options": [
+      "To extend HTML",
+      "To define styles",
+      "To share reusable functionality between components",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To share reusable functionality between components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Vue.js provide/inject feature used for?",
+    "options": [
+      "To extend HTML",
+      "To define styles",
+      "To facilitate communication between deeply nested components without passing props explicitly",
+      "To manage project dependencies"
+    ],
+    "correctAnswer": "To facilitate communication between deeply nested components without passing props explicitly",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you optimize the performance of a Vue.js application by reducing re-renders?",
+    "options": [
+      "Using v-if instead of v-show",
+      "Memoizing computed properties",
+      "By directly manipulating the DOM",
+      "By increasing the use of asynchronous operations"
+    ],
+    "correctAnswer": "Memoizing computed properties",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Vue.js scoped styles?",
+    "options": [
+      "To extend HTML",
+      "To conditionally render content",
+      "To define styles that only apply to a specific component's template",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To define styles that only apply to a specific component's template",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you prevent a Vue.js component from being re-rendered unnecessarily?",
+    "options": [
+      "By using v-if instead of v-show",
+      "By using key attribute with v-for directive",
+      "By directly manipulating the DOM",
+      "By increasing the use of synchronous operations"
+    ],
+    "correctAnswer": "By using key attribute with v-for directive",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Vue.js provide/inject feature?",
+    "options": [
+      "To manage project dependencies",
+      "To define styles",
+      "To facilitate communication between deeply nested components without passing props explicitly",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To facilitate communication between deeply nested components without passing props explicitly",
+    "userSelectedAnswer": null
   }
 ]

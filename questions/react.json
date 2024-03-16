@@ -93,5 +93,225 @@
     ],
     "correctAnswer": "By defining event handlers in JSX",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'useState' hook in React?",
+    "options": [
+      "To handle asynchronous operations",
+      "To manage component state in function components",
+      "To define CSS styles",
+      "To create reusable components"
+    ],
+    "correctAnswer": "To manage component state in function components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the key benefit of using React components?",
+    "options": [
+      "They simplify the process of writing HTML and CSS",
+      "They facilitate reusable and modular code",
+      "They improve JavaScript performance",
+      "They enable direct DOM manipulation"
+    ],
+    "correctAnswer": "They facilitate reusable and modular code",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'render()' function do in React?",
+    "options": [
+      "It triggers component re-rendering",
+      "It renders HTML content to the DOM",
+      "It initializes component state",
+      "It handles routing in React applications"
+    ],
+    "correctAnswer": "It renders HTML content to the DOM",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'key' prop in React lists?",
+    "options": [
+      "To define a unique identifier for each list item",
+      "To apply styling to list items",
+      "To store data associated with each list item",
+      "To manage component state"
+    ],
+    "correctAnswer": "To define a unique identifier for each list item",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you conditionally render components in React?",
+    "options": [
+      "By using CSS media queries",
+      "By using the 'if' statement within JSX",
+      "By using ternary operators or logical '&&' operators",
+      "By defining multiple render functions"
+    ],
+    "correctAnswer": "By using ternary operators or logical '&&' operators",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'forwardRef' function in React?",
+    "options": [
+      "To forward component props",
+      "To forward component state",
+      "To create higher-order components",
+      "To forward refs to child components"
+    ],
+    "correctAnswer": "To forward refs to child components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the 'key' prop in React?",
+    "options": [
+      "To specify a unique identifier for elements in lists",
+      "To define CSS styles for elements",
+      "To handle user input events",
+      "To manage component lifecycle"
+    ],
+    "correctAnswer": "To specify a unique identifier for elements in lists",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'memo' function in React?",
+    "options": [
+      "To memoize function calls for optimization",
+      "To memoize component rendering",
+      "To memoize state updates",
+      "To memoize CSS styles"
+    ],
+    "correctAnswer": "To memoize component rendering",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you update state in a class component in React?",
+    "options": [
+      "By directly modifying the state object",
+      "By calling the 'setState()' method",
+      "By using Redux actions",
+      "By updating props directly"
+    ],
+    "correctAnswer": "By calling the 'setState()' method",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'context' API in React?",
+    "options": [
+      "To manage component state",
+      "To handle component routing",
+      "To share data between components without having to pass props through every level of the tree",
+      "To optimize component rendering"
+    ],
+    "correctAnswer": "To share data between components without having to pass props through every level of the tree",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'createContext' function in React?",
+    "options": [
+      "To create new HTML elements",
+      "To create a new React component",
+      "To create a context object",
+      "To create a higher-order component"
+    ],
+    "correctAnswer": "To create a context object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you handle asynchronous operations in React?",
+    "options": [
+      "By using 'async' and 'await' keywords in function components",
+      "By using Redux middleware",
+      "By directly modifying the DOM",
+      "By using 'setTimeout' function"
+    ],
+    "correctAnswer": "By using 'async' and 'await' keywords in function components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'Router' component in React Router?",
+    "options": [
+      "To define CSS styles for routing components",
+      "To manage component state",
+      "To render different components based on the URL",
+      "To handle asynchronous operations"
+    ],
+    "correctAnswer": "To render different components based on the URL",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you define routes in React Router?",
+    "options": [
+      "By using the 'route' attribute in components",
+      "By using the 'path' prop in components",
+      "By importing the 'Route' component from 'react-router-dom'",
+      "By directly modifying the DOM"
+    ],
+    "correctAnswer": "By importing the 'Route' component from 'react-router-dom'",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'NavLink' component in React Router?",
+    "options": [
+      "To define CSS styles for navigation links",
+      "To handle asynchronous operations",
+      "To render different components based on the URL",
+      "To render navigation links with special styling for the active route"
+    ],
+    "correctAnswer": "To render navigation links with special styling for the active route",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'withRouter' higher-order component do in React Router?",
+    "options": [
+      "It provides routing functionality to any component",
+      "It redirects to a different route",
+      "It renders components conditionally based on the URL",
+      "It passes match, location, and history props to the wrapped component"
+    ],
+    "correctAnswer": "It passes match, location, and history props to the wrapped component",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'Link' component in React Router?",
+    "options": [
+      "To define CSS styles for links",
+      "To handle asynchronous operations",
+      "To navigate between routes without a full page refresh",
+      "To render different components based on the URL"
+    ],
+    "correctAnswer": "To navigate between routes without a full page refresh",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you access URL parameters in React Router?",
+    "options": [
+      "By using 'query' prop in components",
+      "By accessing 'params' object in 'match' prop",
+      "By using 'routeParams' prop",
+      "By importing 'URLParams' from 'react-router-dom'"
+    ],
+    "correctAnswer": "By accessing 'params' object in 'match' prop",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'Switch' component in React Router?",
+    "options": [
+      "To toggle between different components",
+      "To define CSS styles for routing components",
+      "To render the first child route that matches the current URL",
+      "To handle asynchronous operations"
+    ],
+    "correctAnswer": "To render the first child route that matches the current URL",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the significance of the 'exact' prop in React Router?",
+    "options": [
+      "It ensures that the route matches the exact URL path",
+      "It applies exact CSS styles to the route",
+      "It allows partial matching of the URL path",
+      "It redirects to a different route"
+    ],
+    "correctAnswer": "It ensures that the route matches the exact URL path",
+    "userSelectedAnswer": null
   }
 ]

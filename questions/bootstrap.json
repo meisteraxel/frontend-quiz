@@ -93,5 +93,185 @@
     ],
     "correctAnswer": "To display additional information",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the Bootstrap grid system consist of?",
+    "options": [
+      "Rows and containers",
+      "Columns and containers",
+      "Rows and columns",
+      "Grids and columns"
+    ],
+    "correctAnswer": "Rows and columns",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS preprocessor does Bootstrap primarily use?",
+    "options": ["Sass", "Less", "Stylus", "PostCSS"],
+    "correctAnswer": "Sass",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'container-fluid' class in Bootstrap?",
+    "options": [
+      "To create a fixed-width container",
+      "To center-align the content",
+      "To create a fluid-width container",
+      "To add padding to the content"
+    ],
+    "correctAnswer": "To create a fluid-width container",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a button group in Bootstrap?",
+    "options": [
+      ".btn-group",
+      ".button-group",
+      ".btn-container",
+      ".button-container"
+    ],
+    "correctAnswer": ".btn-group",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'list-group' component in Bootstrap?",
+    "options": [
+      "To create a list of items",
+      "To group buttons together",
+      "To display a list of options",
+      "To style text"
+    ],
+    "correctAnswer": "To create a list of items",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a card in Bootstrap?",
+    "options": [".panel", ".card", ".box", ".container"],
+    "correctAnswer": ".card",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'carousel' component in Bootstrap?",
+    "options": [
+      "To display a series of images or content in a rotating fashion",
+      "To style buttons",
+      "To create a navigation bar",
+      "To handle JavaScript events"
+    ],
+    "correctAnswer": "To display a series of images or content in a rotating fashion",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a modal in Bootstrap?",
+    "options": [".popup", ".modal", ".dialog", ".window"],
+    "correctAnswer": ".modal",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'breadcrumb' component in Bootstrap?",
+    "options": [
+      "To style navigation links",
+      "To display hierarchical data",
+      "To create a list of items",
+      "To group buttons together"
+    ],
+    "correctAnswer": "To display hierarchical data",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a responsive table in Bootstrap?",
+    "options": [
+      ".responsive-table",
+      ".table-responsive",
+      ".responsive",
+      ".res-table"
+    ],
+    "correctAnswer": ".table-responsive",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'navbar' component in Bootstrap?",
+    "options": [
+      "To style navigation links",
+      "To create a fixed-width container",
+      "To add padding to the content",
+      "To center-align the content"
+    ],
+    "correctAnswer": "To style navigation links",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a tooltip in Bootstrap?",
+    "options": [".tooltip", ".popup", ".hint", ".tip"],
+    "correctAnswer": ".tooltip",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'collapse' component in Bootstrap?",
+    "options": [
+      "To create a navigation bar",
+      "To handle JavaScript events",
+      "To collapse and expand content",
+      "To style buttons"
+    ],
+    "correctAnswer": "To collapse and expand content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a dropdown menu in Bootstrap?",
+    "options": [".dropdown", ".drop-menu", ".menu", ".dropdown-menu"],
+    "correctAnswer": ".dropdown",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'badge' component in Bootstrap?",
+    "options": [
+      "To style navigation links",
+      "To display additional information",
+      "To create a circular button",
+      "To add a background color to an element"
+    ],
+    "correctAnswer": "To display additional information",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a popover in Bootstrap?",
+    "options": [".popup", ".tooltip", ".popover", ".hint"],
+    "correctAnswer": ".popover",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'pagination' component in Bootstrap?",
+    "options": [
+      "To style buttons",
+      "To create a navigation bar",
+      "To display hierarchical data",
+      "To navigate through multiple pages of content"
+    ],
+    "correctAnswer": "To navigate through multiple pages of content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a badge in Bootstrap?",
+    "options": [".tag", ".label", ".badge", ".mark"],
+    "correctAnswer": ".badge",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'media object' component in Bootstrap?",
+    "options": [
+      "To create a list of items",
+      "To display images with accompanying text",
+      "To group buttons together",
+      "To style text"
+    ],
+    "correctAnswer": "To display images with accompanying text",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which class is used to create a progress bar in Bootstrap?",
+    "options": [".progressbar", ".progress", ".loading-bar", ".progress-bar"],
+    "correctAnswer": ".progress-bar",
+    "userSelectedAnswer": null
   }
 ]

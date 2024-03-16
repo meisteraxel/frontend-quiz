@@ -93,5 +93,188 @@
     ],
     "correctAnswer": "It sets the element's position relative to its parent",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the CSS 'float' property used for?",
+    "options": [
+      "To align text horizontally",
+      "To create a floating effect for elements",
+      "To change the color of text",
+      "To add space around an element"
+    ],
+    "correctAnswer": "To create a floating effect for elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to add space between the borders of an element and its content?",
+    "options": ["margin", "padding", "border-spacing", "spacing"],
+    "correctAnswer": "padding",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the CSS property 'display: none;' do?",
+    "options": [
+      "It makes the element invisible",
+      "It removes the element from the document flow",
+      "It hides the element's text content",
+      "It collapses the element's margins"
+    ],
+    "correctAnswer": "It removes the element from the document flow",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to set the background color of an element?",
+    "options": ["background-color", "color", "background", "background-image"],
+    "correctAnswer": "background-color",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'overflow' property?",
+    "options": [
+      "To add a shadow to the element",
+      "To set the visibility of an element",
+      "To control the scrolling behavior of overflowing content",
+      "To rotate the element"
+    ],
+    "correctAnswer": "To control the scrolling behavior of overflowing content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to change the style of the cursor when hovering over an element?",
+    "options": ["mouse-style", "cursor-style", "hover-cursor", "cursor"],
+    "correctAnswer": "cursor",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'position: absolute;' property?",
+    "options": [
+      "To set the element's position relative to its parent",
+      "To remove the element from the normal document flow",
+      "To align the element to the center",
+      "To hide the element"
+    ],
+    "correctAnswer": "To remove the element from the normal document flow",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to add a border to an element?",
+    "options": ["border-style", "border-width", "border", "border-color"],
+    "correctAnswer": "border",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'text-decoration' property?",
+    "options": [
+      "To change the font style of text",
+      "To add a background color to text",
+      "To underline, strike through, or overline text",
+      "To change the color of text"
+    ],
+    "correctAnswer": "To underline, strike through, or overline text",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to control the spacing between words in text?",
+    "options": [
+      "word-spacing",
+      "letter-spacing",
+      "text-spacing",
+      "line-spacing"
+    ],
+    "correctAnswer": "word-spacing",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'line-height' property?",
+    "options": [
+      "To set the height of an element",
+      "To change the spacing between lines of text",
+      "To align text horizontally",
+      "To hide an element"
+    ],
+    "correctAnswer": "To change the spacing between lines of text",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to change the appearance of an element's border?",
+    "options": [
+      "border-color",
+      "border-style",
+      "border-width",
+      "border-appearance"
+    ],
+    "correctAnswer": "border-style",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'opacity' property?",
+    "options": [
+      "To set the element's position relative to its parent",
+      "To control the transparency of an element",
+      "To align the element to the center",
+      "To hide the element"
+    ],
+    "correctAnswer": "To control the transparency of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to change the appearance of an element's corners?",
+    "options": [
+      "border-corner-style",
+      "corner-style",
+      "border-radius",
+      "corner-radius"
+    ],
+    "correctAnswer": "border-radius",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'visibility' property?",
+    "options": [
+      "To set the element's position relative to its parent",
+      "To control the visibility of an element",
+      "To align the element to the center",
+      "To hide the element"
+    ],
+    "correctAnswer": "To control the visibility of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to set the style of an element's border image?",
+    "options": [
+      "border-image-style",
+      "image-border-style",
+      "border-style-image",
+      "image-style-border"
+    ],
+    "correctAnswer": "border-image-style",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'outline' property?",
+    "options": [
+      "To set the element's position relative to its parent",
+      "To add an outline around an element",
+      "To align the element to the center",
+      "To hide the element"
+    ],
+    "correctAnswer": "To add an outline around an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which CSS property is used to control the alignment of text within an element?",
+    "options": ["align-text", "text-align", "text-alignment", "alignment-text"],
+    "correctAnswer": "text-align",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the CSS 'overflow-x' and 'overflow-y' properties?",
+    "options": [
+      "To control the scrolling behavior of overflowing content horizontally and vertically",
+      "To set the element's position relative to its parent",
+      "To align the element to the center",
+      "To hide the element"
+    ],
+    "correctAnswer": "To control the scrolling behavior of overflowing content horizontally and vertically"
   }
 ]

@@ -98,5 +98,200 @@
     "options": ["Object", "List", "Array", "Set"],
     "correctAnswer": "Array",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'NaN' value represent in JavaScript?",
+    "options": ["Not a Number", "Null", "Negative", "Newly Assigned Number"],
+    "correctAnswer": "Not a Number",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'splice' method in JavaScript?",
+    "options": [
+      "To remove the last element of an array",
+      "To add elements to an array at a specific index",
+      "To sort the elements of an array",
+      "To split a string into an array of substrings"
+    ],
+    "correctAnswer": "To add elements to an array at a specific index",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you declare a variable in JavaScript?",
+    "options": [
+      "var myVar;",
+      "variable myVar;",
+      "myVar = variable;",
+      "let myVar =;"
+    ],
+    "correctAnswer": "var myVar;",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'forEach' method in JavaScript?",
+    "options": [
+      "To execute a function once for each array element",
+      "To check if a value exists in an array",
+      "To concatenate two arrays",
+      "To sort the elements of an array"
+    ],
+    "correctAnswer": "To execute a function once for each array element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'JSON' acronym stand for in JavaScript?",
+    "options": [
+      "JavaScript Object Notation",
+      "JavaScript Online Navigation",
+      "JavaScript Object Navigator",
+      "JavaScript Operation Network"
+    ],
+    "correctAnswer": "JavaScript Object Notation",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'parseFloat' function in JavaScript?",
+    "options": [
+      "To convert a string to an integer",
+      "To parse a string and return a floating-point number",
+      "To check if a value is a finite number",
+      "To convert a value to a string"
+    ],
+    "correctAnswer": "To parse a string and return a floating-point number",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which operator is used to concatenate strings in JavaScript?",
+    "options": ["+", "-", "*", "/"],
+    "correctAnswer": "+",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'filter' method in JavaScript?",
+    "options": [
+      "To create a new array with all elements that pass a test",
+      "To execute a function once for each array element",
+      "To sort the elements of an array",
+      "To remove the last element of an array"
+    ],
+    "correctAnswer": "To create a new array with all elements that pass a test",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'break' statement do in JavaScript?",
+    "options": [
+      "Exits a loop or a switch statement",
+      "Continues to the next iteration of a loop",
+      "Stops the execution of a function",
+      "Throws an error"
+    ],
+    "correctAnswer": "Exits a loop or a switch statement",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which function is used to convert a string to uppercase in JavaScript?",
+    "options": [
+      "toUpperCase()",
+      "toLowerCase()",
+      "convertToUpper()",
+      "stringToUpper()"
+    ],
+    "correctAnswer": "toUpperCase()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'indexOf' method in JavaScript?",
+    "options": [
+      "To return the index within the calling String object of the first occurrence of the specified value",
+      "To execute a function once for each array element",
+      "To convert a string to an integer",
+      "To check if a value exists in an array"
+    ],
+    "correctAnswer": "To return the index within the calling String object of the first occurrence of the specified value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'Math.random()' function in JavaScript?",
+    "options": [
+      "To round a number to the nearest integer",
+      "To generate a random number between 0 and 1",
+      "To calculate the square root of a number",
+      "To find the maximum of several numbers"
+    ],
+    "correctAnswer": "To generate a random number between 0 and 1",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which method is used to remove the last element from an array in JavaScript?",
+    "options": ["pop()", "shift()", "removeLast()", "slice()"],
+    "correctAnswer": "pop()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'reverse' method in JavaScript?",
+    "options": [
+      "To execute a function once for each array element",
+      "To remove the last element of an array",
+      "To reverse the order of the elements in an array",
+      "To create a new array with all elements that pass a test"
+    ],
+    "correctAnswer": "To reverse the order of the elements in an array",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'concat' method do in JavaScript?",
+    "options": [
+      "Joins two or more arrays",
+      "Removes the last element of an array",
+      "Adds new elements to an array",
+      "Reverses the order of the elements in an array"
+    ],
+    "correctAnswer": "Joins two or more arrays",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'reduce' method do in JavaScript?",
+    "options": [
+      "Executes a function once for each array element",
+      "Creates a new array with the results of calling a provided function on every element",
+      "Reduces the array to a single value",
+      "Reverses the order of the elements in an array"
+    ],
+    "correctAnswer": "Reduces the array to a single value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which method is used to add new elements to the end of an array in JavaScript?",
+    "options": ["push()", "unshift()", "addLast()", "splice()"],
+    "correctAnswer": "push()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'split' method in JavaScript?",
+    "options": [
+      "To remove the last element of an array",
+      "To concatenate two arrays",
+      "To split a string into an array of substrings",
+      "To create a new array with all elements that pass a test"
+    ],
+    "correctAnswer": "To split a string into an array of substrings",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which method is used to execute a function once for each array element in JavaScript?",
+    "options": ["forEach()", "map()", "filter()", "reduce()"],
+    "correctAnswer": "forEach()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'splice' method do in JavaScript?",
+    "options": [
+      "Removes the last element of an array",
+      "Adds new elements to an array at a specific index",
+      "Sorts the elements of an array",
+      "Splits a string into an array of substrings"
+    ],
+    "correctAnswer": "Adds new elements to an array at a specific index",
+    "userSelectedAnswer": null
   }
 ]

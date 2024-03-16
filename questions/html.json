@@ -83,5 +83,170 @@
     ],
     "correctAnswer": "<input type='checkbox'>",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML element <head> contain?",
+    "options": [
+      "Main content of the webpage",
+      "Links to external resources and metadata about the document",
+      "Formatted text displayed on the webpage",
+      "Images and multimedia content"
+    ],
+    "correctAnswer": "Links to external resources and metadata about the document",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used to create a table row?",
+    "options": ["<row>", "<tr>", "<td>", "<th>"],
+    "correctAnswer": "<tr>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML <meta> tag?",
+    "options": [
+      "To define a navigation link",
+      "To specify metadata about an HTML document",
+      "To create an image",
+      "To add a line break"
+    ],
+    "correctAnswer": "To specify metadata about an HTML document",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML attribute is used to specify the URL of the linked resource?",
+    "options": ["src", "link", "href", "url"],
+    "correctAnswer": "href",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML <iframe> element represent?",
+    "options": [
+      "An image",
+      "A paragraph",
+      "An inline frame for embedding another document",
+      "A navigation link"
+    ],
+    "correctAnswer": "An inline frame for embedding another document",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used to define an image?",
+    "options": ["<img>", "<image>", "<picture>", "<src>"],
+    "correctAnswer": "<img>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the correct HTML for creating a numbered list?",
+    "options": ["<list>", "<ul>", "<ol>", "<li>"],
+    "correctAnswer": "<ol>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used for defining an external JavaScript file?",
+    "options": ["<script>", "<js>", "<javascript>", "<link>"],
+    "correctAnswer": "<script>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML <footer> element represent?",
+    "options": [
+      "The main content of the webpage",
+      "A heading",
+      "A section that typically contains contact information, authorship details, or related links",
+      "A navigation link"
+    ],
+    "correctAnswer": "A section that typically contains contact information, authorship details, or related links",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML attribute is used to provide additional information about an element?",
+    "options": ["meta", "alt", "title", "description"],
+    "correctAnswer": "title",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the correct HTML for creating a button?",
+    "options": [
+      "<button>",
+      "<input type='button'>",
+      "<btn>",
+      "<input type='submit'>"
+    ],
+    "correctAnswer": "<button>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML element is used for specifying a paragraph?",
+    "options": ["<p>", "<paragraph>", "<para>", "<text>"],
+    "correctAnswer": "<p>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML <nav> element represent?",
+    "options": [
+      "An image",
+      "A paragraph",
+      "A section of navigation links",
+      "A table"
+    ],
+    "correctAnswer": "A section of navigation links",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used to define a hyperlink?",
+    "options": ["<a>", "<link>", "<href>", "<hyperlink>"],
+    "correctAnswer": "<a>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML <form> element?",
+    "options": [
+      "To create a navigation link",
+      "To define a section of navigation links",
+      "To create a container for form elements",
+      "To display an image"
+    ],
+    "correctAnswer": "To create a container for form elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML attribute specifies an identifier (ID) for an element?",
+    "options": ["id", "class", "identifier", "name"],
+    "correctAnswer": "id",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML <header> element represent?",
+    "options": [
+      "The main content of the webpage",
+      "A footer",
+      "A section that typically contains introductory content or navigation links",
+      "A heading"
+    ],
+    "correctAnswer": "A section that typically contains introductory content or navigation links",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used to define a level-one heading?",
+    "options": ["<h1>", "<heading>", "<head>", "<header>"],
+    "correctAnswer": "<h1>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the HTML <cite> element represent?",
+    "options": [
+      "A citation or reference to another source",
+      "An image",
+      "A paragraph",
+      "A hyperlink"
+    ],
+    "correctAnswer": "A citation or reference to another source",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML tag is used to define a level-two heading?",
+    "options": ["<h2>", "<heading>", "<head>", "<header>"],
+    "correctAnswer": "<h2>",
+    "userSelectedAnswer": null
   }
 ]

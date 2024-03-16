@@ -98,5 +98,190 @@
     ],
     "correctAnswer": "To slide an element down",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the jQuery 'animate()' function do?",
+    "options": [
+      "It triggers an event",
+      "It adds a CSS class to an element",
+      "It animates CSS properties of an element",
+      "It removes an element from the DOM"
+    ],
+    "correctAnswer": "It animates CSS properties of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you select all elements with the class 'example' in jQuery?",
+    "options": [
+      "$('example')",
+      "$('.example')",
+      "$('class=example')",
+      "$.select('.example')"
+    ],
+    "correctAnswer": "$('.example')",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to remove elements from the DOM?",
+    "options": ["removeElement()", "detach()", "delete()", "remove()"],
+    "correctAnswer": "remove()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'toggle' function in jQuery?",
+    "options": [
+      "To switch between CSS classes",
+      "To remove elements from the DOM",
+      "To trigger an event",
+      "To select elements based on a condition"
+    ],
+    "correctAnswer": "To switch between CSS classes",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you stop an animation in progress in jQuery?",
+    "options": [
+      "$('element').stop()",
+      "$('element').halt()",
+      "$('element').end()",
+      "$('element').pause()"
+    ],
+    "correctAnswer": "$('element').stop()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which method is used to set the HTML content of an element in jQuery?",
+    "options": ["innerHTML()", "html()", "setContent()", "setHTML()"],
+    "correctAnswer": "html()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'slideDown()' method do in jQuery?",
+    "options": [
+      "It decreases the width of an element",
+      "It decreases the height of an element",
+      "It slides an element up",
+      "It slides an element down"
+    ],
+    "correctAnswer": "It slides an element down",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to bind an event handler to multiple events?",
+    "options": ["attach()", "bind()", "on()", "handle()"],
+    "correctAnswer": "on()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'hasClass()' method in jQuery?",
+    "options": [
+      "To check if an element has a specific CSS class",
+      "To add a CSS class to an element",
+      "To remove a CSS class from an element",
+      "To toggle a CSS class on an element"
+    ],
+    "correctAnswer": "To check if an element has a specific CSS class",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to insert content at the end of selected elements?",
+    "options": ["insertAfter()", "appendTo()", "insertEnd()", "addAfter()"],
+    "correctAnswer": "appendTo()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you select all 'div' elements inside a 'container' div in jQuery?",
+    "options": [
+      "$('div').find('.container')",
+      "$('.container').find('div')",
+      "$('.container > div')",
+      "$('.container div')"
+    ],
+    "correctAnswer": "$('.container div')",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'serialize()' method in jQuery?",
+    "options": [
+      "To convert a JavaScript object to a JSON string",
+      "To serialize form data into a query string",
+      "To convert HTML to plain text",
+      "To encode special characters in a URL"
+    ],
+    "correctAnswer": "To serialize form data into a query string",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to set CSS properties of elements?",
+    "options": ["style()", "css()", "setStyle()", "applyCSS()"],
+    "correctAnswer": "css()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'siblings()' method in jQuery?",
+    "options": [
+      "To select the siblings of an element",
+      "To add siblings to an element",
+      "To remove siblings from an element",
+      "To toggle siblings of an element"
+    ],
+    "correctAnswer": "To select the siblings of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you select the first element in a jQuery collection?",
+    "options": [
+      "$('first')",
+      "$('first-child')",
+      "$('first()')",
+      "$('first-of-type')"
+    ],
+    "correctAnswer": "$('first')",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'fadeIn()' method do in jQuery?",
+    "options": [
+      "It fades out an element",
+      "It fades in an element",
+      "It toggles the visibility of an element",
+      "It removes an element from the DOM"
+    ],
+    "correctAnswer": "It fades in an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to get the position of an element relative to its offset parent?",
+    "options": ["position()", "offset()", "getPosition()", "getOffset()"],
+    "correctAnswer": "position()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'empty()' method in jQuery?",
+    "options": [
+      "To remove child elements from an element",
+      "To check if an element has child elements",
+      "To hide an element",
+      "To add child elements to an element"
+    ],
+    "correctAnswer": "To remove child elements from an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you select odd-indexed elements in a jQuery collection?",
+    "options": [
+      "$(':odd')",
+      "$('odd')",
+      "$(':nth-child(odd)')",
+      "$(':nth-of-type(odd)')"
+    ],
+    "correctAnswer": "$(':odd')",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which jQuery method is used to retrieve the computed width of an element, including padding and border, but not margin?",
+    "options": ["innerWidth()", "outerWidth()", "width()", "computedWidth()"],
+    "correctAnswer": "outerWidth()",
+    "userSelectedAnswer": null
   }
 ]

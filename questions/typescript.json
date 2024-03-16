@@ -108,5 +108,258 @@
     ],
     "correctAnswer": "npm install -g typescript",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is TypeScript?",
+    "options": [
+      "A superset of JavaScript",
+      "A JavaScript framework",
+      "A package manager for JavaScript",
+      "A server-side scripting language"
+    ],
+    "correctAnswer": "A superset of JavaScript",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does 'static typing' in TypeScript mean?",
+    "options": [
+      "Variables cannot be reassigned",
+      "Type information is known at compile-time",
+      "Functions are defined as static methods",
+      "It refers to static code analysis"
+    ],
+    "correctAnswer": "Type information is known at compile-time",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you declare a variable with a specific type in TypeScript?",
+    "options": [
+      "let x: type = value",
+      "var x = value as type",
+      "let x = (type) value",
+      "var x = value : type"
+    ],
+    "correctAnswer": "let x: type = value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'interface' keyword in TypeScript?",
+    "options": [
+      "To define a new class",
+      "To create an instance of a class",
+      "To declare the shape of an object",
+      "To import external modules"
+    ],
+    "correctAnswer": "To declare the shape of an object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How can you define optional parameters in a TypeScript function?",
+    "options": [
+      "By using the 'optional' keyword",
+      "By placing a question mark after the parameter name",
+      "By using the 'undefined' type",
+      "Optional parameters are not supported in TypeScript"
+    ],
+    "correctAnswer": "By placing a question mark after the parameter name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'enum' keyword in TypeScript?",
+    "options": [
+      "To declare a new type",
+      "To define a class",
+      "To create a list of named constants",
+      "To import external libraries"
+    ],
+    "correctAnswer": "To create a list of named constants",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you explicitly specify the type of a variable in TypeScript?",
+    "options": [
+      "By using the 'type' keyword",
+      "By using the 'explicit' keyword",
+      "By using the 'as' keyword",
+      "By placing a colon after the variable name"
+    ],
+    "correctAnswer": "By placing a colon after the variable name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the 'tsconfig.json' file in a TypeScript project?",
+    "options": [
+      "To configure TypeScript compiler options",
+      "To define TypeScript dependencies",
+      "To manage project dependencies",
+      "To specify runtime configurations"
+    ],
+    "correctAnswer": "To configure TypeScript compiler options",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between 'interface' and 'type' in TypeScript?",
+    "options": [
+      "They are interchangeable and can be used in the same scenarios",
+      "Interfaces are used for objects, while types are used for primitives",
+      "Types can extend interfaces, but not vice versa",
+      "There is no difference between 'interface' and 'type'"
+    ],
+    "correctAnswer": "Interfaces are used for objects, while types are used for primitives",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you install TypeScript globally on your machine using npm?",
+    "options": [
+      "npm install -g typescript",
+      "npm install typescript -g",
+      "npm typescript -g install",
+      "typescript install -g npm"
+    ],
+    "correctAnswer": "npm install -g typescript",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'typeof' operator in TypeScript?",
+    "options": [
+      "To check if a variable is defined",
+      "To determine the data type of a value",
+      "To create a new variable",
+      "To compare two values"
+    ],
+    "correctAnswer": "To determine the data type of a value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between 'any' and 'unknown' types in TypeScript?",
+    "options": [
+      "'any' represents any type, while 'unknown' represents an unknown type",
+      "'any' represents an unknown type, while 'unknown' represents any type",
+      "There is no difference between 'any' and 'unknown' types",
+      "'any' and 'unknown' are interchangeable and can be used in the same scenarios"
+    ],
+    "correctAnswer": "'any' represents any type, while 'unknown' represents an unknown type",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you compile a TypeScript file to JavaScript using the TypeScript compiler?",
+    "options": [
+      "tsc file.ts",
+      "typescript compile file.ts",
+      "compile file.ts",
+      "ts compile file.ts"
+    ],
+    "correctAnswer": "tsc file.ts",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'never' type in TypeScript?",
+    "options": [
+      "To represent a value that never occurs",
+      "To indicate that a function never returns",
+      "To specify that a variable is not assignable",
+      "To define an empty array"
+    ],
+    "correctAnswer": "To indicate that a function never returns",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you define a tuple type in TypeScript?",
+    "options": [
+      "Using the 'Tuple' keyword",
+      "By enclosing the types in square brackets",
+      "Using the 'type' keyword",
+      "By using the 'Tuple' interface"
+    ],
+    "correctAnswer": "By enclosing the types in square brackets",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'readonly' modifier in TypeScript?",
+    "options": [
+      "To prevent a variable from being reassigned",
+      "To specify that a variable can only be accessed from within its scope",
+      "To define a variable as read-only",
+      "To make a variable accessible globally"
+    ],
+    "correctAnswer": "To define a variable as read-only",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you define an array type in TypeScript?",
+    "options": [
+      "Using the 'Array' keyword",
+      "By enclosing the type in square brackets",
+      "Using the 'type' keyword",
+      "By using the 'Array' interface"
+    ],
+    "correctAnswer": "By enclosing the type in square brackets",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'keyof' operator in TypeScript?",
+    "options": [
+      "To define a new key in an object",
+      "To access the value associated with a key",
+      "To iterate over the keys of an object",
+      "To check if a key exists in an object"
+    ],
+    "correctAnswer": "To iterate over the keys of an object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you define an optional property in an interface in TypeScript?",
+    "options": [
+      "By using the 'optional' keyword",
+      "By placing a question mark after the property name",
+      "Optional properties are not supported in TypeScript",
+      "By using the 'undefined' type"
+    ],
+    "correctAnswer": "By placing a question mark after the property name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'namespace' keyword in TypeScript?",
+    "options": [
+      "To define a new namespace",
+      "To create a block of code with its own scope",
+      "To encapsulate code into logical groups",
+      "To import external modules"
+    ],
+    "correctAnswer": "To encapsulate code into logical groups",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the 'import' keyword in TypeScript?",
+    "options": [
+      "To export a module from a file",
+      "To include external modules in a file",
+      "To import a module or variable from another file",
+      "To define a new module"
+    ],
+    "correctAnswer": "To import a module or variable from another file",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you define a function type in TypeScript?",
+    "options": [
+      "Using the 'Function' keyword",
+      "By specifying the parameter and return types",
+      "Using the 'type' keyword",
+      "By using the 'Function' interface"
+    ],
+    "correctAnswer": "By specifying the parameter and return types",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'export' keyword in TypeScript?",
+    "options": [
+      "To export a module from a file",
+      "To include external modules in a file",
+      "To import a module or variable from another file",
+      "To define a new module"
+    ],
+    "correctAnswer": "To export a module from a file",
+    "userSelectedAnswer": null
   }
 ]

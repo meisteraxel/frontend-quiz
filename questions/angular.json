@@ -108,5 +108,225 @@
     ],
     "correctAnswer": "@angular/forms",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngFor directive used for?",
+    "options": [
+      "Looping over elements in an array to create a template",
+      "Styling elements based on conditions",
+      "Injecting services into components",
+      "Handling HTTP requests"
+    ],
+    "correctAnswer": "Looping over elements in an array to create a template",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does AOT stand for in Angular context?",
+    "options": [
+      "Ahead Of Time",
+      "Angular Optimization Technique",
+      "Automated Object Transformation",
+      "All of the above"
+    ],
+    "correctAnswer": "Ahead Of Time",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's HttpClientModule used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Managing forms",
+      "Creating components",
+      "Routing"
+    ],
+    "correctAnswer": "Handling HTTP requests",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's RouterModule used for?",
+    "options": [
+      "Managing forms",
+      "Handling HTTP requests",
+      "Creating components",
+      "Routing"
+    ],
+    "correctAnswer": "Routing",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngModel directive used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Two-way data binding",
+      "Creating components",
+      "Looping over elements"
+    ],
+    "correctAnswer": "Two-way data binding",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does Angular's interpolation syntax {{ }} allow?",
+    "options": [
+      "Looping over elements",
+      "Two-way data binding",
+      "Displaying component properties in the template",
+      "Handling HTTP requests"
+    ],
+    "correctAnswer": "Displaying component properties in the template",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngClass directive used for?",
+    "options": [
+      "Looping over elements",
+      "Styling elements based on conditions",
+      "Handling HTTP requests",
+      "Injecting services into components"
+    ],
+    "correctAnswer": "Styling elements based on conditions",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngIf directive used for?",
+    "options": [
+      "Creating components",
+      "Looping over elements",
+      "Conditionally displaying elements",
+      "Styling elements based on conditions"
+    ],
+    "correctAnswer": "Conditionally displaying elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngSwitch directive used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Styling elements based on conditions",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Conditionally displaying elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ViewChild decorator used for?",
+    "options": [
+      "Injecting child components into parent components",
+      "Looping over elements",
+      "Handling HTTP requests",
+      "Styling elements based on conditions"
+    ],
+    "correctAnswer": "Injecting child components into parent components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does Angular's OnInit lifecycle hook do?",
+    "options": [
+      "Fires after every change detection cycle",
+      "Fires when a component is destroyed",
+      "Fires when a component is initialized",
+      "Fires when a component's input properties change"
+    ],
+    "correctAnswer": "Fires when a component is initialized",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngContent directive used for?",
+    "options": [
+      "Injecting child components into parent components",
+      "Conditionally displaying elements",
+      "Handling HTTP requests",
+      "Projecting content into a component"
+    ],
+    "correctAnswer": "Projecting content into a component",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's EventEmitter used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Emitting custom events from components",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Emitting custom events from components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ActivatedRoute used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Accessing route parameters in a component",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Accessing route parameters in a component",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngSubmit directive used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Submitting forms",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Submitting forms",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's Renderer2 used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Rendering DOM elements in a platform-independent way",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Rendering DOM elements in a platform-independent way",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ngZone used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Optimizing change detection performance",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Optimizing change detection performance",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's KeyValuePipe used for?",
+    "options": [
+      "Looping over elements",
+      "Styling elements based on conditions",
+      "Transforming objects into a key-value array",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Transforming objects into a key-value array",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's async pipe used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Unsubscribing from observables automatically",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Unsubscribing from observables automatically",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ElementRef used for?",
+    "options": [
+      "Handling HTTP requests",
+      "Looping over elements",
+      "Direct access to the DOM element in a component",
+      "Conditionally displaying elements"
+    ],
+    "correctAnswer": "Direct access to the DOM element in a component",
+    "userSelectedAnswer": null
   }
 ]

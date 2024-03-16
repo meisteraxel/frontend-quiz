@@ -21,6 +21,7 @@ Building a Quiz for different FE Languages and Frameworks to test your skills!
 - [x] Back Button during Quiz
 - [ ] Share Results on Social Media
 - [ ] Customization Options (Difficulty, Progress, ...)
+- [x] Choose amount of questions to answer
 - [ ] Integrate Analytics
 - [x] Implement a Feedback button
 - [x] Move questions from Html to JavaScript

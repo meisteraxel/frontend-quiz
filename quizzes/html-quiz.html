@@ -76,6 +76,34 @@
         <h1 id="quiz-type">HTML</h1>
         <p>Enter your name and let's get started!</p>
         <input type="text" placeholder="Name" id="name-input" />
+        <p>How many questions would you like to answer?</p>
+        <div id="amount-container">
+          <input
+            type="radio"
+            class="radio-btn"
+            id="ten-questions"
+            name="amount-questions"
+            value="10"
+          />
+          <label for="ten-questions">10</label>
+          <input
+            type="radio"
+            class="radio-btn"
+            id="twenty-questions"
+            name="amount-questions"
+            value="20"
+            checked
+          />
+          <label for="twenty-questions">20</label>
+          <input
+            type="radio"
+            class="radio-btn"
+            id="thirty-questions"
+            name="amount-questions"
+            value="30"
+          />
+          <label for="thirty-questions">30</label>
+        </div>
         <button id="start-btn" class="btn">START QUIZ</button>
       </div>
       <div class="quiz-container" id="question-container"></div>

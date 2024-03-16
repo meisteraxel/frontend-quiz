@@ -110,8 +110,11 @@ a {
 }
 
 .quiz-container h1 {
-  margin-bottom: 5px;
   font-size: 1.5rem;
+}
+
+.quiz-container p {
+  margin-top: 1rem;
 }
 
 #question-container {
@@ -324,6 +327,16 @@ main label:hover {
 }
 
 #question-container input[type="radio"]:checked + label {
+  box-shadow: 5px 5px 0px 0px var(--primary-background);
+  transform: scale(103%);
+}
+
+#amount-container {
+  display: flex;
+  gap: 20px;
+}
+
+#amount-container input[type="radio"]:checked + label {
   box-shadow: 5px 5px 0px 0px var(--primary-background);
   transform: scale(103%);
 }

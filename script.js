@@ -13,6 +13,7 @@ let score = 0;
 let userName = "";
 let questions;
 let amountQuestions;
+let renderedQuestion = 0;
 
 //Check which quiz is selected
 let quizUrl;
@@ -190,55 +191,62 @@ answersBtn.addEventListener("click", () => {
   document.getElementById("home-btn").style.position = "absolute";
   document.getElementById("home-btn").style.top = "0%";
 
+  //Hide Result Container and Progress Bar
+  progressBarContainer.style.display = "none";
+  answersContainer.style.display = "grid";
+  resultContainer.style.display = "none";
+
   // Display all questions at once
   questions.forEach((currentQuestion, index) => {
-    // Create Question Container for each question
-    const questionContainer = document.createElement("div");
-    questionContainer.classList.add("question-container");
+    //Render the amount of questions the user selected
+    if (renderedQuestion < amountQuestions) {
+      // Create Question Container for each question
+      const questionContainer = document.createElement("div");
+      questionContainer.classList.add("question-container");
 
-    // Create HTML Elements for the question and options
-    const questionElement = document.createElement("h1");
-    questionElement.textContent = `${index + 1}. ${currentQuestion.question}`;
+      // Create HTML Elements for the question and options
+      const questionElement = document.createElement("h1");
+      questionElement.textContent = `${index + 1}. ${currentQuestion.question}`;
 
-    const optionsContainer = document.createElement("div");
-    optionsContainer.classList.add("options-container");
+      const optionsContainer = document.createElement("div");
+      optionsContainer.classList.add("options-container");
 
-    currentQuestion.options.forEach((option, optionIndex) => {
-      const inputElement = document.createElement("input");
-      inputElement.type = "radio";
-      inputElement.classList.add("radio-btn");
-      inputElement.name = `question-${index}`;
-      inputElement.value = option;
-      inputElement.id = `option-${index}-${optionIndex}`;
+      currentQuestion.options.forEach((option, optionIndex) => {
+        const inputElement = document.createElement("input");
+        inputElement.type = "radio";
+        inputElement.classList.add("radio-btn");
+        inputElement.name = `question-${index}`;
+        inputElement.value = option;
+        inputElement.id = `option-${index}-${optionIndex}`;
 
-      const labelElement = document.createElement("label");
-      labelElement.htmlFor = `option-${index}-${optionIndex}`;
-      labelElement.textContent = option;
+        const labelElement = document.createElement("label");
+        labelElement.htmlFor = `option-${index}-${optionIndex}`;
+        labelElement.textContent = option;
 
-      //Check which option is correct and set color to green
-      if (option === currentQuestion.correctAnswer) {
-        labelElement.classList.add("correct");
-      }
+        //Check which option is correct and set color to green
+        if (option === currentQuestion.correctAnswer) {
+          labelElement.classList.add("correct");
+        }
 
-      // Check if the user selected this option
-      if (option === currentQuestion.userSelectedAnswer) {
-        labelElement.classList.add("user-selected");
-      }
+        // Check if the user selected this option
+        if (option === currentQuestion.userSelectedAnswer) {
+          labelElement.classList.add("user-selected");
+        }
 
-      optionsContainer.appendChild(inputElement);
-      optionsContainer.appendChild(labelElement);
-    });
+        optionsContainer.appendChild(inputElement);
+        optionsContainer.appendChild(labelElement);
+      });
 
-    // Add Question to Question Container
-    questionContainer.appendChild(questionElement);
-    questionContainer.appendChild(optionsContainer);
+      // Add Question to Question Container
+      questionContainer.appendChild(questionElement);
+      questionContainer.appendChild(optionsContainer);
 
-    //Hide Result Container and Progress Bar
-    progressBarContainer.style.display = "none";
-    answersContainer.style.display = "grid";
-    resultContainer.style.display = "none";
+      // Append Question Container to the Answers container
+      answersContainer.appendChild(questionContainer);
 
-    // Append Question Container to the Answers container
-    answersContainer.appendChild(questionContainer);
+      renderedQuestion++;
+    } else {
+      return;
+    }
   });
 });

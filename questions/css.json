@@ -276,5 +276,16 @@
       "To hide the element"
     ],
     "correctAnswer": "To control the scrolling behavior of overflowing content horizontally and vertically"
+  },
+  {
+    "question": "What does the CSS property 'flex-grow' do?",
+    "options": [
+      "It controls the growth of flex items in a flex container",
+      "It sets the font size of text",
+      "It changes the color of text",
+      "It adds space around an element"
+    ],
+    "correctAnswer": "It controls the growth of flex items in a flex container",
+    "userSelectedAnswer": null
   }
 ]

@@ -54,6 +54,19 @@ a {
   color: #000000;
 }
 
+#coffee {
+  color: #eeebeb;
+  position: absolute;
+  bottom: 10px;
+  font-size: 0.8rem;
+  font-family: Graphik-Semibold, sans-serif;
+  transition: all 0.5s cubic-bezier(0.5, 2.5, 0.7, 0.7);
+}
+
+#coffee:hover {
+  transform: scale(1.1);
+}
+
 .home-container {
   background-color: var(--secondary-background);
   border: 2px solid var(--accent-color);

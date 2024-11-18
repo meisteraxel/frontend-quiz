@@ -44,7 +44,9 @@ if (quizType.textContent === "HTML") {
 async function fetchQuestions() {
   try {
     const response = await fetch(quizUrl);
-    questions = await response.json();
+    const allQuestions = await response.json();
+    // Randomly shuffle all questions and take only the amount user selected
+    questions = shuffleArray(allQuestions).slice(0, amountQuestions);
     return questions;
   } catch (error) {
     console.error("Error fetching questions", error);
@@ -52,23 +54,23 @@ async function fetchQuestions() {
   }
 }
 
-// Fetch the questions and store them in the 'questions' variable
-async function initializeQuiz() {
-  await fetchQuestions();
+// Add this new function to shuffle the array
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
-initializeQuiz();
 
-// Confirm name input with Enter Key
-document
-  .getElementById("name-input")
-  .addEventListener("keydown", function (event) {
-    if (event.key === "Enter") {
-      startBtn.click();
-    }
-  });
+// Update initializeQuiz to fetch questions after we know the amount
+async function initializeQuiz() {
+  // Remove this line as we'll fetch questions when starting the quiz
+}
 
-// Start the game
-startBtn.addEventListener("click", () => {
+// Update the start button event listener
+startBtn.addEventListener("click", async () => {
   userName = document.getElementById("name-input").value;
   amountQuestions = document.querySelector(
     "input[name='amount-questions']:checked"
@@ -84,6 +86,9 @@ startBtn.addEventListener("click", () => {
     welcomeContainer.style.display = "none";
     progressBarContainer.style.display = "block";
     progressBar.style.width = "0%";
+
+    // Fetch and shuffle questions here
+    await fetchQuestions();
     displayQuestion();
   }
 });

@@ -303,5 +303,170 @@
     ],
     "correctAnswer": "To facilitate communication between deeply nested components without passing props explicitly",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Composition API in Vue 3?",
+    "options": [
+      "A way to compose HTML elements",
+      "A more flexible way to organize component logic using setup() function",
+      "A tool for composing CSS",
+      "An API for HTTP requests"
+    ],
+    "correctAnswer": "A more flexible way to organize component logic using setup() function",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of ref() in Vue 3?",
+    "options": [
+      "To reference DOM elements",
+      "To create reactive references to values",
+      "To handle component references",
+      "To manage file references"
+    ],
+    "correctAnswer": "To create reactive references to values",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between ref and reactive in Vue 3?",
+    "options": [
+      "They are the same",
+      "ref is for primitives, reactive is for objects",
+      "reactive is faster than ref",
+      "ref is only for DOM elements"
+    ],
+    "correctAnswer": "ref is for primitives, reactive is for objects",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of watchEffect in Vue 3?",
+    "options": [
+      "To watch DOM effects",
+      "To automatically track reactive dependencies and re-run when they change",
+      "To create side effects",
+      "To manage component effects"
+    ],
+    "correctAnswer": "To automatically track reactive dependencies and re-run when they change",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Teleport in Vue 3?",
+    "options": [
+      "A way to move components between pages",
+      "A component that allows rendering content anywhere in the DOM tree",
+      "A routing feature",
+      "A data transfer tool"
+    ],
+    "correctAnswer": "A component that allows rendering content anywhere in the DOM tree",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of toRef in Vue 3?",
+    "options": [
+      "To convert values to references",
+      "To create a ref for a property on a reactive object",
+      "To reference DOM elements",
+      "To manage component references"
+    ],
+    "correctAnswer": "To create a ref for a property on a reactive object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Custom Directives in Vue.js?",
+    "options": [
+      "Built-in directives",
+      "User-defined directives for DOM manipulations",
+      "Component directives",
+      "Routing directives"
+    ],
+    "correctAnswer": "User-defined directives for DOM manipulations",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of defineProps in Vue 3?",
+    "options": [
+      "To define component properties",
+      "To declare and type-check component props",
+      "To set default properties",
+      "To manage prop validation"
+    ],
+    "correctAnswer": "To declare and type-check component props",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of defineEmits in Vue 3?",
+    "options": [
+      "To define event emitters",
+      "To declare and type-check component events",
+      "To create custom events",
+      "To manage event handling"
+    ],
+    "correctAnswer": "To declare and type-check component events",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of <script setup> in Vue 3?",
+    "options": [
+      "To set up components",
+      "To provide a more concise way to write component logic with Composition API",
+      "To initialize scripts",
+      "To manage component setup"
+    ],
+    "correctAnswer": "To provide a more concise way to write component logic with Composition API",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Suspense in Vue 3?",
+    "options": [
+      "A loading component",
+      "A built-in component for handling async dependencies",
+      "An error boundary",
+      "A state management tool"
+    ],
+    "correctAnswer": "A built-in component for handling async dependencies",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of shallowRef in Vue 3?",
+    "options": [
+      "To create shallow copies",
+      "To create a ref that tracks only the top-level reactivity",
+      "To manage shallow state",
+      "To handle shallow rendering"
+    ],
+    "correctAnswer": "To create a ref that tracks only the top-level reactivity",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of markRaw in Vue 3?",
+    "options": [
+      "To mark components as raw",
+      "To prevent an object from being made reactive",
+      "To handle raw data",
+      "To manage raw state"
+    ],
+    "correctAnswer": "To prevent an object from being made reactive",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of effectScope in Vue 3?",
+    "options": [
+      "To manage effects",
+      "To create a scope that can collect and dispose of reactive effects",
+      "To handle side effects",
+      "To control effect rendering"
+    ],
+    "correctAnswer": "To create a scope that can collect and dispose of reactive effects",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of customRef in Vue 3?",
+    "options": [
+      "To create custom references",
+      "To create a customized ref with explicit control over tracking and triggering",
+      "To handle custom data",
+      "To manage custom state"
+    ],
+    "correctAnswer": "To create a customized ref with explicit control over tracking and triggering",
+    "userSelectedAnswer": null
   }
 ]

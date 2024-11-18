@@ -313,5 +313,170 @@
     ],
     "correctAnswer": "It ensures that the route matches the exact URL path",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of React.lazy()?",
+    "options": [
+      "To delay component rendering",
+      "To implement code splitting and lazy loading",
+      "To optimize state updates",
+      "To handle lazy initialization"
+    ],
+    "correctAnswer": "To implement code splitting and lazy loading",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the useCallback hook used for?",
+    "options": [
+      "To memoize functions",
+      "To handle callbacks in events",
+      "To create callback functions",
+      "To optimize component rendering"
+    ],
+    "correctAnswer": "To memoize functions",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the useMemo hook?",
+    "options": [
+      "To memoize values",
+      "To handle memory management",
+      "To create memoized components",
+      "To optimize state updates"
+    ],
+    "correctAnswer": "To memoize values",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the useReducer hook used for?",
+    "options": [
+      "To reduce component size",
+      "To manage complex state logic",
+      "To optimize performance",
+      "To handle API calls"
+    ],
+    "correctAnswer": "To manage complex state logic",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the useRef hook?",
+    "options": [
+      "To reference DOM elements",
+      "To store mutable values that don't cause re-renders",
+      "To handle form references",
+      "To create component references"
+    ],
+    "correctAnswer": "To store mutable values that don't cause re-renders",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Suspense component in React?",
+    "options": [
+      "A loading component",
+      "A component for handling suspense in movies",
+      "A wrapper for components that may need to wait for something",
+      "A error boundary component"
+    ],
+    "correctAnswer": "A wrapper for components that may need to wait for something",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the useLayoutEffect hook?",
+    "options": [
+      "To handle layout changes",
+      "To perform measurements before browser paint",
+      "To manage CSS layouts",
+      "To create layout components"
+    ],
+    "correctAnswer": "To perform measurements before browser paint",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between controlled and uncontrolled components?",
+    "options": [
+      "Performance differences",
+      "Controlled components have their state managed by React, uncontrolled by DOM",
+      "Styling differences",
+      "Error handling differences"
+    ],
+    "correctAnswer": "Controlled components have their state managed by React, uncontrolled by DOM",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of React.Fragment?",
+    "options": [
+      "To fragment components",
+      "To group elements without adding extra nodes to the DOM",
+      "To split components",
+      "To handle component fragments"
+    ],
+    "correctAnswer": "To group elements without adding extra nodes to the DOM",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the useImperativeHandle hook used for?",
+    "options": [
+      "To handle imperative code",
+      "To customize the instance value exposed to parent components",
+      "To manage component handles",
+      "To create imperative functions"
+    ],
+    "correctAnswer": "To customize the instance value exposed to parent components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of React.StrictMode?",
+    "options": [
+      "To enforce strict typing",
+      "To highlight potential problems in an application",
+      "To handle strict security",
+      "To manage strict dependencies"
+    ],
+    "correctAnswer": "To highlight potential problems in an application",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between React.memo() and useMemo()?",
+    "options": [
+      "They are the same",
+      "React.memo is for components, useMemo is for values",
+      "React.memo is faster",
+      "useMemo is for class components"
+    ],
+    "correctAnswer": "React.memo is for components, useMemo is for values",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the useDebugValue hook?",
+    "options": [
+      "To debug components",
+      "To display a label for custom hooks in React DevTools",
+      "To handle debug logging",
+      "To manage debug state"
+    ],
+    "correctAnswer": "To display a label for custom hooks in React DevTools",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of React.createPortal?",
+    "options": [
+      "To create new components",
+      "To render children into a DOM node outside the parent hierarchy",
+      "To manage portal state",
+      "To handle portal events"
+    ],
+    "correctAnswer": "To render children into a DOM node outside the parent hierarchy",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between props.children and props.render?",
+    "options": [
+      "They are the same",
+      "children is for components, render is for functions",
+      "children is implicit, render is explicit",
+      "render is more performant"
+    ],
+    "correctAnswer": "children is implicit, render is explicit",
+    "userSelectedAnswer": null
   }
 ]

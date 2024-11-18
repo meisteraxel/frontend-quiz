@@ -273,5 +273,190 @@
     "options": [".progressbar", ".progress", ".loading-bar", ".progress-bar"],
     "correctAnswer": ".progress-bar",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'flex' utility classes in Bootstrap?",
+    "options": [
+      "To create flexible layouts and align items",
+      "To add animations",
+      "To style text",
+      "To handle form validation"
+    ],
+    "correctAnswer": "To create flexible layouts and align items",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to make an element sticky?",
+    "options": [
+      ".fixed-top",
+      ".sticky-top",
+      ".position-sticky",
+      ".navbar-fixed"
+    ],
+    "correctAnswer": ".sticky-top",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's 'data-bs-toggle' attribute?",
+    "options": [
+      "To toggle CSS classes",
+      "To initialize JavaScript components",
+      "To toggle responsive layouts",
+      "To handle form validation"
+    ],
+    "correctAnswer": "To initialize JavaScript components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class creates a spinner animation?",
+    "options": [".loading", ".spinner-border", ".animate-spin", ".rotate"],
+    "correctAnswer": ".spinner-border",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.visually-hidden' class?",
+    "options": [
+      "To hide elements on all devices",
+      "To make content accessible to screen readers while hiding it visually",
+      "To create responsive layouts",
+      "To handle animations"
+    ],
+    "correctAnswer": "To make content accessible to screen readers while hiding it visually",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a horizontal rule?",
+    "options": [".divider", ".hr", ".horizontal-rule", ".border-bottom"],
+    "correctAnswer": ".border-bottom",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.ratio' class?",
+    "options": [
+      "To create responsive aspect ratios for embedded content",
+      "To handle mathematical calculations",
+      "To create grid layouts",
+      "To manage font sizes"
+    ],
+    "correctAnswer": "To create responsive aspect ratios for embedded content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap utility class is used for margin-bottom?",
+    "options": [".m-bottom", ".mb", ".margin-bottom", ".bottom-margin"],
+    "correctAnswer": ".mb",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.rounded' class?",
+    "options": [
+      "To create circular images",
+      "To add border radius to elements",
+      "To round numbers",
+      "To create pill-shaped buttons"
+    ],
+    "correctAnswer": "To add border radius to elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a dark theme?",
+    "options": [".dark-mode", ".dark-theme", ".bg-dark", ".dark"],
+    "correctAnswer": ".bg-dark",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.shadow' class?",
+    "options": [
+      "To create text shadows",
+      "To add box shadows to elements",
+      "To create 3D effects",
+      "To handle dark mode"
+    ],
+    "correctAnswer": "To add box shadows to elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a floating label?",
+    "options": [".form-floating", ".float-label", ".floating", ".label-float"],
+    "correctAnswer": ".form-floating",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.stretched-link' class?",
+    "options": [
+      "To stretch images",
+      "To make an entire card clickable",
+      "To extend text",
+      "To create responsive layouts"
+    ],
+    "correctAnswer": "To make an entire card clickable",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a fixed footer?",
+    "options": [".footer-fixed", ".fixed-bottom", ".sticky-footer", ".bottom"],
+    "correctAnswer": ".fixed-bottom",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.overflow-auto' class?",
+    "options": [
+      "To automatically size elements",
+      "To add scrollbars when content overflows",
+      "To handle overflow errors",
+      "To create responsive layouts"
+    ],
+    "correctAnswer": "To add scrollbars when content overflows",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a borderless table?",
+    "options": [
+      ".table-no-border",
+      ".table-borderless",
+      ".no-border",
+      ".borderless"
+    ],
+    "correctAnswer": ".table-borderless",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.text-truncate' class?",
+    "options": [
+      "To shorten text with an ellipsis",
+      "To remove text",
+      "To wrap text",
+      "To style text"
+    ],
+    "correctAnswer": "To shorten text with an ellipsis",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a small button?",
+    "options": [".btn-small", ".btn-sm", ".small-btn", ".button-small"],
+    "correctAnswer": ".btn-sm",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Bootstrap's '.position-relative' class?",
+    "options": [
+      "To position elements absolutely",
+      "To create relative paths",
+      "To establish a positioning context",
+      "To handle responsive layouts"
+    ],
+    "correctAnswer": "To establish a positioning context",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which Bootstrap class is used to create a success alert?",
+    "options": [
+      ".alert-green",
+      ".alert-success",
+      ".success",
+      ".message-success"
+    ],
+    "correctAnswer": ".alert-success",
+    "userSelectedAnswer": null
   }
 ]

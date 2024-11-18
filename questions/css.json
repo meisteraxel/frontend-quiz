@@ -287,5 +287,170 @@
     ],
     "correctAnswer": "It controls the growth of flex items in a flex container",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is CSS Grid's 'fr' unit used for?",
+    "options": [
+      "Fractional measurement of frames",
+      "Distributing available space in grid layouts",
+      "Setting font size",
+      "Measuring frame rates"
+    ],
+    "correctAnswer": "Distributing available space in grid layouts",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of CSS custom properties (variables)?",
+    "options": [
+      "To store reusable values that can be used throughout a stylesheet",
+      "To create custom HTML elements",
+      "To handle JavaScript variables",
+      "To store database values"
+    ],
+    "correctAnswer": "To store reusable values that can be used throughout a stylesheet",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the CSS 'gap' property used for?",
+    "options": [
+      "Creating spaces between paragraphs",
+      "Setting gutters between grid/flex items",
+      "Adding margins to elements",
+      "Creating spacing in text"
+    ],
+    "correctAnswer": "Setting gutters between grid/flex items",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the ':root' selector in CSS?",
+    "options": [
+      "To select the first element",
+      "To target the highest-level parent element (html)",
+      "To create root directories",
+      "To select all elements"
+    ],
+    "correctAnswer": "To target the highest-level parent element (html)",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the CSS property 'aspect-ratio' control?",
+    "options": [
+      "The width of an element",
+      "The relationship between width and height of an element",
+      "The height of an element",
+      "The size of text"
+    ],
+    "correctAnswer": "The relationship between width and height of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of CSS's 'clamp()' function?",
+    "options": [
+      "To round numbers",
+      "To set a value within a range with a preferred value",
+      "To clamp elements to the viewport",
+      "To restrict text overflow"
+    ],
+    "correctAnswer": "To set a value within a range with a preferred value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the CSS property 'backdrop-filter' do?",
+    "options": [
+      "Filters background images",
+      "Applies visual effects to the area behind an element",
+      "Changes image contrast",
+      "Adjusts element opacity"
+    ],
+    "correctAnswer": "Applies visual effects to the area behind an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the ':is()' pseudo-class in CSS?",
+    "options": [
+      "To check if elements exist",
+      "To simplify multiple selectors into a single selector",
+      "To validate form inputs",
+      "To check element types"
+    ],
+    "correctAnswer": "To simplify multiple selectors into a single selector",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'scroll-behavior' property control?",
+    "options": [
+      "Scroll bar appearance",
+      "How smooth scrolling animations behave",
+      "Scroll direction",
+      "Scroll speed"
+    ],
+    "correctAnswer": "How smooth scrolling animations behave",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of CSS's 'container queries'?",
+    "options": [
+      "To query database containers",
+      "To style elements based on their parent container's size",
+      "To contain overflow",
+      "To manage Docker containers"
+    ],
+    "correctAnswer": "To style elements based on their parent container's size",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'place-items' shorthand property control?",
+    "options": [
+      "Element positioning",
+      "Both align-items and justify-items in one declaration",
+      "Item placement in lists",
+      "Text alignment"
+    ],
+    "correctAnswer": "Both align-items and justify-items in one declaration",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the ':where()' pseudo-class?",
+    "options": [
+      "To locate elements",
+      "To simplify selectors with zero specificity",
+      "To find elements in the DOM",
+      "To check element position"
+    ],
+    "correctAnswer": "To simplify selectors with zero specificity",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the 'content-visibility' property do?",
+    "options": [
+      "Controls element visibility",
+      "Improves rendering performance by skipping off-screen content",
+      "Manages content overflow",
+      "Handles content loading"
+    ],
+    "correctAnswer": "Improves rendering performance by skipping off-screen content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of logical properties in CSS (e.g., margin-block)?",
+    "options": [
+      "To add logic to CSS",
+      "To handle margins based on writing mode and direction",
+      "To create logical operations",
+      "To manage JavaScript logic"
+    ],
+    "correctAnswer": "To handle margins based on writing mode and direction",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the '@supports' rule do in CSS?",
+    "options": [
+      "Checks browser version",
+      "Applies styles based on browser feature support",
+      "Supports legacy browsers",
+      "Handles error checking"
+    ],
+    "correctAnswer": "Applies styles based on browser feature support",
+    "userSelectedAnswer": null
   }
 ]

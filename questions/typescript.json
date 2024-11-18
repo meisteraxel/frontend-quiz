@@ -361,5 +361,170 @@
     ],
     "correctAnswer": "To export a module from a file",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is a Generic Type in TypeScript?",
+    "options": [
+      "A type that works with any data type",
+      "A type that can work with multiple types while maintaining type safety",
+      "A type that only works with numbers",
+      "A type that converts between different types"
+    ],
+    "correctAnswer": "A type that can work with multiple types while maintaining type safety",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'as const' assertion in TypeScript?",
+    "options": [
+      "To make a variable constant",
+      "To create a readonly tuple type with literal types",
+      "To assert a type as constant",
+      "To prevent type inference"
+    ],
+    "correctAnswer": "To create a readonly tuple type with literal types",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Mapped Types in TypeScript?",
+    "options": [
+      "Types that map to other types",
+      "A way to create new types based on existing ones by transforming properties",
+      "Types used in mapping functions",
+      "Types that convert between different data structures"
+    ],
+    "correctAnswer": "A way to create new types based on existing ones by transforming properties",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'infer' keyword in TypeScript?",
+    "options": [
+      "To infer types automatically",
+      "To extract type information within conditional types",
+      "To create type inference rules",
+      "To define inference patterns"
+    ],
+    "correctAnswer": "To extract type information within conditional types",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Index Signatures in TypeScript?",
+    "options": [
+      "A way to index arrays",
+      "A way to define the type of properties that aren't known ahead of time",
+      "Signatures for indexing operations",
+      "A way to create indexed access types"
+    ],
+    "correctAnswer": "A way to define the type of properties that aren't known ahead of time",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the 'Partial<T>' utility type used for?",
+    "options": [
+      "To make all properties optional",
+      "To partially apply types",
+      "To create partial objects",
+      "To split types into parts"
+    ],
+    "correctAnswer": "To make all properties optional",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of 'Pick<T, K>' utility type?",
+    "options": [
+      "To pick random properties",
+      "To select specific properties from a type",
+      "To pick elements from an array",
+      "To choose between different types"
+    ],
+    "correctAnswer": "To select specific properties from a type",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Conditional Types in TypeScript?",
+    "options": [
+      "Types that use if/else statements",
+      "Types that depend on type parameters",
+      "Types that create conditions",
+      "Types that check for conditions at runtime"
+    ],
+    "correctAnswer": "Types that depend on type parameters",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'Record<K,T>' utility type?",
+    "options": [
+      "To create a record of types",
+      "To create an object type with specified keys and value types",
+      "To record type information",
+      "To store type records"
+    ],
+    "correctAnswer": "To create an object type with specified keys and value types",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the 'NonNullable<T>' utility type used for?",
+    "options": [
+      "To remove null values",
+      "To create non-null types",
+      "To remove null and undefined from type T",
+      "To check for null values"
+    ],
+    "correctAnswer": "To remove null and undefined from type T",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Declaration Merging in TypeScript?",
+    "options": [
+      "Merging multiple files",
+      "Combining multiple declarations with the same name",
+      "Merging interfaces at runtime",
+      "Combining type definitions"
+    ],
+    "correctAnswer": "Combining multiple declarations with the same name",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of 'typeof' type operator in TypeScript?",
+    "options": [
+      "To check types at runtime",
+      "To get the type of an expression or variable",
+      "To define new types",
+      "To compare types"
+    ],
+    "correctAnswer": "To get the type of an expression or variable",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are Type Guards in TypeScript?",
+    "options": [
+      "Functions that protect types",
+      "Runtime checks that guarantee the type of a value",
+      "Guards against type errors",
+      "Type safety mechanisms"
+    ],
+    "correctAnswer": "Runtime checks that guarantee the type of a value",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the 'keyof typeof' combination used for?",
+    "options": [
+      "To get object keys",
+      "To get the keys of an object's type",
+      "To create key types",
+      "To check key existence"
+    ],
+    "correctAnswer": "To get the keys of an object's type",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'satisfies' operator in TypeScript?",
+    "options": [
+      "To check type satisfaction",
+      "To validate that a value matches a type while preserving its literal type",
+      "To satisfy type constraints",
+      "To check type compatibility"
+    ],
+    "correctAnswer": "To validate that a value matches a type while preserving its literal type",
+    "userSelectedAnswer": null
   }
 ]

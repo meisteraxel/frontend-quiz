@@ -303,5 +303,165 @@
     ],
     "correctAnswer": "By using the 'align-middle' class",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'space-x' utility in Tailwind CSS?",
+    "options": [
+      "To add vertical spacing between elements",
+      "To add horizontal spacing between elements",
+      "To create space around elements",
+      "To add padding between elements"
+    ],
+    "correctAnswer": "To add horizontal spacing between elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you use arbitrary values in Tailwind CSS?",
+    "options": [
+      "By using custom CSS",
+      "By using square brackets [value]",
+      "By modifying the config file",
+      "By using the @apply directive"
+    ],
+    "correctAnswer": "By using square brackets [value]",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'aspect-ratio' utility in Tailwind CSS?",
+    "options": [
+      "To set element width",
+      "To maintain proportional dimensions of an element",
+      "To control element height",
+      "To adjust element padding"
+    ],
+    "correctAnswer": "To maintain proportional dimensions of an element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you handle dark mode in Tailwind CSS?",
+    "options": [
+      "Using separate CSS files",
+      "Using the dark: prefix",
+      "Using JavaScript",
+      "Using media queries"
+    ],
+    "correctAnswer": "Using the dark: prefix",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'group' utility in Tailwind CSS?",
+    "options": [
+      "To group elements together",
+      "To style elements based on parent state",
+      "To create element groups",
+      "To manage layout groups"
+    ],
+    "correctAnswer": "To style elements based on parent state",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you use CSS Grid auto-columns in Tailwind CSS?",
+    "options": ["auto-cols-auto", "grid-cols-auto", "cols-auto", "auto-grid"],
+    "correctAnswer": "auto-cols-auto",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'ring' utility in Tailwind CSS?",
+    "options": [
+      "To create circular elements",
+      "To add focus rings around elements",
+      "To create ring-shaped borders",
+      "To add shadows"
+    ],
+    "correctAnswer": "To add focus rings around elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you handle responsive breakpoints in Tailwind CSS?",
+    "options": [
+      "Using media queries",
+      "Using responsive prefixes (sm:, md:, lg:, etc.)",
+      "Using JavaScript",
+      "Using CSS variables"
+    ],
+    "correctAnswer": "Using responsive prefixes (sm:, md:, lg:, etc.)",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'divide' utility in Tailwind CSS?",
+    "options": [
+      "To split elements",
+      "To add borders between elements",
+      "To create divisions",
+      "To separate content"
+    ],
+    "correctAnswer": "To add borders between elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you handle animations in Tailwind CSS?",
+    "options": [
+      "Using CSS keyframes",
+      "Using the animate-{name} classes",
+      "Using JavaScript",
+      "Using transition properties"
+    ],
+    "correctAnswer": "Using the animate-{name} classes",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of JIT (Just-In-Time) mode in Tailwind CSS?",
+    "options": [
+      "To improve performance",
+      "To generate styles on-demand",
+      "To compile CSS faster",
+      "To reduce file size"
+    ],
+    "correctAnswer": "To generate styles on-demand",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you extend Tailwind's default theme?",
+    "options": [
+      "By creating new CSS files",
+      "By modifying the theme section in tailwind.config.js",
+      "By using @apply directives",
+      "By adding custom classes"
+    ],
+    "correctAnswer": "By modifying the theme section in tailwind.config.js",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'peer' utility in Tailwind CSS?",
+    "options": [
+      "To connect elements",
+      "To style elements based on sibling state",
+      "To create peer relationships",
+      "To manage element connections"
+    ],
+    "correctAnswer": "To style elements based on sibling state",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you handle gradients in Tailwind CSS?",
+    "options": [
+      "Using CSS gradients",
+      "Using bg-gradient-to-{direction} utilities",
+      "Using custom properties",
+      "Using JavaScript"
+    ],
+    "correctAnswer": "Using bg-gradient-to-{direction} utilities",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'container queries' feature in Tailwind CSS?",
+    "options": [
+      "To query databases",
+      "To style elements based on their container's size",
+      "To manage containers",
+      "To handle responsive layouts"
+    ],
+    "correctAnswer": "To style elements based on their container's size",
+    "userSelectedAnswer": null
   }
 ]

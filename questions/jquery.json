@@ -283,5 +283,170 @@
     "options": ["innerWidth()", "outerWidth()", "width()", "computedWidth()"],
     "correctAnswer": "outerWidth()",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between jQuery's prop() and attr() methods?",
+    "options": [
+      "They are the same",
+      "prop() deals with DOM properties while attr() deals with HTML attributes",
+      "attr() is faster than prop()",
+      "prop() only works with forms"
+    ],
+    "correctAnswer": "prop() deals with DOM properties while attr() deals with HTML attributes",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is event delegation in jQuery?",
+    "options": [
+      "A way to create events",
+      "Attaching event handlers to future elements",
+      "Removing event handlers",
+      "Copying events between elements"
+    ],
+    "correctAnswer": "Attaching event handlers to future elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery.noConflict()?",
+    "options": [
+      "To prevent JavaScript errors",
+      "To release control of the $ variable",
+      "To disable jQuery",
+      "To remove jQuery from the page"
+    ],
+    "correctAnswer": "To release control of the $ variable",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you chain methods in jQuery?",
+    "options": [
+      "Using commas between methods",
+      "Using semicolons between methods",
+      "Using dots between methods",
+      "Using spaces between methods"
+    ],
+    "correctAnswer": "Using dots between methods",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's deferred objects?",
+    "options": [
+      "To delay execution of code",
+      "To handle asynchronous operations",
+      "To create timeouts",
+      "To store data temporarily"
+    ],
+    "correctAnswer": "To handle asynchronous operations",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What does the jQuery.extend() method do?",
+    "options": [
+      "Extends the length of an array",
+      "Merges contents of two or more objects",
+      "Creates new jQuery plugins",
+      "Extends the DOM tree"
+    ],
+    "correctAnswer": "Merges contents of two or more objects",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's queue()?",
+    "options": [
+      "To create a list of elements",
+      "To manage function queues and animations",
+      "To sort elements",
+      "To handle server requests"
+    ],
+    "correctAnswer": "To manage function queues and animations",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you prevent event bubbling in jQuery?",
+    "options": [
+      "event.stop()",
+      "event.stopPropagation()",
+      "event.preventDefault()",
+      "event.noBubble()"
+    ],
+    "correctAnswer": "event.stopPropagation()",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's promise()?",
+    "options": [
+      "To make promises to users",
+      "To return a Promise object to observe when all actions of a certain type bound to the collection",
+      "To ensure code execution",
+      "To create delayed functions"
+    ],
+    "correctAnswer": "To return a Promise object to observe when all actions of a certain type bound to the collection",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between jQuery's get() and eq()?",
+    "options": [
+      "They are the same",
+      "get() returns a DOM element, eq() returns a jQuery object",
+      "eq() is faster than get()",
+      "get() only works with arrays"
+    ],
+    "correctAnswer": "get() returns a DOM element, eq() returns a jQuery object",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's proxy()?",
+    "options": [
+      "To create proxy servers",
+      "To change the context of a function",
+      "To handle AJAX requests",
+      "To modify URLs"
+    ],
+    "correctAnswer": "To change the context of a function",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "How do you create a custom jQuery plugin?",
+    "options": [
+      "Using jQuery.plugin()",
+      "Using jQuery.fn.pluginName = function(){}",
+      "Using jQuery.create()",
+      "Using jQuery.custom()"
+    ],
+    "correctAnswer": "Using jQuery.fn.pluginName = function(){}",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's when()?",
+    "options": [
+      "To create conditional statements",
+      "To provide a way to execute callback functions based on multiple deferred objects",
+      "To handle timing events",
+      "To create loops"
+    ],
+    "correctAnswer": "To provide a way to execute callback functions based on multiple deferred objects",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the difference between jQuery's live() and on()?",
+    "options": [
+      "They are the same",
+      "live() is deprecated, on() is the current method for event handling",
+      "on() is deprecated, live() is current",
+      "They handle different types of events"
+    ],
+    "correctAnswer": "live() is deprecated, on() is the current method for event handling",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of jQuery's holdReady()?",
+    "options": [
+      "To pause page loading",
+      "To hold or release the execution of jQuery's ready event",
+      "To prevent form submission",
+      "To stop animations"
+    ],
+    "correctAnswer": "To hold or release the execution of jQuery's ready event",
+    "userSelectedAnswer": null
   }
 ]

@@ -328,5 +328,170 @@
     ],
     "correctAnswer": "Direct access to the DOM element in a component",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ChangeDetectorRef used for?",
+    "options": [
+      "Managing forms",
+      "Manually triggering change detection",
+      "Handling HTTP requests",
+      "Creating components"
+    ],
+    "correctAnswer": "Manually triggering change detection",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's @Input decorator?",
+    "options": [
+      "To emit events to parent components",
+      "To receive data from parent components",
+      "To inject services",
+      "To create new components"
+    ],
+    "correctAnswer": "To receive data from parent components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's @Output decorator used for?",
+    "options": [
+      "To receive data from parent components",
+      "To emit events to parent components",
+      "To create new components",
+      "To inject services"
+    ],
+    "correctAnswer": "To emit events to parent components",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's ngOnDestroy lifecycle hook?",
+    "options": [
+      "To initialize component data",
+      "To clean up resources before a component is destroyed",
+      "To detect changes in component",
+      "To create new instances of services"
+    ],
+    "correctAnswer": "To clean up resources before a component is destroyed",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ViewEncapsulation?",
+    "options": [
+      "A security feature",
+      "A way to control how component styles affect the rest of the application",
+      "A form validation strategy",
+      "A routing mechanism"
+    ],
+    "correctAnswer": "A way to control how component styles affect the rest of the application",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's trackBy function?",
+    "options": [
+      "To track user behavior",
+      "To optimize ngFor performance by tracking identity of items",
+      "To track form changes",
+      "To track route changes"
+    ],
+    "correctAnswer": "To optimize ngFor performance by tracking identity of items",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's ContentChild decorator used for?",
+    "options": [
+      "To query projected content",
+      "To create child components",
+      "To handle HTTP requests",
+      "To manage forms"
+    ],
+    "correctAnswer": "To query projected content",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's NgModule decorator?",
+    "options": [
+      "To create components",
+      "To define a module and its metadata",
+      "To handle routing",
+      "To manage forms"
+    ],
+    "correctAnswer": "To define a module and its metadata",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's HostListener decorator used for?",
+    "options": [
+      "To listen to DOM events on host elements",
+      "To create host components",
+      "To manage routing",
+      "To handle HTTP requests"
+    ],
+    "correctAnswer": "To listen to DOM events on host elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's HostBinding decorator used for?",
+    "options": [
+      "To bind properties to the host element",
+      "To create host components",
+      "To manage routing",
+      "To handle form validation"
+    ],
+    "correctAnswer": "To bind properties to the host element",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's resolvers?",
+    "options": [
+      "To resolve HTTP requests",
+      "To pre-fetch data before activating a route",
+      "To resolve component conflicts",
+      "To resolve dependency injection"
+    ],
+    "correctAnswer": "To pre-fetch data before activating a route",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's NgTemplateOutlet used for?",
+    "options": [
+      "To create templates",
+      "To dynamically render templates",
+      "To handle routing",
+      "To manage forms"
+    ],
+    "correctAnswer": "To dynamically render templates",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's ErrorHandler?",
+    "options": [
+      "To handle HTTP errors",
+      "To handle form validation errors",
+      "To handle global application errors",
+      "To handle routing errors"
+    ],
+    "correctAnswer": "To handle global application errors",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is Angular's APP_INITIALIZER token used for?",
+    "options": [
+      "To initialize components",
+      "To perform initialization tasks before app starts",
+      "To initialize services",
+      "To initialize routes"
+    ],
+    "correctAnswer": "To perform initialization tasks before app starts",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of Angular's NgZone.runOutsideAngular()?",
+    "options": [
+      "To run code outside the browser",
+      "To run code without triggering change detection",
+      "To run code in a separate thread",
+      "To run code in production mode"
+    ],
+    "correctAnswer": "To run code without triggering change detection",
+    "userSelectedAnswer": null
   }
 ]

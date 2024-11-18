@@ -248,5 +248,150 @@
     "options": ["<h2>", "<heading>", "<head>", "<header>"],
     "correctAnswer": "<h2>",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 <article> element?",
+    "options": [
+      "To define a blog post",
+      "To represent a self-contained composition that can be independently distributed",
+      "To create a news article",
+      "To style text as an article"
+    ],
+    "correctAnswer": "To represent a self-contained composition that can be independently distributed",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'data-*' attributes in HTML5?",
+    "options": [
+      "To store database information",
+      "To store custom data private to the page or application",
+      "To define data types",
+      "To create data tables"
+    ],
+    "correctAnswer": "To store custom data private to the page or application",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML5 element is used for playing video files?",
+    "options": ["<media>", "<video>", "<player>", "<movie>"],
+    "correctAnswer": "<video>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 <canvas> element?",
+    "options": [
+      "To display images",
+      "To draw graphics via JavaScript",
+      "To create art boards",
+      "To style backgrounds"
+    ],
+    "correctAnswer": "To draw graphics via JavaScript",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the HTML5 <main> element?",
+    "options": [
+      "To define the main content of a document",
+      "To create the main navigation",
+      "To style the main heading",
+      "To define the main background"
+    ],
+    "correctAnswer": "To define the main content of a document",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 'contenteditable' attribute?",
+    "options": [
+      "To make content downloadable",
+      "To allow users to edit any content on the page",
+      "To protect content from copying",
+      "To validate content"
+    ],
+    "correctAnswer": "To allow users to edit any content on the page",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML5 element is used for grouping form controls?",
+    "options": ["<group>", "<fieldset>", "<formgroup>", "<controls>"],
+    "correctAnswer": "<fieldset>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 <figure> element?",
+    "options": [
+      "To display mathematical figures",
+      "To group media content and their caption",
+      "To create figurative art",
+      "To style images"
+    ],
+    "correctAnswer": "To group media content and their caption",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the HTML5 <time> element?",
+    "options": [
+      "To display a clock",
+      "To represent dates and times in a machine-readable format",
+      "To create timers",
+      "To schedule content"
+    ],
+    "correctAnswer": "To represent dates and times in a machine-readable format",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 'required' attribute?",
+    "options": [
+      "To make elements mandatory in forms",
+      "To require JavaScript",
+      "To require CSS styling",
+      "To require authentication"
+    ],
+    "correctAnswer": "To make elements mandatory in forms",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML5 element is used for marking up keyboard input?",
+    "options": ["<keyboard>", "<kbd>", "<key>", "<input>"],
+    "correctAnswer": "<kbd>",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 <details> element?",
+    "options": [
+      "To show detailed images",
+      "To create a disclosure widget that can show/hide information",
+      "To display file details",
+      "To create detailed lists"
+    ],
+    "correctAnswer": "To create a disclosure widget that can show/hide information",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the role of the HTML5 <mark> element?",
+    "options": [
+      "To create bookmarks",
+      "To highlight text",
+      "To mark form requirements",
+      "To create markers on maps"
+    ],
+    "correctAnswer": "To highlight text",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the HTML5 'download' attribute?",
+    "options": [
+      "To download the webpage",
+      "To specify that a link should download a file",
+      "To enable download mode",
+      "To track downloads"
+    ],
+    "correctAnswer": "To specify that a link should download a file",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "Which HTML5 element defines navigation links at the bottom of a page?",
+    "options": ["<bottom-nav>", "<footer-nav>", "<tfoot>", "<nav>"],
+    "correctAnswer": "<nav>",
+    "userSelectedAnswer": null
   }
 ]

@@ -293,5 +293,170 @@
     ],
     "correctAnswer": "Adds new elements to an array at a specific index",
     "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of async/await in JavaScript?",
+    "options": [
+      "To make code run faster",
+      "To handle promises in a more synchronous-looking way",
+      "To create loops",
+      "To define variables"
+    ],
+    "correctAnswer": "To handle promises in a more synchronous-looking way",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is destructuring in JavaScript?",
+    "options": [
+      "Breaking down code",
+      "Extracting values from objects or arrays into distinct variables",
+      "Deleting variables",
+      "Creating new objects"
+    ],
+    "correctAnswer": "Extracting values from objects or arrays into distinct variables",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the spread operator (...) used for?",
+    "options": [
+      "To multiply values",
+      "To expand elements where multiple elements are expected",
+      "To divide arrays",
+      "To create functions"
+    ],
+    "correctAnswer": "To expand elements where multiple elements are expected",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is a Promise in JavaScript?",
+    "options": [
+      "A guarantee of future payment",
+      "An object representing eventual completion of an asynchronous operation",
+      "A type of function",
+      "A way to store data"
+    ],
+    "correctAnswer": "An object representing eventual completion of an asynchronous operation",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Map object in JavaScript?",
+    "options": [
+      "To create maps for navigation",
+      "To store key-value pairs and maintain insertion order",
+      "To transform arrays",
+      "To create new functions"
+    ],
+    "correctAnswer": "To store key-value pairs and maintain insertion order",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Set object in JavaScript?",
+    "options": [
+      "To create settings",
+      "To store unique values of any type",
+      "To set variables",
+      "To create functions"
+    ],
+    "correctAnswer": "To store unique values of any type",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What are template literals in JavaScript?",
+    "options": [
+      "A way to create templates",
+      "String literals that allow embedded expressions",
+      "A type of function",
+      "A way to create objects"
+    ],
+    "correctAnswer": "String literals that allow embedded expressions",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Object.freeze() method?",
+    "options": [
+      "To cool down the CPU",
+      "To prevent modification of object properties",
+      "To store data permanently",
+      "To create new objects"
+    ],
+    "correctAnswer": "To prevent modification of object properties",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is event bubbling in JavaScript?",
+    "options": [
+      "Creating new events",
+      "The process of event propagation from child to parent elements",
+      "A way to style elements",
+      "A type of error"
+    ],
+    "correctAnswer": "The process of event propagation from child to parent elements",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the 'use strict' directive?",
+    "options": [
+      "To make code run faster",
+      "To enforce stricter parsing and error handling",
+      "To create strict types",
+      "To restrict access to variables"
+    ],
+    "correctAnswer": "To enforce stricter parsing and error handling",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is a generator function in JavaScript?",
+    "options": [
+      "A function that generates random numbers",
+      "A function that can be paused and resumed",
+      "A function that creates other functions",
+      "A function that generates HTML"
+    ],
+    "correctAnswer": "A function that can be paused and resumed",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the WeakMap object?",
+    "options": [
+      "To create weak references",
+      "To store key-value pairs where keys are weakly referenced",
+      "To create maps with less memory",
+      "To store temporary data"
+    ],
+    "correctAnswer": "To store key-value pairs where keys are weakly referenced",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Optional Chaining operator (?.)?",
+    "options": [
+      "To create optional variables",
+      "To safely access nested object properties",
+      "To chain functions together",
+      "To create conditional statements"
+    ],
+    "correctAnswer": "To safely access nested object properties",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the Nullish Coalescing operator (??)?",
+    "options": [
+      "Checks for null values",
+      "Returns right operand when left is null or undefined",
+      "Combines two values",
+      "Creates null values"
+    ],
+    "correctAnswer": "Returns right operand when left is null or undefined",
+    "userSelectedAnswer": null
+  },
+  {
+    "question": "What is the purpose of the Array.from() method?",
+    "options": [
+      "To create arrays from strings",
+      "To create an array from an array-like or iterable object",
+      "To convert arrays to strings",
+      "To modify existing arrays"
+    ],
+    "correctAnswer": "To create an array from an array-like or iterable object",
+    "userSelectedAnswer": null
   }
 ]

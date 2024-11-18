@@ -170,22 +170,76 @@ function checkAnswer() {
   }
 }
 
+function updateStatistics() {
+  return {
+    correctAnswers: score,
+    incorrectAnswers: currentQuestionIndex - score + 1,
+    accuracy: `${Math.round((score / (currentQuestionIndex + 1)) * 100)}%`,
+  };
+}
+
 //Display the result
 function displayResult() {
   const resultContainer = document.getElementById("result-container");
-  const scoreElement = document.getElementById("score");
   const congratsElement = document.getElementById("congratulation");
+
+  // Calculate statistics
+  const stats = updateStatistics();
+
+  // Create statistics container
+  const statsContainer = document.createElement("div");
+  statsContainer.classList.add("stats-container");
+
+  // Create and populate statistics elements
+  const statsHTML = `
+    <div class="stat-item">
+      <h3>Correct Answers</h3>
+      <p>${stats.correctAnswers}</p>
+    </div>
+    <div class="stat-item">
+      <h3>Incorrect Answers</h3>
+      <p>${stats.incorrectAnswers}</p>
+    </div>
+    <div class="stat-item">
+      <h3>Accuracy</h3>
+      <p>${stats.accuracy}</p>
+    </div>
+  `;
+
+  statsContainer.innerHTML = statsHTML;
 
   document.getElementById("home-btn").style.display = "none";
   questionContainer.style.display = "none";
   resultContainer.style.display = "flex";
   progressBar.style.width = "100%";
-  scoreElement.textContent = `Your score is ${score} out of ${currentQuestionIndex}`;
 
-  if (score > currentQuestionIndex / 2) {
-    congratulations.textContent = `Great job ${userName}!`;
+  // Clear previous content and add new elements
+  resultContainer.innerHTML = "";
+  resultContainer.appendChild(congratsElement);
+  resultContainer.appendChild(statsContainer);
+  resultContainer.appendChild(answersBtn);
+
+  congratulations.textContent = getResultMessage(
+    score,
+    currentQuestionIndex + 1
+  );
+}
+
+function getResultMessage(score, totalQuestions) {
+  const percentage = (score / totalQuestions) * 100;
+
+  if (percentage === 100) {
+    return `🏆 Perfect score, ${userName}! You're a true expert!`;
+  } else if (percentage >= 90) {
+    return `🌟 Outstanding work, ${userName}! You really know your stuff!`;
+  } else if (percentage >= 80) {
+    return `👏 Great job, ${userName}! You've got solid knowledge!`;
+  } else if (percentage >= 70) {
+    return `💪 Good effort, ${userName}! Keep practicing to improve even more!`;
+  } else if (percentage >= 50) {
+    return `📚 Not bad, ${userName}! With some more study, you'll do even better!`;
   } else {
-    congratulations.textContent = `Nice try but you can do better ${userName}!`;
+    return `🎯 Keep learning, ${userName}! Every attempt makes you stronger!`;
   }
 }
 

@@ -546,3 +546,18 @@ main label:hover {
     gap: 10px;
   }
 }
+
+.share-message {
+  font-family: "Graphik-Regular", sans-serif;
+  text-align: center;
+  margin: 1rem 0;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 680px) {
+  .share-message {
+    font-size: 0.9rem;
+    margin: 0.8rem 0;
+  }
+}

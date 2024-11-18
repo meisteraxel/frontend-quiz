@@ -206,6 +206,12 @@ function displayResult() {
     </div>
   `;
 
+  // Create share message
+  const shareMessage = document.createElement("p");
+  shareMessage.className = "share-message";
+  shareMessage.innerHTML =
+    "🎉 Enjoyed the quiz? Share it with your friends and test their knowledge! 🤓";
+
   statsContainer.innerHTML = statsHTML;
 
   document.getElementById("home-btn").style.display = "none";
@@ -217,6 +223,7 @@ function displayResult() {
   resultContainer.innerHTML = "";
   resultContainer.appendChild(congratsElement);
   resultContainer.appendChild(statsContainer);
+  resultContainer.appendChild(shareMessage);
   resultContainer.appendChild(answersBtn);
 
   congratulations.textContent = getResultMessage(

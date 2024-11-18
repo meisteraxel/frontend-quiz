@@ -5,8 +5,8 @@ function showWhatsNew() {
     <div class="whats-new-content">
       <h2>🎉 What's New!</h2>
       <ul>
-        <li>✨ New Statistics Dashboard</li>
-        <li>📊 Detailed Performance Analysis</li>
+        <li>📊 New Statistics Dashboard</li>
+        <li>✨ More Questions!</li>
         <li>🎯 Accuracy Tracking</li>
       </ul>
       <button class="close-whats-new">Got it!</button>
